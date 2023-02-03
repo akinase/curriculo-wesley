@@ -38,8 +38,8 @@ class _ListaMenuState extends State<ListaMenu> {
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
           colors: [
-            Color(0XFF3383CD),
-            Color(0XFF11249F),
+            Color(0XFFbaff28),
+            Color(0XFF7ac72d),
           ],
         ),
       ),
@@ -70,7 +70,7 @@ class _ListaMenuState extends State<ListaMenu> {
                     fontWeight: FontWeight.w600,
                     color: index == selectedCategory
                         ? kTextColor
-                        : Colors.yellow
+                        : Colors.black45
                             .withOpacity(0.35), //cor sombreado do appbar
                   ),
             ),
@@ -81,7 +81,7 @@ class _ListaMenuState extends State<ListaMenu> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 color: index == selectedCategory
-                    ? kSecundaryColor
+                    ? Color.fromARGB(237, 243, 15, 186)
                     : Colors
                         .transparent, // retira as marcações das demais palavras do vetor
               ),

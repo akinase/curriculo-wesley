@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "327238664886",
+    "project_id": "portfolio-775e4",
+    "storage_bucket": "portfolio-775e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327238664886:android:6920ac33a74cadd30f9c17",
+        "android_client_info": {
+          "package_name": "com.example.curriculo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327238664886-f339nkoupi0n68hd72skc3cp3m46bleo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH1xKHec8Pv5Kvso9EUgRPKXZg5M4C7WQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327238664886-f339nkoupi0n68hd72skc3cp3m46bleo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "327238664886-p540mo1b9qqkh69ts5qojqim9o08n83m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.curriculo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
