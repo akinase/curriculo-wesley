@@ -1,10 +1,10 @@
-import 'package:curriculo/layouts/desktop.dart';
+import 'package:curriculo/layouts/desktop/desktop.dart';
 import 'package:curriculo/layouts/mobile/contato.dart';
 import 'package:curriculo/layouts/mobile/mobile.dart';
 import 'package:curriculo/layouts/mobile/portifolio.dart';
 import 'package:curriculo/layouts/mobile/rede.dart';
 import 'package:curriculo/layouts/mobile/sobre.dart';
-import 'package:curriculo/layouts/responsibilidade.dart';
+import 'package:curriculo/layouts/responsive.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/src/foundation/key.dart';

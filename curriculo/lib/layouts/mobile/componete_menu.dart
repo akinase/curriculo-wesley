@@ -23,10 +23,12 @@ class ListaMenu extends StatefulWidget {
 class _ListaMenuState extends State<ListaMenu> {
   int selectedCategory = 0;
   List<String> categories = [
-    "Sobre Wesley",
-    "Portifolio",
-    "Contatos",
-    "Redes Sociais"
+    "Inicio",
+    "Mapeamento de Pesquisas",
+    "WebMapping",
+    "Projetos",
+    "Publicações Cientificas",
+    "Equipe GeoSolos"
   ];
   @override
   Widget build(BuildContext context) {
@@ -38,8 +40,8 @@ class _ListaMenuState extends State<ListaMenu> {
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
           colors: [
-            Color(0XFFbaff28),
-            Color(0XFF7ac72d),
+            Color.fromARGB(255, 202, 214, 201),
+            Color.fromARGB(255, 232, 233, 230),
           ],
         ),
       ),
@@ -81,7 +83,7 @@ class _ListaMenuState extends State<ListaMenu> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 color: index == selectedCategory
-                    ? Color.fromARGB(237, 243, 15, 186)
+                    ? Color.fromARGB(236, 214, 12, 12)
                     : Colors
                         .transparent, // retira as marcações das demais palavras do vetor
               ),
