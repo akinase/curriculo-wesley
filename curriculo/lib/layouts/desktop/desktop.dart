@@ -1,4 +1,5 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
+import 'package:curriculo/layouts/desktop/slide_home.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
@@ -20,7 +21,7 @@ class Desktop extends StatelessWidget {
             width: 20,
           ),
           AspectRatio(
-            aspectRatio: 3,
+            aspectRatio: 4,
             child: Stack(
               fit: StackFit.expand,
               children: [

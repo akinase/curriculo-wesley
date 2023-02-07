@@ -14,7 +14,7 @@ void main() async {
   ); */
 
   runApp(MaterialApp(
-      title: "Currículo Wesley Ribeiro de Souza",
+      title: "Site Epamig Solos",
       debugShowCheckedModeBanner: false,
       home: HomePage(),
       theme: ThemeData(fontFamily: "Poppins" // fonte app

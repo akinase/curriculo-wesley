@@ -6,6 +6,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_svg/avd.dart';
 import '../../constantes.dart';
+import '../desktop/slide_home.dart';
 
 final String menu = "assets/icons/menu.svg";
 final String lupa = "assets/icons/search.svg";
@@ -23,7 +24,9 @@ class Mobile extends StatelessWidget {
           ListaMenu(),
           ClipPath(
             clipper: MyClipper(), //parte ovulada azul
-            child: Container(
+            child: const Carousel(
+              key: null,
+            ), /*Container(
               height: 300,
               width: double.infinity,
               decoration: BoxDecoration(
@@ -36,7 +39,7 @@ class Mobile extends StatelessWidget {
                   ],
                 ),
               ),
-            ),
+            ),*/
           ),
         ],
       ),
