@@ -1,7 +1,7 @@
 import 'package:curriculo/layouts/desktop/desktop.dart';
 import 'package:curriculo/layouts/mobile/contato.dart';
 import 'package:curriculo/layouts/mobile/mobile.dart';
-import 'package:curriculo/layouts/mobile/portifolio.dart';
+import 'package:curriculo/layouts/mobile/mapeamento.dart';
 import 'package:curriculo/layouts/mobile/rede.dart';
 import 'package:curriculo/layouts/mobile/sobre.dart';
 import 'package:curriculo/layouts/responsive.dart';
@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
       body: PageView(scrollDirection: Axis.vertical, children: [
         Responsividade(mobilebody: mobilebody, desktopApp: desktopApp),
         Sobre(),
-        Portifolio(),
+        Mapeamento(),
         Contato(),
         Rede(),
       ]),

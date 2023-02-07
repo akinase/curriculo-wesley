@@ -3,8 +3,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Carousel extends StatefulWidget {
-  const Carousel({required key}) : super(key: key);
-
   @override
   State<Carousel> createState() => _CarouselState();
 }
@@ -54,9 +52,10 @@ class _CarouselState extends State<Carousel> {
             child: Center(
               child: Text(
                 "Laboratório de Geoprocessamento GeoSolos",
-                style: TextStyle(
-                    color: Colors.black,
-                    fontSize: MediaQuery.of(context).size.width / 40),
+                style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+                      fontWeight: FontWeight.w400,
+                      color: Colors.yellowAccent,
+                    ),
               ),
             ),
           ),

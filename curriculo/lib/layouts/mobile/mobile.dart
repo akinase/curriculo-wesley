@@ -24,22 +24,7 @@ class Mobile extends StatelessWidget {
           ListaMenu(),
           ClipPath(
             clipper: MyClipper(), //parte ovulada azul
-            child: const Carousel(
-              key: null,
-            ), /*Container(
-              height: 300,
-              width: double.infinity,
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  begin: Alignment.topRight,
-                  end: Alignment.bottomLeft,
-                  colors: [
-                    Color(0XFFbaff28),
-                    Color(0XFF7ac72d),
-                  ],
-                ),
-              ),
-            ),*/
+            child: Carousel(),
           ),
         ],
       ),

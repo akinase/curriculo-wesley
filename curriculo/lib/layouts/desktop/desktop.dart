@@ -25,10 +25,7 @@ class Desktop extends StatelessWidget {
             child: Stack(
               fit: StackFit.expand,
               children: [
-                Image.asset(
-                  "assets/images/epamig.jpg",
-                  fit: BoxFit.cover,
-                ),
+                Carousel(),
                 Container(color: Colors.black.withOpacity(0.66)),
                 Column(
                   children: [
@@ -48,27 +45,25 @@ class Desktop extends StatelessWidget {
                                       color: Colors.white,
                                     ),
                           ),
-                          Padding(
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 20, vertical: 40),
-                            child: DefaultTextStyle(
-                              style: Theme.of(context).textTheme.subtitle1!,
-                              child: AnimatedTextKit(
-                                animatedTexts: [
-                                  TyperAnimatedText("Café"),
-                                  TyperAnimatedText("Geoprocessamento"),
-                                  TyperAnimatedText(
-                                      "Imagem de Satélite rapideye"),
-                                ],
-                              ),
-                            ),
-                          ),
                         ],
                       ),
                     ),
                   ],
                 )
               ],
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+            child: DefaultTextStyle(
+              style: Theme.of(context).textTheme.subtitle1!,
+              child: AnimatedTextKit(
+                animatedTexts: [
+                  TyperAnimatedText("Café"),
+                  TyperAnimatedText("Geoprocessamento"),
+                  TyperAnimatedText("Imagem de Satélite rapideye"),
+                ],
+              ),
             ),
           ),
           Padding(
