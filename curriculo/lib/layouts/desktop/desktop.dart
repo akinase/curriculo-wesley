@@ -25,7 +25,12 @@ class Desktop extends StatelessWidget {
             child: Stack(
               fit: StackFit.expand,
               children: [
-                Carousel(),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Carousel(),
+                  ],
+                ),
                 Container(color: Colors.black.withOpacity(0.66)),
                 Column(
                   children: [
@@ -33,8 +38,8 @@ class Desktop extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.symmetric(
                           horizontal: 20, vertical: 40),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(

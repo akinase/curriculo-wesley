@@ -11,18 +11,23 @@ class _MapeamentoState extends State<Mapeamento> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.centerLeft,
-            end: Alignment.centerRight,
-            colors: [
-              Color.fromARGB(255, 241, 207, 14),
-              Color.fromARGB(255, 3, 241, 43),
-            ],
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        // ignore: prefer_const_literals_to_create_immutables
+        children: [
+          const Center(
+            child: Text('Machado'),
           ),
-        ),
-        child: Column(),
+          const Center(
+            child: Text('Três Pontas'),
+          ),
+          const Center(
+            child: Text('São Sebastião do Paraíso'),
+          ),
+          const Center(
+            child: Text('Mantiqueira de Minas'),
+          ),
+        ],
       ),
     );
   }

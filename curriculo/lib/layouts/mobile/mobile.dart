@@ -8,20 +8,18 @@ import 'package:flutter_svg/avd.dart';
 import '../../constantes.dart';
 import '../desktop/slide_home.dart';
 
-final String menu = "assets/icons/menu.svg";
-final String lupa = "assets/icons/search.svg";
-
 class Mobile extends StatelessWidget {
   const Mobile({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: bildAppBar(),
       backgroundColor: kSecundaryColor,
+      appBar: MyAppBar, //esta em constatantes
+      drawer: MyDrawer, //esta em constatantes
       body: Column(
         children: <Widget>[
-          ListaMenu(),
+          const ListaMenu(),
           ClipPath(
             clipper: MyClipper(), //parte ovulada azul
             child: Carousel(),
@@ -29,26 +27,6 @@ class Mobile extends StatelessWidget {
         ],
       ),
     );
-  }
-
-  AppBar bildAppBar() {
-    return AppBar(
-        //barra top
-        backgroundColor:
-            kSecundaryColor, //cor da barra de pesquisa e menu lateral
-        elevation: 2,
-        leading: IconButton(
-          padding: EdgeInsets.only(left: kDefaultPadding),
-          icon: SvgPicture.asset(menu),
-          onPressed: () {},
-        ),
-        actions: <Widget>[
-          IconButton(
-            padding: EdgeInsets.symmetric(horizontal: kDefaultPadding),
-            icon: SvgPicture.asset(lupa),
-            onPressed: () {},
-          )
-        ]);
   }
 }
 

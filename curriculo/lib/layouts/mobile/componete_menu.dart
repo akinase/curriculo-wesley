@@ -5,10 +5,12 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/widgets.dart';
 
 class Componente extends StatelessWidget {
+  const Componente({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: <Widget>[],
+      children: const <Widget>[],
     );
   }
 }
@@ -33,9 +35,9 @@ class _ListaMenuState extends State<ListaMenu> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(vertical: kDefaultPadding2),
+      margin: const EdgeInsets.symmetric(vertical: kDefaultPadding2),
       height: 60,
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         gradient: LinearGradient(
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
@@ -68,7 +70,7 @@ class _ListaMenuState extends State<ListaMenu> {
           children: <Widget>[
             Text(
               categories[index],
-              style: Theme.of(context).textTheme.headline6?.copyWith(
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     fontWeight: FontWeight.w600,
                     color: index == selectedCategory
                         ? kTextColor
@@ -77,13 +79,13 @@ class _ListaMenuState extends State<ListaMenu> {
                   ),
             ),
             Container(
-              margin: EdgeInsets.symmetric(vertical: kDefaultPadding / 2),
+              margin: const EdgeInsets.symmetric(vertical: kDefaultPadding / 2),
               height: 6,
               width: 40,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 color: index == selectedCategory
-                    ? Color.fromARGB(236, 214, 12, 12)
+                    ? const Color.fromARGB(236, 214, 12, 12)
                     : Colors
                         .transparent, // retira as marcações das demais palavras do vetor
               ),

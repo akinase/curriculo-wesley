@@ -32,10 +32,10 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: PageView(scrollDirection: Axis.vertical, children: [
         Responsividade(mobilebody: mobilebody, desktopApp: desktopApp),
-        Sobre(),
-        Mapeamento(),
-        Contato(),
-        Rede(),
+        const Mapeamento(),
+        const Sobre(),
+        const Contato(),
+        const Rede(),
       ]),
     );
   }

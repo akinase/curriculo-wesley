@@ -47,17 +47,8 @@ class _CarouselState extends State<Carousel> {
               autoPlay: true,
             ),
           ),
-          AspectRatio(
-            aspectRatio: 18 / 8,
-            child: Center(
-              child: Text(
-                "Laboratório de Geoprocessamento GeoSolos",
-                style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-                      fontWeight: FontWeight.w400,
-                      color: Colors.yellowAccent,
-                    ),
-              ),
-            ),
+          const AspectRatio(
+            aspectRatio: 1.75,
           ),
         ],
       ),

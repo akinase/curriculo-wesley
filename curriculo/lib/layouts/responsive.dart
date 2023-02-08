@@ -8,8 +8,9 @@ class Responsividade extends StatelessWidget {
   final Widget mobilebody;
   final Widget desktopApp;
 
-  Responsividade(
-      {required this.mobilebody,
+  const Responsividade(
+      {super.key,
+      required this.mobilebody,
       required this.desktopApp}); //Construtor das classes mobile e desktop
 
   @override
