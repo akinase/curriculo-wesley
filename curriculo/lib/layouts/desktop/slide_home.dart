@@ -3,6 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Carousel extends StatefulWidget {
+  const Carousel({super.key});
+
   @override
   State<Carousel> createState() => _CarouselState();
 }

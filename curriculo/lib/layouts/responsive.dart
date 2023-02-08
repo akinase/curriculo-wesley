@@ -17,7 +17,7 @@ class Responsividade extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (context, constraints) {
-        if (constraints.maxWidth < 800) {
+        if (constraints.maxWidth < 900) {
           return mobilebody;
         } else {
           return desktopApp;
