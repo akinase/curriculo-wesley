@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
       body: PageView(scrollDirection: Axis.vertical, children: [
         Responsividade(mobilebody: mobilebody, desktopApp: desktopApp),
         const Mapeamento(),
-        const Sobre(),
+        const Sobre(null),
         const Contato(),
         const Rede(),
       ]),

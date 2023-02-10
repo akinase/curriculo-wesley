@@ -15,7 +15,12 @@ var MyDrawer = Drawer(
   child: Column(
     // ignore: prefer_const_literals_to_create_immutables
     children: [
-      const DrawerHeader(child: Icon(Icons.agriculture_sharp)),
+      const DrawerHeader(
+        child: Icon(
+          Icons.agriculture_sharp,
+          color: Colors.black,
+        ),
+      ),
       const ListTile(
         leading: Icon(Icons.login),
         title: Text('L O G I N'),
@@ -24,6 +29,7 @@ var MyDrawer = Drawer(
   ),
 );
 
+// ignore: non_constant_identifier_names
 var MyAppBar = AppBar(
   backgroundColor: Color.fromARGB(255, 202, 214, 201),
 );
