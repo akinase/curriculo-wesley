@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
+import '../desktop/slide_home.dart';
+
 class Sobre extends StatefulWidget {
-  const Sobre(String? s, {Key? key}) : super(key: key);
+  const Sobre({Key? key}) : super(key: key);
 
   @override
   State<Sobre> createState() => _SobreState();
@@ -10,6 +12,8 @@ class Sobre extends StatefulWidget {
 class _SobreState extends State<Sobre> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(backgroundColor: Colors.yellow);
+    return const Scaffold(
+      backgroundColor: Colors.yellow,
+    );
   }
 }
