@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
         Responsividade(mobilebody: mobilebody, desktopApp: desktopApp),
         const Mapeamento(),
         const Sobre(),
-        const Contato(),
+        Contato(),
         const Rede(),
       ]),
     );

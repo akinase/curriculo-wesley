@@ -1,8 +1,5 @@
 import 'package:curriculo/constantes.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/widgets.dart';
 
 class Componente extends StatelessWidget {
   const Componente({super.key});

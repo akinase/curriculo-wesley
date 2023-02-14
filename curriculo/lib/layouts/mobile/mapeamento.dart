@@ -1,6 +1,9 @@
 import 'package:curriculo/layouts/desktop/machado.dart';
 import 'package:flutter/material.dart';
 
+import '../desktop/mantiqueira.dart';
+import '../desktop/sebastiao.dart';
+
 class Mapeamento extends StatefulWidget {
   const Mapeamento({Key? key}) : super(key: key);
 
@@ -38,10 +41,9 @@ class _MapeamentoState extends State<Mapeamento> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Machado(),
+                              builder: (context) => const Machado(),
                             ),
                           );
-                          // Adicione a ação que deseja que seja realizada quando o botão for pressionado aqui.
                         },
                         child: const Text(
                           "Machado",
@@ -66,7 +68,12 @@ class _MapeamentoState extends State<Mapeamento> {
                     child: Center(
                       child: ElevatedButton(
                         onPressed: () {
-                          // Adicione a ação que deseja que seja realizada quando o botão for pressionado aqui.
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const Mantiqueira(),
+                            ),
+                          );
                         },
                         child: const Text(
                           "Mantiqueira de Minas",
@@ -91,7 +98,12 @@ class _MapeamentoState extends State<Mapeamento> {
                     child: Center(
                       child: ElevatedButton(
                         onPressed: () {
-                          // Adicione a ação que deseja que seja realizada quando o botão for pressionado aqui.
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const Sebastiao(),
+                            ),
+                          );
                         },
                         child: const Text(
                           "São Sebastião do Paraíso",
