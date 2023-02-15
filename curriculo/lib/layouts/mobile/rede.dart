@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../desktop/slide_home.dart';
+import '../slide_home.dart';
 
 class Rede extends StatefulWidget {
   const Rede({Key? key}) : super(key: key);

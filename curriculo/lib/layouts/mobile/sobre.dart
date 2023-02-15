@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../desktop/slide_home.dart';
+import '../slide_home.dart';
 
 class Sobre extends StatefulWidget {
   const Sobre({Key? key}) : super(key: key);

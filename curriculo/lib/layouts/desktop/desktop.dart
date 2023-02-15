@@ -1,11 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:curriculo/layouts/desktop/slide_home.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
-
-import '../mobile/componete_menu.dart';
+import '../componete_menu_desktop.dart';
+import '../slide_home.dart';
 
 class Desktop extends StatelessWidget {
   const Desktop({Key? key}) : super(key: key);
@@ -27,14 +23,15 @@ class Desktop extends StatelessWidget {
                 children: [
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
+                    // ignore: prefer_const_literals_to_create_immutables
                     children: [
-                      Carousel(),
+                      const Carousel(),
                     ],
                   ),
                   Container(color: Colors.black.withOpacity(0.66)),
                   Column(
                     children: [
-                      ListaMenu(),
+                      const ListaMenu(),
                       Padding(
                         padding: const EdgeInsets.symmetric(
                             horizontal: 20, vertical: 40),
@@ -63,7 +60,7 @@ class Desktop extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
               child: DefaultTextStyle(
-                style: Theme.of(context).textTheme.subtitle1!,
+                style: Theme.of(context).textTheme.titleMedium!,
                 child: AnimatedTextKit(
                   animatedTexts: [
                     TyperAnimatedText("Café"),

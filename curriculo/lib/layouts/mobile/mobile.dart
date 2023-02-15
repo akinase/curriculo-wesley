@@ -1,12 +1,7 @@
-import 'package:curriculo/layouts/mobile/componete_menu.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:curriculo/layouts/componete_menu_desktop.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_svg/avd.dart';
 import '../../constantes.dart';
-import '../desktop/slide_home.dart';
+import '../slide_home.dart';
 
 class Mobile extends StatelessWidget {
   const Mobile({Key? key}) : super(key: key);
@@ -14,15 +9,14 @@ class Mobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: kSecundaryColor,
-      appBar: MyAppBar, //esta em constatantes
-      drawer: MyDrawer, //esta em constatantes
+      backgroundColor:
+          kSecundaryColor, //esta em constatantes  //esta em constatantes
       body: Column(
         children: <Widget>[
           const ListaMenu(),
           ClipPath(
             clipper: MyClipper(), //parte ovulada azul
-            child: Carousel(),
+            child: const Carousel(),
           ),
         ],
       ),

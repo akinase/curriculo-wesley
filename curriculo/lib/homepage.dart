@@ -1,22 +1,21 @@
 import 'package:curriculo/layouts/desktop/desktop.dart';
-import 'package:curriculo/layouts/mobile/contato.dart';
+import 'package:curriculo/layouts/desktop/contato.dart';
 import 'package:curriculo/layouts/mobile/mobile.dart';
-import 'package:curriculo/layouts/mobile/mapeamento.dart';
+import 'package:curriculo/layouts/desktop/mapeamento.dart';
 import 'package:curriculo/layouts/mobile/rede.dart';
 import 'package:curriculo/layouts/mobile/sobre.dart';
 import 'package:curriculo/layouts/responsive.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+
+import 'layouts/desktop/mapeamento.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key? key}) : super(key: key);
 
   @override
   State<HomePage> createState() =>
-      _HomePageState(desktopApp: Desktop(), mobilebody: Mobile());
+      // ignore: no_logic_in_create_state
+      _HomePageState(desktopApp: const Desktop(), mobilebody: const Mobile());
 }
 
 class _HomePageState extends State<HomePage> {
@@ -34,7 +33,7 @@ class _HomePageState extends State<HomePage> {
         Responsividade(mobilebody: mobilebody, desktopApp: desktopApp),
         const Mapeamento(),
         const Sobre(),
-        Contato(),
+        const Contato(),
         const Rede(),
       ]),
     );
