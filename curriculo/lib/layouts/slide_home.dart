@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:curriculo/constantes.dart';
 
 class Carousel extends StatefulWidget {
   const Carousel({super.key});
@@ -37,7 +38,7 @@ class _CarouselState extends State<Carousel> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
+      color: kbackgroundColor,
       padding: const EdgeInsets.only(top: 50),
       child: Stack(
         children: [
