@@ -1,4 +1,5 @@
 import 'package:curriculo/layouts/desktop/machado.dart';
+import 'package:curriculo/layouts/desktop/tres_pontas.dart';
 import 'package:flutter/material.dart';
 import 'mantiqueira.dart';
 import 'sebastiao.dart';
@@ -127,7 +128,12 @@ class _MapeamentoState extends State<Mapeamento> {
                     child: Center(
                       child: ElevatedButton(
                         onPressed: () {
-                          // Adicione a ação que deseja que seja realizada quando o botão for pressionado aqui.
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const Tres_Pontas(),
+                            ),
+                          );
                         },
                         child: const Text(
                           "Três Pontas",
