@@ -1,11 +1,11 @@
-import 'package:curriculo/layouts/desktop/desktop.dart';
+import 'package:curriculo/layouts/desktop/protejetosGeoSolosDesk.dart';
 import 'package:curriculo/layouts/mobile/mapeamentoMob.dart';
 import 'package:flutter/material.dart';
-import 'package:curriculo/layouts/mobile/rede.dart';
 import 'package:curriculo/layouts/mobile/sobre.dart';
-
+import '../../constantes.dart';
 import '../homepage.dart';
 import 'desktop/contato.dart';
+import 'desktop/mapeamento.dart';
 
 class ListaMenu extends StatefulWidget implements PreferredSizeWidget {
   const ListaMenu({Key? key}) : super(key: key);
@@ -21,10 +21,10 @@ class _ListaMenuState extends State<ListaMenu> {
   String selectedCategory = "Inicio";
 
   final Map<String, Widget> categories = {
-    "Inicio": HomePage(),
+    "Inicio": const HomePage(),
     "Mapeamento de Pesquisas": const Mapeamento(),
     "WebMapping": const Sobre(),
-    "Projetos": const Rede(),
+    "Projetos": const Projetos(),
     "Publicações Cientificas": const Sobre(),
     "Equipe GeoSolos": const Contato()
   };
@@ -35,11 +35,11 @@ class _ListaMenuState extends State<ListaMenu> {
       height: 60,
       decoration: const BoxDecoration(
         gradient: LinearGradient(
-          begin: Alignment.topRight,
+          //begin: Alignment.topRight,
           end: Alignment.bottomLeft,
           colors: [
-            Color.fromARGB(255, 202, 214, 201),
-            Color.fromARGB(255, 232, 233, 230),
+            kbackgroundColor,
+            Color.fromARGB(84, 214, 172, 94),
           ],
         ),
       ),
@@ -67,18 +67,18 @@ class _ListaMenuState extends State<ListaMenu> {
                     style: Theme.of(context).textTheme.titleLarge?.copyWith(
                           fontWeight: FontWeight.w600,
                           color: selectedCategory == category
-                              ? Colors.black
-                              : const Color.fromARGB(137, 189, 16, 189),
+                              ? const Color.fromARGB(255, 112, 90, 49)
+                              : const Color.fromARGB(255, 240, 93, 192),
                         ),
                   ),
                   if (selectedCategory == category)
                     Container(
                       margin: const EdgeInsets.symmetric(vertical: 2),
-                      height: 2,
-                      width: 20,
+                      height: 8,
+                      width: 40,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
-                        color: const Color.fromARGB(255, 223, 19, 178),
+                        color: const Color.fromARGB(255, 112, 102, 83),
                       ),
                     ),
                 ],

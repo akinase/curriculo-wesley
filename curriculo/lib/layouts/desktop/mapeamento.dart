@@ -1,6 +1,7 @@
+import 'package:flutter/material.dart';
 import 'package:curriculo/layouts/desktop/machado.dart';
 import 'package:curriculo/layouts/desktop/tres_pontas.dart';
-import 'package:flutter/material.dart';
+import '../../constantes.dart';
 import 'mantiqueira.dart';
 import 'sebastiao.dart';
 
@@ -11,14 +12,11 @@ class Mapeamento extends StatefulWidget {
   State<Mapeamento> createState() => _MapeamentoState();
 }
 
-// ignore: unused_element
-int _selectedIndex = 0;
-
-void setState(Null Function() param0) {}
-
 class _MapeamentoState extends State<Mapeamento> {
-  // ignore: unused_element
-  static void _setSelectedIndex(int index) {
+  int _selectedIndex = 0;
+  bool _isHovering = false;
+
+  void _setSelectedIndex(int index) {
     setState(() {
       _selectedIndex = index;
     });
@@ -27,129 +25,178 @@ class _MapeamentoState extends State<Mapeamento> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Row(
-        children: <Widget>[
-          Expanded(
-            child: Column(
-              children: <Widget>[
-                Expanded(
-                  child: Container(
-                    color: Colors.black,
-                    child: Center(
-                      child: ElevatedButton(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const Machado(),
+      body: Container(
+        color: kbackgroundColor,
+        child: Row(
+          children: <Widget>[
+            Expanded(
+              child: Row(
+                children: <Widget>[
+                  Expanded(
+                    child: MouseRegion(
+                      onEnter: (event) => setState(() => _isHovering = true),
+                      onExit: (event) => setState(() => _isHovering = false),
+                      child: Stack(
+                        children: [
+                          Center(
+                            child: AnimatedContainer(
+                              duration: const Duration(milliseconds: 200),
+                              height: _isHovering ? 1000 : 700,
+                              width: _isHovering ? 1000 : 500,
+                              child: Image.network(
+                                'assets/machado/machado.jpg',
+                                fit: BoxFit.cover,
+                              ),
                             ),
-                          );
-                        },
-                        child: const Text(
-                          "Machado",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 20,
                           ),
-                        ),
+                          Center(
+                            child: ElevatedButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const Machado(),
+                                  ),
+                                );
+                              },
+                              child: const Text(
+                                "Machado",
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize: 20,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
-                ),
-              ],
-            ),
-          ),
-          Expanded(
-            child: Column(
-              children: <Widget>[
-                Expanded(
-                  child: Container(
-                    color: Colors.red,
-                    child: Center(
-                      child: ElevatedButton(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const Mantiqueira(),
+                  Expanded(
+                    child: MouseRegion(
+                      onEnter: (event) => setState(() => _isHovering = true),
+                      onExit: (event) => setState(() => _isHovering = false),
+                      child: Stack(
+                        children: [
+                          Center(
+                            child: AnimatedContainer(
+                              duration: const Duration(milliseconds: 200),
+                              height: _isHovering ? 1000 : 700,
+                              width: _isHovering ? 1000 : 500,
+                              child: Image.network(
+                                'assets/mantiqueira/mantiqueira.jpg',
+                                fit: BoxFit.cover,
+                              ),
                             ),
-                          );
-                        },
-                        child: const Text(
-                          "Mantiqueira de Minas",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 20,
                           ),
-                        ),
+                          Center(
+                            child: ElevatedButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const Mantiqueira(),
+                                  ),
+                                );
+                              },
+                              child: const Text(
+                                "Mantiqueira de Minas",
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize: 20,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
-                ),
-              ],
-            ),
-          ),
-          Expanded(
-            child: Column(
-              children: <Widget>[
-                Expanded(
-                  child: Container(
-                    color: Colors.green,
-                    child: Center(
-                      child: ElevatedButton(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const Sebastiao(),
+                  Expanded(
+                    child: MouseRegion(
+                      onEnter: (event) => setState(() => _isHovering = true),
+                      onExit: (event) => setState(() => _isHovering = false),
+                      child: Stack(
+                        children: [
+                          Center(
+                            child: AnimatedContainer(
+                              duration: const Duration(milliseconds: 200),
+                              height: _isHovering ? 1000 : 700,
+                              width: _isHovering ? 1000 : 500,
+                              child: Image.network(
+                                'assets/sebastiao/sebastiao.jpg',
+                                fit: BoxFit.cover,
+                              ),
                             ),
-                          );
-                        },
-                        child: const Text(
-                          "São Sebastião do Paraíso",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 20,
                           ),
-                        ),
+                          Center(
+                            child: ElevatedButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const Sebastiao(),
+                                  ),
+                                );
+                              },
+                              child: const Text(
+                                "São Sebastião do Paraíso",
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize: 20,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
-                ),
-              ],
-            ),
-          ),
-          Expanded(
-            child: Column(
-              children: <Widget>[
-                Expanded(
-                  child: Container(
-                    color: Colors.pink,
-                    child: Center(
-                      child: ElevatedButton(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const Tres_Pontas(),
+                  Expanded(
+                    child: MouseRegion(
+                      onEnter: (event) => setState(() => _isHovering = true),
+                      onExit: (event) => setState(() => _isHovering = false),
+                      child: Stack(
+                        children: [
+                          Center(
+                            child: AnimatedContainer(
+                              duration: const Duration(milliseconds: 200),
+                              height: _isHovering ? 1000 : 700,
+                              width: _isHovering ? 1000 : 500,
+                              child: Image.network(
+                                'assets/tres_pontas/tres_pontas.jpg',
+                                fit: BoxFit.cover,
+                              ),
                             ),
-                          );
-                        },
-                        child: const Text(
-                          "Três Pontas",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 20,
                           ),
-                        ),
+                          Center(
+                            child: ElevatedButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const TresPontas(),
+                                  ),
+                                );
+                              },
+                              child: const Text(
+                                "Três Pontas",
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize: 20,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

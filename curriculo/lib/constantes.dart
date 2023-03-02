@@ -9,4 +9,5 @@ const kTextColor = Color(0XFF12153D);
 const kTextLightColor = Color(0XFF9A9BB2);
 const kDefaultPadding2 = 3.0;
 const kbackgroundColor = Color.fromARGB(255, 226, 182, 99);
+const kbackgroundColorSec = Color.fromARGB(183, 255, 255, 255);
 const kfontText = FontWeight.normal;

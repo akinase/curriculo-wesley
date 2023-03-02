@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import '../../constantes.dart';
 
-class Tres_Pontas extends StatelessWidget {
-  const Tres_Pontas({super.key});
+// ignore: camel_case_types
+class TresPontas extends StatelessWidget {
+  const TresPontas({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +15,7 @@ class Tres_Pontas extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(20),
               child: Container(
-                color: const Color.fromARGB(183, 255, 255, 255),
+                color: kbackgroundColorSec,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[

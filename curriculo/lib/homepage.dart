@@ -7,10 +7,8 @@ import 'package:curriculo/layouts/mobile/sobre.dart';
 import 'package:curriculo/layouts/responsive.dart';
 import 'package:flutter/material.dart';
 
-import 'layouts/desktop/mapeamento.dart';
-
 class HomePage extends StatefulWidget {
-  HomePage({Key? key}) : super(key: key);
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   State<HomePage> createState() =>

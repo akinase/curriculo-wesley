@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Mantiqueira extends StatelessWidget {
-  const Mantiqueira({super.key});
+class MantiqueiraMob extends StatelessWidget {
+  const MantiqueiraMob({super.key});
 
   @override
   Widget build(BuildContext context) {

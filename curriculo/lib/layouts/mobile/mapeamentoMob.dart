@@ -1,14 +1,14 @@
-import 'package:curriculo/layouts/desktop/machado.dart';
-import 'package:curriculo/layouts/componete_menu_desktop.dart';
+// ignore: file_names
 import 'package:flutter/material.dart';
-import 'mantiqueiraMob.dart';
+import 'package:curriculo/layouts/desktop/machado.dart';
+import 'package:curriculo/layouts/desktop/mantiqueira.dart';
 import 'sebastiaoMob.dart';
 
-class Mapeamento extends StatefulWidget {
-  const Mapeamento({Key? key}) : super(key: key);
+class MapeamentoMob extends StatefulWidget {
+  const MapeamentoMob({Key? key}) : super(key: key);
 
   @override
-  State<Mapeamento> createState() => _MapeamentoState();
+  State<MapeamentoMob> createState() => _MapeamentoMobState();
 }
 
 // ignore: unused_element
@@ -16,7 +16,7 @@ int _selectedIndex = 0;
 
 void setState(Null Function() param0) {}
 
-class _MapeamentoState extends State<Mapeamento> {
+class _MapeamentoMobState extends State<MapeamentoMob> {
   // ignore: unused_element
   static void _setSelectedIndex(int index) {
     setState(() {

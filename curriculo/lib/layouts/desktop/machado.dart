@@ -33,15 +33,18 @@ class Machado extends StatelessWidget {
                         ),
                       ),
                     ),
-                    // ignore: prefer_const_constructors
-                    Padding(
-                      padding: const EdgeInsets.only(top: 20),
-                      child: const Text(
-                        textAlign: TextAlign.center,
-                        "Área de Estudo",
-                        style: TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.w500,
+
+                    const Padding(
+                      padding: EdgeInsets.all(40),
+                      child: SizedBox(
+                        width: 800,
+                        child: Text(
+                          textAlign: TextAlign.center,
+                          "Área de Estudo",
+                          style: TextStyle(
+                            fontSize: 24,
+                            fontWeight: FontWeight.w500,
+                          ),
                         ),
                       ),
                     ),

@@ -14,7 +14,7 @@ class Sebastiao extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(20),
               child: Container(
-                color: const Color.fromARGB(183, 255, 255, 255),
+                color: kbackgroundColorSec,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
