@@ -14,7 +14,8 @@ class Contato extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Container(
-              padding: const EdgeInsets.all(40.0),
+              padding: const EdgeInsets.only(
+                  top: 30, bottom: 40, left: 80, right: 80),
               child: const Text(
                 "Membros da Equipe de Pesquisadoras",
                 style: TextStyle(
@@ -23,117 +24,153 @@ class Contato extends StatelessWidget {
                 ),
               ),
             ),
-            Container(
-              color: kbackgroundColorSec,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Column(
-                    children: [
-                      const Padding(
-                        padding: EdgeInsets.all(20),
-                        child: CircleAvatar(
-                          radius: 100.0,
-                          backgroundImage: NetworkImage(
-                              "/assets/contato/pesquisadoras/helena.jpg"),
+            Padding(
+              padding: const EdgeInsets.all(40),
+              child: Container(
+                color: kbackgroundColorSec,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Column(
+                      children: [
+                        const Padding(
+                          padding: EdgeInsets.all(20),
+                          child: CircleAvatar(
+                            radius: 100.0,
+                            backgroundImage: NetworkImage(
+                                "/assets/contato/pesquisadoras/helena.jpg"),
+                          ),
                         ),
-                      ),
-                      const Text(
-                        "Helena Maria Ramos Alves",
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: kfontText,
+                        const Text(
+                          "Helena Maria Ramos Alves",
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: kfontText,
+                          ),
                         ),
-                      ),
-                      RichText(
-                        text: TextSpan(
-                          text: 'Curriculo Lattes',
-                          style: const TextStyle(color: Colors.blue),
-                          recognizer: TapGestureRecognizer()
-                            ..onTap = () {
-                              // ignore: deprecated_member_use
-                              launch('http://lattes.cnpq.br/4766494058302983');
-                            },
+                        Row(
+                          children: [
+                            const Icon(Icons.link),
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: RichText(
+                                text: TextSpan(
+                                  text: 'Curriculo Lattes',
+                                  style: const TextStyle(color: Colors.blue),
+                                  recognizer: TapGestureRecognizer()
+                                    ..onTap = () {
+                                      // ignore: deprecated_member_use
+                                      launch(
+                                          'http://lattes.cnpq.br/4766494058302983');
+                                    },
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
-                      ),
-                      const Padding(
-                        padding: EdgeInsets.all(20),
-                      ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      const Padding(
-                        padding: EdgeInsets.all(20),
-                        child: CircleAvatar(
-                          radius: 100.0,
-                          backgroundImage: NetworkImage(
-                              "/assets/contato/pesquisadoras/margarete.jpg"),
+                        const Icon(Icons.email),
+                        const Icon(Icons.phone),
+                        const Padding(
+                          padding: EdgeInsets.all(20),
                         ),
-                      ),
-                      const Text(
-                        "Margarete Marin Lordelo Volpato",
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: kfontText,
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        const Padding(
+                          padding: EdgeInsets.all(20),
+                          child: CircleAvatar(
+                            radius: 100.0,
+                            backgroundImage: NetworkImage(
+                                "/assets/contato/pesquisadoras/margarete.jpg"),
+                          ),
                         ),
-                      ),
-                      RichText(
-                        text: TextSpan(
-                          text: 'Curriculo Lattes',
-                          style: const TextStyle(color: Colors.blue),
-                          recognizer: TapGestureRecognizer()
-                            ..onTap = () {
-                              // ignore: deprecated_member_use
-                              launch('http://lattes.cnpq.br/9088910054495930');
-                            },
+                        const Text(
+                          "Margarete Marin Lordelo Volpato",
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: kfontText,
+                          ),
                         ),
-                      ),
-                      const Padding(
-                        padding: EdgeInsets.all(20),
-                      ),
-                    ],
-                  ),
-                  Column(
-                    // ignore: prefer_const_literals_to_create_immutables
-                    children: [
-                      const Padding(
-                        padding: EdgeInsets.all(20),
-                        child: CircleAvatar(
-                          radius: 100,
-                          backgroundImage: NetworkImage(
-                              "/assets/contato/pesquisadoras/tati.jpg"),
+                        Row(
+                          children: [
+                            const Icon(Icons.link),
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: RichText(
+                                text: TextSpan(
+                                  text: 'Curriculo Lattes',
+                                  style: const TextStyle(color: Colors.blue),
+                                  recognizer: TapGestureRecognizer()
+                                    ..onTap = () {
+                                      // ignore: deprecated_member_use
+                                      launch(
+                                          'http://lattes.cnpq.br/9088910054495930');
+                                    },
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
-                      ),
-                      const Text(
-                        "Tatiana Grossi Chquiloff Vieira",
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: kfontText,
+                        const Icon(Icons.email),
+                        const Icon(Icons.phone),
+                        const Padding(
+                          padding: EdgeInsets.all(20),
                         ),
-                      ),
-                      RichText(
-                        text: TextSpan(
-                          text: 'Curriculo Lattes',
-                          style: const TextStyle(color: Colors.blue),
-                          recognizer: TapGestureRecognizer()
-                            ..onTap = () {
-                              // ignore: deprecated_member_use
-                              launch('http://lattes.cnpq.br/0854702186727582');
-                            },
+                      ],
+                    ),
+                    Column(
+                      // ignore: prefer_const_literals_to_create_immutables
+                      children: [
+                        const Padding(
+                          padding: EdgeInsets.all(20),
+                          child: CircleAvatar(
+                            radius: 100,
+                            backgroundImage: NetworkImage(
+                                "/assets/contato/pesquisadoras/tati.jpg"),
+                          ),
                         ),
-                      ),
-                      const Padding(
-                        padding: EdgeInsets.all(20),
-                      ),
-                    ],
-                  ),
-                ],
+                        const Text(
+                          "Tatiana Grossi Chquiloff Vieira",
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: kfontText,
+                          ),
+                        ),
+                        Row(
+                          children: [
+                            const Icon(Icons.link),
+                            Padding(
+                              padding: const EdgeInsets.only(left: 8),
+                              child: RichText(
+                                text: TextSpan(
+                                  text: 'Curriculo Lattes',
+                                  style: const TextStyle(color: Colors.blue),
+                                  recognizer: TapGestureRecognizer()
+                                    ..onTap = () {
+                                      // ignore: deprecated_member_use
+                                      launch(
+                                          'http://lattes.cnpq.br/0854702186727582');
+                                    },
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        const Icon(Icons.email),
+                        const Icon(Icons.phone),
+                        const Padding(
+                          padding: EdgeInsets.all(20),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
             Container(
               padding: const EdgeInsets.all(16.0),
-              child: Text("Contatos",
+              child: Text("Equipe Tecnica",
                   style: Theme.of(context).textTheme.headlineSmall),
             ),
             Expanded(

@@ -47,7 +47,7 @@ class _ListaMenuState extends State<ListaMenu> {
         scrollDirection: Axis.horizontal,
         children: categories.keys.map((category) {
           return Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 8),
+            padding: const EdgeInsets.symmetric(horizontal: 22),
             child: GestureDetector(
               onTap: () {
                 setState(() {
@@ -68,7 +68,7 @@ class _ListaMenuState extends State<ListaMenu> {
                           fontWeight: FontWeight.w600,
                           color: selectedCategory == category
                               ? const Color.fromARGB(255, 112, 90, 49)
-                              : const Color.fromARGB(255, 240, 93, 192),
+                              : const Color.fromARGB(255, 27, 49, 6),
                         ),
                   ),
                   if (selectedCategory == category)

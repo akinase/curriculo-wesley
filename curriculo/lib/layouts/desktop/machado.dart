@@ -55,7 +55,7 @@ class Machado extends StatelessWidget {
                     ),
                     // ignore: prefer_const_constructors
                     Padding(
-                      padding: EdgeInsets.only(top: 20),
+                      padding: const EdgeInsets.only(top: 20),
                       child: const SizedBox(
                         width: 800,
                         child: Text(

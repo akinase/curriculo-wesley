@@ -1,10 +1,11 @@
 // ignore: file_names
+import 'package:curriculo/layouts/desktop/projetosDesk/geotecIntegracao.dart';
 import 'package:curriculo/layouts/desktop/sebastiao.dart';
 import 'package:curriculo/layouts/desktop/mantiqueira.dart';
 import 'package:flutter/material.dart';
-import 'package:curriculo/layouts/desktop/machado.dart';
-
 import '../../constantes.dart';
+import 'projetosDesk/distriEspacial.dart';
+import 'projetosDesk/identiAreas.dart';
 
 final List<Map<String, String>> materialItens = [
   {
@@ -52,92 +53,105 @@ final List<Map<String, String>> materialItens = [
 ];
 
 class Projetos extends StatelessWidget {
-  const Projetos({super.key});
+  const Projetos({Key? key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Material(
-        child: Container(
-          color: kbackgroundColor,
+      body: Container(
+        color: kbackgroundColor,
+        child: Padding(
+          padding: const EdgeInsets.all(30),
           child: ListView.builder(
             itemCount: materialItens.length,
             itemBuilder: (BuildContext context, int index) {
               final materialItem = materialItens[index];
-              return Padding(
-                padding: const EdgeInsets.all(20),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Container(
-                      color: kbackgroundColorSec,
-                      child: SizedBox(
-                        height: 350,
-                        width: MediaQuery.of(context).size.width * 0.35,
-                        child: Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: ListTile(
-                              leading: Image.asset(
-                                materialItem["imagemUrl"]!,
-                                fit: BoxFit.cover,
-                              ),
-                              title: Text(
-                                materialItem["titulo"]!,
-                                textAlign: TextAlign.center,
-                                style: const TextStyle(
-                                  fontSize: 18.0,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              subtitle: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  const SizedBox(height: 4.0),
-                                  Text(
-                                    materialItem["descricao"]!,
-                                    textAlign: TextAlign.justify,
-                                    style: const TextStyle(
-                                      fontSize: 16.0,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                              onTap: () {
-                                switch (index) {
-                                  case 0:
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) =>
-                                              const Machado()),
-                                    );
-                                    break;
-                                  case 1:
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) =>
-                                              const Mantiqueira()),
-                                    );
-                                    break;
-                                  case 2:
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) =>
-                                              const Sebastiao()),
-                                    );
-                                    break;
-                                }
-                              },
+              return GestureDetector(
+                onTap: () {
+                  switch (index) {
+                    case 0:
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const GeotecIntegracao()),
+                      );
+                      break;
+                    case 1:
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const IdentiAreas()),
+                      );
+                      break;
+                    case 2:
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const DistriEspacial()),
+                      );
+                      break;
+                    case 3:
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const DistriEspacial()),
+                      );
+                      break;
+                  }
+                },
+                child: Card(
+                  clipBehavior: Clip.antiAlias,
+                  shadowColor: kbackgroundColor,
+                  color: kbackgroundColorSec,
+                  elevation: 20,
+                  child: Column(
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(20.0),
+                            child: Image.network(
+                              materialItem["imagemUrl"]!,
+                              fit: BoxFit.cover,
+                              height: 300,
+                              width: MediaQuery.of(context).size.width * 0.30,
                             ),
                           ),
-                        ),
+                          Padding(
+                            padding: const EdgeInsets.all(20),
+                            child: Column(
+                              children: [
+                                SizedBox(
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.35,
+                                  child: Text(
+                                    textAlign: TextAlign.center,
+                                    materialItem["titulo"]!,
+                                    style: const TextStyle(
+                                      fontSize: 18.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(height: 8.0),
+                                SizedBox(
+                                  height: 200,
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.25,
+                                  child: Text(
+                                    materialItem["descricao"]!,
+                                    textAlign: TextAlign.justify,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               );
             },

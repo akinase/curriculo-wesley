@@ -1,6 +1,5 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import '../componete_menu_desktop.dart';
 import '../slide_home.dart';
 import 'package:curriculo/constantes.dart';
 
@@ -32,7 +31,6 @@ class Desktop extends StatelessWidget {
                   Container(color: Colors.black.withOpacity(0.40)),
                   Column(
                     children: [
-                      const ListaMenu(),
                       Padding(
                         padding: const EdgeInsets.symmetric(
                             horizontal: 20, vertical: 40),

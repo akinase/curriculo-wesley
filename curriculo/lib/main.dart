@@ -1,8 +1,5 @@
 import 'package:curriculo/homepage.dart';
 import 'package:flutter/material.dart';
-// import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 void main() async {
   WidgetsFlutterBinding
@@ -16,6 +13,7 @@ void main() async {
   runApp(MaterialApp(
       title: "Site Epamig Solos",
       debugShowCheckedModeBanner: false,
+      // ignore: prefer_const_constructors
       home: HomePage(),
       theme: ThemeData(fontFamily: "Poppins" // fonte app
           )));
