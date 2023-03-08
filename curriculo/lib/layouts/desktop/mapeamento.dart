@@ -1,9 +1,9 @@
+import 'package:curriculo/constantes.dart';
+import 'package:curriculo/layouts/desktop/mapeamento/machado.dart';
+import 'package:curriculo/layouts/desktop/mapeamento/mantiqueira.dart';
+import 'package:curriculo/layouts/desktop/mapeamento/sebastiao.dart';
+import 'package:curriculo/layouts/desktop/mapeamento/tres_pontas.dart';
 import 'package:flutter/material.dart';
-import 'package:curriculo/layouts/desktop/machado.dart';
-import 'package:curriculo/layouts/desktop/tres_pontas.dart';
-import '../../constantes.dart';
-import 'mantiqueira.dart';
-import 'sebastiao.dart';
 
 class Mapeamento extends StatefulWidget {
   const Mapeamento({Key? key}) : super(key: key);

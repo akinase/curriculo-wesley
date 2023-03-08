@@ -1,7 +1,7 @@
 // ignore: file_names
+import 'package:curriculo/layouts/desktop/mapeamento/machado.dart';
+import 'package:curriculo/layouts/desktop/mapeamento/mantiqueira.dart';
 import 'package:flutter/material.dart';
-import 'package:curriculo/layouts/desktop/machado.dart';
-import 'package:curriculo/layouts/desktop/mantiqueira.dart';
 import 'sebastiaoMob.dart';
 
 class MapeamentoMob extends StatefulWidget {

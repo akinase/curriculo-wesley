@@ -1,8 +1,8 @@
 import 'package:curriculo/layouts/desktop/desktop.dart';
 import 'package:curriculo/layouts/desktop/contato.dart';
+import 'package:curriculo/layouts/desktop/publicacao.dart';
 import 'package:curriculo/layouts/mobile/mobile.dart';
 import 'package:curriculo/layouts/desktop/mapeamento.dart';
-import 'package:curriculo/layouts/mobile/rede.dart';
 import 'package:curriculo/layouts/mobile/sobre.dart';
 import 'package:curriculo/layouts/responsive.dart';
 import 'package:flutter/material.dart';
@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
           const Mapeamento(),
           const Sobre(),
           const Projetos(),
-          const Rede(),
+          const Publicacao(),
           const Contato(),
         ],
       ),

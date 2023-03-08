@@ -1,5 +1,6 @@
+import 'package:curriculo/layouts/componete_menu_desktop.dart';
 import 'package:flutter/material.dart';
-import '../../constantes.dart';
+import 'package:curriculo/constantes.dart';
 
 class Mantiqueira extends StatelessWidget {
   const Mantiqueira({super.key});
@@ -7,6 +8,7 @@ class Mantiqueira extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: const ListaMenu(),
       body: Container(
         color: kbackgroundColor,
         child: Center(

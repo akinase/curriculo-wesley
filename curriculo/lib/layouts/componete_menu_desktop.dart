@@ -1,10 +1,11 @@
 import 'package:curriculo/layouts/desktop/protejetosGeoSolosDesk.dart';
+import 'package:curriculo/layouts/desktop/publicacao.dart';
+import 'package:curriculo/layouts/desktop/webMapping.dart';
 import 'package:curriculo/layouts/mobile/mapeamentoMob.dart';
+import 'package:curriculo/layouts/desktop/contato.dart';
 import 'package:flutter/material.dart';
-import 'package:curriculo/layouts/mobile/sobre.dart';
 import '../../constantes.dart';
 import '../homepage.dart';
-import 'desktop/contato.dart';
 import 'desktop/mapeamento.dart';
 
 class ListaMenu extends StatefulWidget implements PreferredSizeWidget {
@@ -23,10 +24,10 @@ class _ListaMenuState extends State<ListaMenu> {
   final Map<String, Widget> categories = {
     "Inicio": const HomePage(),
     "Mapeamento de Pesquisas": const Mapeamento(),
-    "WebMapping": const Sobre(),
+    "WebMapping": const WebMapping(),
     "Projetos": const Projetos(),
-    "Publicações Cientificas": const Sobre(),
-    "Equipe GeoSolos": const Contato()
+    "Publicações Cientificas": const Publicacao(),
+    "Equipe GeoSolos": Contato()
   };
 
   @override

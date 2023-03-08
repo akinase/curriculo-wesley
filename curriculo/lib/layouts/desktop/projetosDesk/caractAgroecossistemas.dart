@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 import '../../../constantes.dart';
 import '../../componete_menu_desktop.dart';
 
-class DistriEspacial extends StatefulWidget {
-  const DistriEspacial({Key? key}) : super(key: key);
+class CaractAgroecossistemas extends StatefulWidget {
+  const CaractAgroecossistemas({Key? key}) : super(key: key);
 
   @override
 // ignore: library_private_types_in_public_api
-  _DistriEspacialState createState() => _DistriEspacialState();
+  _CaractAgroecossistemasState createState() => _CaractAgroecossistemasState();
 }
 
-class _DistriEspacialState extends State<DistriEspacial>
+class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
     with SingleTickerProviderStateMixin {
   late final TabController _tabController;
 
@@ -88,7 +88,7 @@ class _DistriEspacialState extends State<DistriEspacial>
                                     padding: const EdgeInsets.all(40),
                                     child: const Text(
                                       textAlign: TextAlign.center,
-                                      "Distribuição espacial e padrões ambientais dos cafés especiais \nda microrregião da Serra da Mantiqueira de Minas Gerais, por meio de \nprocessamentos geocomputacionais",
+                                      "Caracterização de agroecossistemas cafeeiros da região Sul de Minas Gerais",
                                       style: TextStyle(
                                         fontSize: 24,
                                         fontWeight: FontWeight.bold,
@@ -116,7 +116,7 @@ class _DistriEspacialState extends State<DistriEspacial>
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.justify,
-                                        "O planejamento agrícola se baseia no levantamento dos fatores edafoclimáticos que definem as aptidões agrícolas. O nível de conhecimento destes fatores no tempo e espaço determina a precisão com que os planejamentos poderão ser executados e utilizados. O Brasil ainda é um país carente de caracterizações detalhadas de seus recursos naturais e é nesta lacuna que as geotecnologias e os sistemas computacionais podem contribuir. A caracterização, no tempo e espaço, dos agroecossistemas cafeeiros da microrregião da Serra da Mantiqueira do Sul de Minas é de extrema importância para o planejamento e gestão do setor cafeeiro e o desenvolvimento sócio-econômico regional. O mapeamento da qualidade do café produzido na região, com a delimitação de ambientes homogêneos, para o direcionamento das atividades agrícolas e da preservação dos recursos naturais, fornece os subsídios necessários para a formulação de políticas públicas voltadas ao estímulo da competitividade e da sustentabilidade do agronegócio café da região. O presente estudo tem como objetivo caracterizar detalhadamente os ambientes cafeeiros da microrregião da Serra da Mantiqueira mineira, desenvolvendo sistemas computacionais para modelar e mapear o relevo, os solos, o clima, o uso da terra, com a identificação das áreas ocupadas pelas lavouras cafeeiras, e a qualidade do café. A partir desta caracterização, conhecer a dinâmica espacial e temporal da cafeicultura regional, para estabelecer as relações entre a qualidade do café e o ambiente e fornecer a fundamentação científica requerida para a obtenção de Indicação Geográfica para os cafés especiais produzidos na região. Por meio das geotecnologias, criar um sistema de informações georreferenciado e interativo que será usado para a disponibilização, na internet, da base de dados, mapas e informações geradas pelo projeto.\n\nAs indicações geográficas representam uma nova filosofia de produção, voltada para a qualidade, a especialidade e a tipicidade, oriundas da origem da produção. A partir dos estudos propostos neste projeto será possível o entendimento dos fatores envolvidos na expressão da qualidade da bebida dos cafés da microrregião. Por este motivo o projeto reveste-se de grande importância na medida em que visa estabelecer um protocolo para o estabelecimento de padrões elevados de qualidade e agregação de valor ao produto em função da indicação geográfica, que poderá ter impactos sócio-econômicos positivos para os cafeicultores dos 22 municípios que compõem essa microrregião. Desta forma, por solicitação dos cafeicultores da APROCAM - Associação de Produtores de Café da Mantiqueira e da COCARIVE – Cooperativa Regional do Vale do Rio Verde, pesquisadores da Universidade Federal de Lavras, da Embrapa Café, do Instituto Agronômico de Campinas, da Empresa de Pesquisa Agropecuária de Minas Gerais, da Embrapa Meio Ambiente, da Embrapa Informática na Agropecuária, da Universidade de Brasília e da Universidade de Campinas, entre outras instituições colaboradoras, reuniram-se em um esforço conjunto para desenvolver um embasamento técnico e científico para a conformidade de padrões de identidade e qualidade do café da região conhecida como “Serra da Mantiqueira”, tendo em vista a delimitação geográfica com a caracterização do potencial climático e edáfico para a cafeicultura de alto desempenho sensorial.",
+                                        "No presente trabalho pretende-se levantar informações sobre o meio físico da região Sul de Minas, uma das principais regiões produtoras de café do estado de Minas Gerais. Por meio de levantamentos de campo, modelagem, interpretação de imagens de satélite e fotografias aéreas serão gerados dados sobre os solos, relevo, recursos hídricos e uso atual das terras. Estas informações serão incorporadas por meio de um Sistema de Informação Geográfica, para gerar um banco de dados georreferenciados em formato digital, que fornecerá um retrato dos principais estratos de produção de café da região. Os mapas produzidos serão relacionados com os sistemas de produção para estabelecer parâmetros para o melhor entendimento das relações entre o café e o ambiente e o aprimoramento do zoneamento edafoclimático da cultura, fornecendo subsidio para programas de previsão de safra, para o manejo mais eficiente das lavouras e o planejamento racional da produção. Dado à complexidade e o número de variáveis do sistema, esse subprojeto será executado paulatinamente, tendo como meta os municípios no Sul de Minas que apresentam diversidades quanto ao manejo, tamanho das lavouras, tipos de solos e sistema de cultivo. OBJETIVO: Desenvolver metodologia operacional baseada na geoinformação e modelagem em ambiente SIG, para caracterizar os principais agroecossistemas de produção de café do Sul de Minas, gerando um banco de dados espaciais a ser utilizado na transferência de tecnologia, no monitoramento do parque cafeeiro e seu ambiente e no planejamento racional do setor.",
                                         style: TextStyle(
                                           fontSize: 18,
                                           fontWeight: kfontText,
@@ -177,7 +177,7 @@ class _DistriEspacialState extends State<DistriEspacial>
                                     child: const SizedBox(
                                       width: 800,
                                       child: Text(
-                                        "SILVA, L.F.M.; ALVES, H.M.R.; VIEIRA, T.G.C.; VOLPATO, M.M.L.; BORÉM, F.M. Avaliação de interpoladores espaciais para representação da temperatura do ar na região da Serra da Mantiqueira, Minas Gerais. In: CONGRESSO BRASILEIRO DE ENGENHARIA AGRÍCOLA, 42., 2013. Fortaleza. Anais... Jaboticabal:SBEA, 2013.\n\n LUZ, M.P.S.; VOLPATO, M.M.L.; ALVES, H.M.R.; VIEIRA, T.G.C.; BORÉM, F.M. Caracterização da temperatura do ar e precipitação em áreas cafeeiras na região da Serra da Mantiqueira de Minas Gerais. In: CONGRESSO BRASILEIRO DE ENGENHARIA AGRÍCOLA, 42., 2013. Fortaleza. Anais... Jaboticabal:SBEA, 2013\n\n VOLPATO, M.M.L.; ALVES, H.M.R.; VIEIRA, T.G.C.; SILVA, L.F.M.; BORÉM, F.M.; MEIRELES, E.J.L.; BORÉM R.A.T. Espacialização da temperatura do ar na região de Indicação Geográfica da Mantiqueira de Minas. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 8., 2013. Salvador. Anais... Brasília:Embrapa Café, 2013. \n\nVOLPATO, M.M.L.; ALVES, H.M.R.; VIEIRA, T.G.C. Comportamento sazonal do índice espectral EV12 do sensor orbital MODIS para o monitoramento de áreas cafeeiras do Sul de Minas Gerais. In: CONGRESSO BRASILEIRO DE ENGENHARIA AGRÍCOLA, 43., 2014, Campo Grande. Anais... Jaboticabal:SBEA, 2014.",
+                                        "VIEIRA, T.G.C.; ALVES, H.M.R.; LACERDA, M.P.C.; VEIGA, R.D.; EPIPHANIO, J.C.N. Crop parameters and spectral response of coffee (Coffeaarábica L.) areas within the state of Minas Gerais, Brazil. Coffee Science, Lavras, v. 1, n. 2, p.111-118, jul./dez. 2006.\n\nVIEIRA, T.G.C.; ALVES, H.M.R.; BERTOLDO, M.; SOUZA, V.C.O. Geothecnologies in the assessment of land use changes in coffee regions of the state of Minas Gerais in Brasil. Coffee Science, Lavras, v.2, p.142-149, 2007.",
                                         textAlign: TextAlign.justify,
                                         style: TextStyle(
                                           fontSize: 18,
@@ -240,7 +240,7 @@ class _DistriEspacialState extends State<DistriEspacial>
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
-                                        "Helena Maria Ramos Alves.\n",
+                                        "Helena Maria Ramos Alves\n",
                                         style: TextStyle(
                                           fontSize: 18,
                                           fontWeight: kfontText,
@@ -270,7 +270,7 @@ class _DistriEspacialState extends State<DistriEspacial>
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
-                                        "Tatiana Grossi Chquiloff Vieira, \nMaurício Alves Moreira, \nRosângela Alves Tristão Borém, \nMargarete Marin Lordelo Volpato, \nH. ANDRADE, \nTiago Bernardes, \nMarilusa Pinto Coelho Lacerda, \nElza Jacqueline Leite Meireles, \nMarcelo Ribeiro Malta, \nGerson Silva Giomo, \nFlávio Meira Borém, \nEder Pedroza Isquierdo, \nJuliana Neves Barbosa, \nEduardo Delgado Assad, \nEmília Hamada, \nHilton Silveira Pinto, \nSergio Parreiras Pereira, \nMarcelo Ângelo Cirillo, \nPaulo Henrique Grazziotti, \nMária Bruna Pereira Ribeiro.",
+                                        "Tatiana Grossi Chquiloff Vieira, \nMarilusa Pinto Coelho Lacerda, \nMarley Lamounier Machado, \nHélcio Andrade, \nVanessa Cristina Oliveira de Souza, \nNilson Bernardo dos Santos, \nRosângela Alves Tristão Borém",
                                         style: TextStyle(
                                           fontSize: 18,
                                           fontWeight: kfontText,

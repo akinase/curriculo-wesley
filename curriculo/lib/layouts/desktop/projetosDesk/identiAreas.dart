@@ -1,6 +1,7 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 import '../../../constantes.dart';
+import '../../componete_menu_desktop.dart';
 
 class IdentiAreas extends StatefulWidget {
   const IdentiAreas({Key? key}) : super(key: key);
@@ -29,6 +30,7 @@ class _IdentiAreasState extends State<IdentiAreas>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: const ListaMenu(),
       body: Column(
         children: [
           Container(

@@ -1,11 +1,12 @@
 // ignore: file_names
 import 'package:curriculo/layouts/desktop/projetosDesk/geotecIntegracao.dart';
-import 'package:curriculo/layouts/desktop/sebastiao.dart';
-import 'package:curriculo/layouts/desktop/mantiqueira.dart';
 import 'package:flutter/material.dart';
 import '../../constantes.dart';
+import 'projetosDesk/caractAgroecossistemas.dart';
+import 'projetosDesk/caractAmbiental.dart';
 import 'projetosDesk/distriEspacial.dart';
 import 'projetosDesk/identiAreas.dart';
+import 'projetosDesk/mineracaoPragaDoencas.dart';
 
 final List<Map<String, String>> materialItens = [
   {
@@ -94,7 +95,23 @@ class Projetos extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const DistriEspacial()),
+                            builder: (context) =>
+                                const MineracaoPragaDoencas()),
+                      );
+                      break;
+                    case 4:
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const CaractAmbiental()),
+                      );
+                      break;
+                    case 5:
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) =>
+                                const CaractAgroecossistemas()),
                       );
                       break;
                   }
