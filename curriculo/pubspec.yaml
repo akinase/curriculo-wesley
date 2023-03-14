@@ -48,6 +48,11 @@ dependencies:
   animated_text_kit: ^4.2.2
   carousel_slider: ^4.2.1
   url_launcher: ^6.1.10
+  flutter_pdfview: ^1.2.5
+  syncfusion_flutter_pdfviewer: ^20.4.53
+  file_picker: ^5.2.6
+  flutter_full_pdf_viewer: ^1.0.6
+  
 
 dev_dependencies:
   flutter_test:

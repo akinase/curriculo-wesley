@@ -42,11 +42,13 @@ class _CarouselState extends State<Carousel> {
       padding: const EdgeInsets.only(top: 50),
       child: Stack(
         children: [
-          CarouselSlider(
-            items: generateImages(),
-            options: CarouselOptions(
-              enlargeCenterPage: true,
-              autoPlay: true,
+          Expanded(
+            child: CarouselSlider(
+              items: generateImages(),
+              options: CarouselOptions(
+                enlargeCenterPage: true,
+                autoPlay: true,
+              ),
             ),
           ),
           const AspectRatio(

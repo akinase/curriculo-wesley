@@ -54,6 +54,7 @@ final List<Map<String, String>> materialItens = [
 ];
 
 class Projetos extends StatelessWidget {
+  // ignore: use_key_in_widget_constructors
   const Projetos({Key? key});
 
   @override

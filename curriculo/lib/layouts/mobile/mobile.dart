@@ -1,4 +1,3 @@
-import 'package:curriculo/layouts/componete_menu_desktop.dart';
 import 'package:flutter/material.dart';
 import '../../constantes.dart';
 import '../slide_home.dart';
@@ -13,7 +12,6 @@ class Mobile extends StatelessWidget {
           kSecundaryColor, //esta em constatantes  //esta em constatantes
       body: Column(
         children: <Widget>[
-          const ListaMenu(),
           ClipPath(
             clipper: MyClipper(), //parte ovulada azul
             child: const Carousel(),
