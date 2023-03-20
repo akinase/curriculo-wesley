@@ -1,5 +1,5 @@
 import 'package:curriculo/layouts/desktop/protejetosGeoSolosDesk.dart';
-import 'package:curriculo/layouts/desktop/publicacao/publicacao.dart';
+import 'package:curriculo/layouts/desktop/publicacao/publicacoes.dart';
 import 'package:curriculo/layouts/desktop/webMapping.dart';
 import 'package:curriculo/layouts/mobile/mapeamentoMob.dart';
 import 'package:curriculo/layouts/desktop/contato.dart';
@@ -26,9 +26,7 @@ class _ListaMenuState extends State<ListaMenu> {
     "Mapeamento de Pesquisas": const Mapeamento(),
     "WebMapping": const WebMapping(),
     "Projetos": const Projetos(),
-    "Publicações Cientificas": const Publicacao(
-      pdfPath: '',
-    ),
+    "Publicações Cientificas": Publicacoes(),
     "Equipe GeoSolos": const Contato()
   };
 

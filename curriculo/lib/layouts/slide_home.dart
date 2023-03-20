@@ -39,7 +39,7 @@ class _CarouselState extends State<Carousel> {
   Widget build(BuildContext context) {
     return Container(
       color: kbackgroundColor,
-      padding: const EdgeInsets.only(top: 50),
+      padding: const EdgeInsets.only(top: 20, bottom: 20),
       child: Stack(
         children: [
           Expanded(

@@ -1,6 +1,6 @@
 import 'package:curriculo/layouts/desktop/desktop.dart';
 import 'package:curriculo/layouts/desktop/contato.dart';
-import 'package:curriculo/layouts/desktop/publicacao/publicacao.dart';
+import 'package:curriculo/layouts/desktop/publicacao/publicacoes.dart';
 import 'package:curriculo/layouts/mobile/mobile.dart';
 import 'package:curriculo/layouts/desktop/mapeamento.dart';
 import 'package:curriculo/layouts/mobile/sobre.dart';
@@ -38,9 +38,7 @@ class _HomePageState extends State<HomePage> {
           const Mapeamento(),
           const Sobre(),
           const Projetos(),
-          const Publicacao(
-            pdfPath: '',
-          ),
+          Publicacoes(),
           const Contato(),
         ],
       ),
