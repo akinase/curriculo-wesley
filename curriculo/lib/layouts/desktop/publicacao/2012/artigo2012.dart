@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class Artigos2012 extends StatelessWidget {
   Artigos2012({Key? key}) : super(key: key);
 
-  List<Map<String, String>> publi2013 = [
+  List<Map<String, String>> publi2012 = [
     {
       'PDF':
           'Mineração de Dados Espectrais e Climáticos para Modelagem de Ocorrência de Cercospora (Cercorsporacoffeicola Berkeley &Cooke) em Cafeeiros. In: CONGRESSO DE INICIAÇÃO CIENTÍFICA DA UFLA, 25.',
@@ -202,10 +202,10 @@ class Artigos2012 extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: ListView.builder(
-                    itemCount: publi2013.length,
+                    itemCount: publi2012.length,
                     itemBuilder: (context, index) {
                       return ListTile(
-                        title: Text(publi2013[index]['PDF']!,
+                        title: Text(publi2012[index]['PDF']!,
                             textAlign: TextAlign.center),
                         onTap: () {
                           /*Navigator.push(

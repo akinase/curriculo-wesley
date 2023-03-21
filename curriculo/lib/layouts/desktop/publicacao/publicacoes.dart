@@ -1,4 +1,8 @@
 import 'package:curriculo/constantes.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2008/artigos2008.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2009/artigos2009.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2010/artigos2010.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2011/artigo2011.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2012/artigo2012.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2013/artigo2013.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2014/artigos2014.dart';
@@ -103,6 +107,18 @@ class Publicacoes extends StatelessWidget {
         break;
       case '2012':
         content = Artigos2012();
+        break;
+      case '2011':
+        content = Artigos2011();
+        break;
+      case '2010':
+        content = Artigos2010();
+        break;
+      case '2009':
+        content = Artigos2009();
+        break;
+      case '2008':
+        content = Artigos2008();
         break;
       default:
         content = Container(
