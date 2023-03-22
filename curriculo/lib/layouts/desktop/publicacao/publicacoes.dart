@@ -1,12 +1,29 @@
 import 'package:curriculo/constantes.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2000/dissertacao2000.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2001/artigos2001.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2002/artigos2002.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2002/dissetacao2002.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2003/artigo2003.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2003/dissertacao2003.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2004/artigos2004.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2004/dissertacao2004.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2005/artigos2005.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2006/artigos2006.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2006/dissertacao2006.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2007/artigos2007.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2007/dissertacao2007.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2008/artigos2008.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2008/dissertacao2008.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2009/artigos2009.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2009/dissertacao2009.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2010/artigos2010.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2011/artigo2011.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2011/dissertacao2011.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2012/artigo2012.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2013/artigo2013.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2014/artigos2014.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2015/artigos2015.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2015/dissertacao2015.dart';
 import 'package:flutter/material.dart';
 
 class Publicacoes extends StatelessWidget {
@@ -120,6 +137,30 @@ class Publicacoes extends StatelessWidget {
       case '2008':
         content = Artigos2008();
         break;
+      case '2007':
+        content = Artigos2007();
+        break;
+      case '2006':
+        content = Artigos2006();
+        break;
+      case '2005':
+        content = Artigos2005();
+        break;
+      case '2004':
+        content = Artigos2004();
+        break;
+      case '2003':
+        content = Artigos2003();
+        break;
+      case '2002':
+        content = Artigos2002();
+        break;
+      case '2001':
+        content = Artigos2001();
+        break;
+      case '2000':
+        content = Artigos2001();
+        break;
       default:
         content = Container(
           color: kbackgroundColor,
@@ -151,25 +192,34 @@ class Publicacoes extends StatelessWidget {
     Widget content;
     switch (tabName) {
       case '2014':
-        content = Artigos2015();
+        content = Dissertacao2015();
         break;
       case '2011':
-        content = Artigos2015();
+        content = Dissertacao2011();
         break;
       case '2009':
-        content = Artigos2015();
+        content = Dissertacao2009();
         break;
       case '2008':
-        content = Artigos2015();
+        content = Dissertacao2008();
         break;
       case '2007':
-        content = Artigos2015();
+        content = Dissertacao2007();
         break;
       case '2006':
-        content = Artigos2015();
+        content = Dissertacao2006();
+        break;
+      case '2004':
+        content = Dissertacao2004();
+        break;
+      case '2003':
+        content = Dissertacao2003();
+        break;
+      case '2002':
+        content = Dissertacao2002();
         break;
       case '2000':
-        content = Artigos2015();
+        content = Dissertacao2000();
         break;
       default:
         content = Container(
