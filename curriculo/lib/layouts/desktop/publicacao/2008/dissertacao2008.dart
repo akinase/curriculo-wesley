@@ -10,7 +10,9 @@ class Dissertacao2008 extends StatelessWidget {
       'PDF':
           'Determinação das áreas cafeeiras mecanizáveis no Sul de Minas Gerais com cenários para a colheita.',
       'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2008/disssertacao/Dissertacao_Fabiano.pdf'
+          'curriculo-wesley/curriculo/assets/publicacoes/2008/disssertacao/Dissertacao_Fabiano.pdf',
+      'referencial':
+          'REZENDE, F.A. Determinação das áreas cafeeiras mecanizáveis no Sul de Minas Gerais com cenários para a colheita. 2008. 94f. Tese ( Mestrado em Engenharia Agrícola) - Universidade Federal de Lavras, Lavras, 2008.',
     },
   ];
 
@@ -26,28 +28,67 @@ class Dissertacao2008 extends StatelessWidget {
               color: kbackgroundColorSec,
               child: SizedBox(
                 width: MediaQuery.of(context).size.width * 0.75,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: ListView.builder(
-                    itemCount: publi2008.length,
-                    itemBuilder: (context, index) {
-                      return ListTile(
-                        title: Text(publi2008[index]['PDF']!,
-                            textAlign: TextAlign.center),
-                        onTap: () {
-                          /*Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Publi2014(
-                                pdfPath: publi2014[index]['path']!,
+                child: ListView.builder(
+                  itemCount: publi2008.length,
+                  itemBuilder: (context, index) {
+                    return ListTile(
+                      leading: const Icon(
+                        Icons.picture_as_pdf,
+                      ),
+                      title: Text(publi2008[index]['PDF']!,
+                          textAlign: TextAlign.center),
+                      onTap: () {
+                        showDialog(
+                          context: context,
+                          builder: (BuildContext context) {
+                            return AlertDialog(
+                              title: const Text('Referencial e Download'),
+                              content: Column(
+                                mainAxisSize: MainAxisSize.min,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  const Text('Referencial bibliografico:'),
+                                  TextField(
+                                    controller: TextEditingController(
+                                        text: publi2008[index]['referencial']),
+                                    readOnly: true,
+                                    decoration: const InputDecoration(
+                                      border: OutlineInputBorder(),
+                                    ),
+                                  ),
+                                  const SizedBox(height: 16),
+                                  const Text('Baixar PDF:'),
+                                  ElevatedButton(
+                                    child: const Text('Baixar'),
+                                    onPressed: () {
+                                      // Lógica para baixar PDF
+                                      /*Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) => Publi2014(
+                                            pdfPath: publi2014[index]['path']!,
+                                          ),
+                                        ),
+                                      );
+                                      */
+                                    },
+                                  ),
+                                ],
                               ),
-                            ),
-                          );
-                          */
-                        },
-                      );
-                    },
-                  ),
+                              actions: [
+                                TextButton(
+                                  child: const Text('Sair'),
+                                  onPressed: () {
+                                    Navigator.of(context).pop();
+                                  },
+                                ),
+                              ],
+                            );
+                          },
+                        );
+                      },
+                    );
+                  },
                 ),
               ),
             ),

@@ -10,7 +10,9 @@ class Dissertacao2003 extends StatelessWidget {
       'PDF':
           'Uso de geotecnologias no estudo das relações entre solos, orientação de vertentes e o comportamento espectral de áreas cafeeiras em Machado, Minas Gerais.',
       'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2003/dissertacao/TESE Hudson PRONTA.pdf'
+          'curriculo-wesley/curriculo/assets/publicacoes/2003/dissertacao/TESE Hudson PRONTA.pdf',
+      'referencial':
+          'MARQUES, H.S. Uso de geotecnologias no estudo das relações entre solos, orientação de vertentes e o comportamento espectral de áreas cafeeiras em Machado, Minas Gerais. 2003. 82f. Tese ( Mestrado em Agronomia) - Universidade Federal de Lavras, Lavras, 2003.',
     },
   ];
 
@@ -26,28 +28,67 @@ class Dissertacao2003 extends StatelessWidget {
               color: kbackgroundColorSec,
               child: SizedBox(
                 width: MediaQuery.of(context).size.width * 0.75,
-                child: Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: ListView.builder(
-                    itemCount: publi2003.length,
-                    itemBuilder: (context, index) {
-                      return ListTile(
-                        title: Text(publi2003[index]['PDF']!,
-                            textAlign: TextAlign.center),
-                        onTap: () {
-                          /*Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Publi2014(
-                                pdfPath: publi2014[index]['path']!,
+                child: ListView.builder(
+                  itemCount: publi2003.length,
+                  itemBuilder: (context, index) {
+                    return ListTile(
+                      leading: const Icon(
+                        Icons.picture_as_pdf,
+                      ),
+                      title: Text(publi2003[index]['PDF']!,
+                          textAlign: TextAlign.center),
+                      onTap: () {
+                        showDialog(
+                          context: context,
+                          builder: (BuildContext context) {
+                            return AlertDialog(
+                              title: const Text('Referencial e Download'),
+                              content: Column(
+                                mainAxisSize: MainAxisSize.min,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  const Text('Referencial bibliografico:'),
+                                  TextField(
+                                    controller: TextEditingController(
+                                        text: publi2003[index]['referencial']),
+                                    readOnly: true,
+                                    decoration: const InputDecoration(
+                                      border: OutlineInputBorder(),
+                                    ),
+                                  ),
+                                  const SizedBox(height: 16),
+                                  const Text('Baixar PDF:'),
+                                  ElevatedButton(
+                                    child: const Text('Baixar'),
+                                    onPressed: () {
+                                      // Lógica para baixar PDF
+                                      /*Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) => Publi2014(
+                                            pdfPath: publi2014[index]['path']!,
+                                          ),
+                                        ),
+                                      );
+                                      */
+                                    },
+                                  ),
+                                ],
                               ),
-                            ),
-                          );
-                          */
-                        },
-                      );
-                    },
-                  ),
+                              actions: [
+                                TextButton(
+                                  child: const Text('Sair'),
+                                  onPressed: () {
+                                    Navigator.of(context).pop();
+                                  },
+                                ),
+                              ],
+                            );
+                          },
+                        );
+                      },
+                    );
+                  },
                 ),
               ),
             ),

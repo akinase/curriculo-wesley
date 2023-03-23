@@ -1,4 +1,5 @@
 import 'package:curriculo/constantes.dart';
+import 'package:curriculo/layouts/desktop/publicacao/2000/artigos2000.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2000/dissertacao2000.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2001/artigos2001.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2002/artigos2002.dart';
@@ -31,7 +32,9 @@ class Publicacoes extends StatelessWidget {
 
   final Map<String, IconData> _mainTabs = {
     '2000': Icons.picture_as_pdf,
+    '2001': Icons.picture_as_pdf,
     '2002': Icons.picture_as_pdf,
+    '2003': Icons.picture_as_pdf,
     '2004': Icons.picture_as_pdf,
     '2005': Icons.picture_as_pdf,
     '2006': Icons.picture_as_pdf,
@@ -159,7 +162,7 @@ class Publicacoes extends StatelessWidget {
         content = Artigos2001();
         break;
       case '2000':
-        content = Artigos2001();
+        content = Artigos2000();
         break;
       default:
         content = Container(

@@ -11,22 +11,24 @@ class Artigos2002 extends StatelessWidget {
           'Caracterização ambiental de áreas de café do cerrado mineiro. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 14.',
       'path':
           'curriculo-wesley/curriculo/assets/publicacoes/2002/Caracterização ambiental de áreas de café do cerrado mineiro.pdf',
+      'referencial':
+          'ALVES, H.M.R.; VIEIRA, T.G.C.; LACERDA, M.P.C.; ANDRADE, H.; MACHADO, M.L. Caracterização ambiental de áreas de café do cerrado mineiro. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 14., 2002, Cuiabá. Anais... Viçosa:SBCS, 2002. CD-ROM.',
     },
     {
       'PDF':
           'Caracterização de agroecossistemas cafeeiros do Sul de Minas por meio de SIG, para fins de monitoramento e planejamento sustentável In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 14.',
       'path':
           'curriculo-wesley/curriculo/assets/publicacoes/2002/Caracterização de agroecossistemas cafeeiros do Sul de Minas por meio de SIG para fins de monitoramento e planejamento sustentável.pdf',
+      'referencial':
+          'LACERDA, M.P.C.; ALVES, H.M.R.; VIEIRA, T.G.C.; ANDRADE, H.; MACHADO, M.L. Caracterização de agroecossistemas cafeeiros do Sul de Minas por meio de SIG, para fins de monitoramento e planejamento sustentável In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 14., 2002, Cuiabá. Anais... Viçosa:SBCS, 2002. CD-ROM.',
     },
     {
       'PDF':
           'Identificação de áreas ocupadas pela cafeicultura nas principais regiões produtoras de Minas Gerais utilizando-se técnicas de geoprocessamento. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 14.',
       'path':
           'curriculo-wesley/curriculo/assets/publicacoes/2002/Identificação de áreas ocupadas pela cafeicultura nas principais regiões produtoras de Minas Gerais utilizando-se técnicas de geoprocessamento.pdf',
-    },
-    {
-      'PDF': '',
-      'path': '',
+      'referencial':
+          'VIEIRA, T.G.C.; ALVES, H.M.R.; LACERDA, M.P.C.; MACHADO, M.L. Identificação de áreas ocupadas pela cafeicultura nas principais regiões produtoras de Minas Gerais utilizando-se técnicas de geoprocessamento. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 14., 2002, Cuiabá. Anais... Viçosa:SBCS, 2002. CD-ROM.',
     },
   ];
 
@@ -41,22 +43,65 @@ class Artigos2002 extends StatelessWidget {
             child: Container(
               color: kbackgroundColorSec,
               child: SizedBox(
-                width: 800,
+                width: MediaQuery.of(context).size.width * 0.75,
                 child: ListView.builder(
                   itemCount: publi2002.length,
                   itemBuilder: (context, index) {
                     return ListTile(
-                      title: Text(publi2002[index]['PDF']!),
+                      leading: const Icon(
+                        Icons.picture_as_pdf,
+                      ),
+                      title: Text(publi2002[index]['PDF']!,
+                          textAlign: TextAlign.center),
                       onTap: () {
-                        /*Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => Publi2014(
-                              pdfPath: publi2014[index]['path']!,
-                            ),
-                          ),
+                        showDialog(
+                          context: context,
+                          builder: (BuildContext context) {
+                            return AlertDialog(
+                              title: const Text('Referencial e Download'),
+                              content: Column(
+                                mainAxisSize: MainAxisSize.min,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  const Text('Referencial bibliografico:'),
+                                  TextField(
+                                    controller: TextEditingController(
+                                        text: publi2002[index]['referencial']),
+                                    readOnly: true,
+                                    decoration: const InputDecoration(
+                                      border: OutlineInputBorder(),
+                                    ),
+                                  ),
+                                  const SizedBox(height: 16),
+                                  const Text('Baixar PDF:'),
+                                  ElevatedButton(
+                                    child: const Text('Baixar'),
+                                    onPressed: () {
+                                      // Lógica para baixar PDF
+                                      /*Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) => Publi2014(
+                                            pdfPath: publi2014[index]['path']!,
+                                          ),
+                                        ),
+                                      );
+                                      */
+                                    },
+                                  ),
+                                ],
+                              ),
+                              actions: [
+                                TextButton(
+                                  child: const Text('Sair'),
+                                  onPressed: () {
+                                    Navigator.of(context).pop();
+                                  },
+                                ),
+                              ],
+                            );
+                          },
                         );
-                        */
                       },
                     );
                   },
