@@ -7,10 +7,9 @@ class Dissertacao2015 extends StatelessWidget {
 
   List<Map<String, String>> publi2015 = [
     {
-      'PDF':
-          'Geotecnologias aplicadas à caracterização dos ambientes cafeeiros da Mantiqueira de Minas',
-      'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2015/dissertacoes/Geotecnologias aplicadas.pdf'
+      'PDF': '',
+      'path': '',
+      'referencial': '',
     },
   ];
 

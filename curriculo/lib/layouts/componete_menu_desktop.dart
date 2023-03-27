@@ -9,7 +9,7 @@ import '../homepage.dart';
 import 'desktop/mapeamento.dart';
 
 class ListaMenu extends StatefulWidget implements PreferredSizeWidget {
-  const ListaMenu({Key? key}) : super(key: key);
+  const ListaMenu({Key? key, categories}) : super(key: key);
 
   @override
   State<ListaMenu> createState() => _ListaMenuState();

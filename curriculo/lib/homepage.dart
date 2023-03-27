@@ -1,6 +1,7 @@
 import 'package:curriculo/layouts/desktop/desktop.dart';
 import 'package:curriculo/layouts/desktop/contato.dart';
 import 'package:curriculo/layouts/desktop/publicacao/publicacoes.dart';
+import 'package:curriculo/layouts/desktop/webMapping.dart';
 import 'package:curriculo/layouts/mobile/mobile.dart';
 import 'package:curriculo/layouts/desktop/mapeamento.dart';
 import 'package:curriculo/layouts/mobile/sobre.dart';
@@ -11,7 +12,7 @@ import 'layouts/componete_menu_desktop.dart';
 import 'layouts/desktop/protejetosGeoSolosDesk.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({Key? key, categories}) : super(key: key);
 
   @override
   State<HomePage> createState() =>
@@ -36,7 +37,7 @@ class _HomePageState extends State<HomePage> {
         children: [
           Responsividade(mobilebody: mobilebody, desktopApp: desktopApp),
           const Mapeamento(),
-          const Sobre(),
+          const WebMapping(),
           const Projetos(),
           Publicacoes(),
           const Contato(),
