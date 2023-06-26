@@ -167,12 +167,12 @@ class Publicacoes extends StatelessWidget {
       default:
         content = Container(
           color: kbackgroundColor,
-          child: Column(
+          child: const Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             // ignore: prefer_const_literals_to_create_immutables
             children: [
-              const Text(
+              Text(
                 "Não houve publicação deste segmento neste ano",
                 style: TextStyle(
                   fontSize: 24,
@@ -227,12 +227,11 @@ class Publicacoes extends StatelessWidget {
       default:
         content = Container(
           color: kbackgroundColor,
-          child: Column(
+          child: const Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            // ignore: prefer_const_literals_to_create_immutables
             children: [
-              const Text(
+              Text(
                 "Não houve publicação deste segmento neste ano",
                 style: TextStyle(
                   fontSize: 24,

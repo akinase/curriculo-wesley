@@ -1,6 +1,7 @@
-import 'package:curriculo/layouts/componete_menu_desktop.dart';
 import 'package:flutter/material.dart';
 import 'package:curriculo/constantes.dart';
+
+import 'menuMapeamento.dart';
 
 class Machado extends StatelessWidget {
   const Machado({super.key});
@@ -8,7 +9,9 @@ class Machado extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const ListaMenu(),
+      appBar: const MunuMapeamento(
+        menu: 'Machado',
+      ),
       body: Container(
         color: kbackgroundColor,
         child: Center(

@@ -1,7 +1,7 @@
-// ignore: file_names
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import '../../../constantes.dart';
-import '../../componete_menu_desktop.dart';
 
 class CaractAmbiental extends StatefulWidget {
   const CaractAmbiental({Key? key}) : super(key: key);
@@ -30,7 +30,6 @@ class _CaractAmbientalState extends State<CaractAmbiental>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const ListaMenu(),
       body: Column(
         children: [
           Container(
@@ -79,14 +78,12 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
-                                // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
-                                  // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Caracterização Ambiental de Regiões Cafeeiras para Indicação Geográfica",
                                       style: TextStyle(
@@ -95,7 +92,7 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -111,8 +108,8 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.justify,
@@ -141,14 +138,14 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Resultados",
                                       style: TextStyle(
@@ -157,7 +154,7 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -173,8 +170,8 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         "SILVA, L.F.M.; ALVES, H.M.R.; VIEIRA, T.G.C.; BORÉM, R.A.T.; ANGELINI, P.H.B.; VOLPATO, M.M.L. Avaliação de modelos digitais de elevação para aplicação na caracterização do ambiente cafeeiro na região da Serra da Mantiqueira, MG. In: SIMPÓSIO BRASILEIRO DE SENSORIAMENTO REMOTO, 16., Foz do Iguaçu. Anais... São José dos Campos:INPE, 2013, p.4716-4722.\n\nALVES, H.M.R.; VIEIRA, T.G.C.; VOLPATO, M.M.L.; SILVA, L.F.M.; LACERDA, M.P.C.; BORÉM, F.M.; Mapeamento do uso da terra da Indicação Geográfica da região da Serra da Mantiqueira de Minas Gerias. In: CONGRESSO BRASILEIRO DE CIÊNCIA DO SOLO, 34., 2013,Florianópolis. Anais... Florianópolis: EPAGRI E SBCS, 2013.\n\nVIEIRA, T.G.C.; ALVES, H.M.R.; VOLPATO, M.M.L.; BORÉM, R.A.T.; LACERDA, M.P.C.; SOUZA, V.C.O.; BORÉM, F.M. Mapeamento do uso da terra da Indicação Geográfica Mantiqueira de Minas. . In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 8., 2013. Salvador. Anais... Brasília:Embrapa Café, 2013.",
@@ -203,14 +200,12 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
-                                // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
-                                  // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Equipe",
                                       style: TextStyle(
@@ -219,7 +214,7 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -235,8 +230,8 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(10),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(10),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
@@ -248,7 +243,7 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -264,9 +259,9 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.only(
-                                        top: 10, bottom: 40),
-                                    child: const SizedBox(
+                                    padding:
+                                        EdgeInsets.only(top: 10, bottom: 40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
@@ -295,14 +290,12 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
-                                // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
-                                  // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Financiadores",
                                       style: TextStyle(
@@ -311,7 +304,7 @@ class _CaractAmbientalState extends State<CaractAmbiental>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,

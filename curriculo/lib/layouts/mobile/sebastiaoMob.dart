@@ -1,10 +1,9 @@
+// ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
-class Sebastiao extends StatelessWidget {
-  const Sebastiao({super.key});
+class SebastiaoMobi extends StatelessWidget {
+  const SebastiaoMobi({super.key});
 
   @override
   Widget build(BuildContext context) {

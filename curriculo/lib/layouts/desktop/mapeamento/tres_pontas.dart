@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:curriculo/constantes.dart';
 
+import 'menuMapeamento.dart';
+
 // ignore: camel_case_types
 class TresPontas extends StatelessWidget {
   const TresPontas({super.key});
@@ -8,6 +10,9 @@ class TresPontas extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: const MunuMapeamento(
+        menu: "Três Pontas",
+      ),
       body: Container(
         color: kbackgroundColor,
         child: Center(

@@ -1,7 +1,7 @@
-// ignore: file_names
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import '../../../constantes.dart';
-import '../../componete_menu_desktop.dart';
 
 class IdentiAreas extends StatefulWidget {
   const IdentiAreas({Key? key}) : super(key: key);
@@ -30,7 +30,6 @@ class _IdentiAreasState extends State<IdentiAreas>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const ListaMenu(),
       body: Column(
         children: [
           Container(
@@ -79,14 +78,14 @@ class _IdentiAreasState extends State<IdentiAreas>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Identificação de áreas cafeeiras por meio de geotecnologia e \nabordagens automatizadas não probabilísticas",
                                       style: TextStyle(
@@ -95,7 +94,7 @@ class _IdentiAreasState extends State<IdentiAreas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -111,8 +110,8 @@ class _IdentiAreasState extends State<IdentiAreas>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.justify,
@@ -141,14 +140,14 @@ class _IdentiAreasState extends State<IdentiAreas>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Resultados",
                                       style: TextStyle(
@@ -157,7 +156,7 @@ class _IdentiAreasState extends State<IdentiAreas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -173,8 +172,8 @@ class _IdentiAreasState extends State<IdentiAreas>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         "ANDRADE, L.N.; VIEIRA, T.G.C.; LACERDA, W.S.; VOLPATO, M.M.L.; DAVIS JUNIOR, C.A.; Aplicação de redes neurais artificiais na classificação de áreas cafeeiras da região de Machado (MG). Coffee Science, Lavras, v.8, n.1, p.78-90, jan./mar. 2013",
@@ -203,14 +202,14 @@ class _IdentiAreasState extends State<IdentiAreas>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Equipe",
                                       style: TextStyle(
@@ -219,7 +218,7 @@ class _IdentiAreasState extends State<IdentiAreas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -235,8 +234,8 @@ class _IdentiAreasState extends State<IdentiAreas>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(10),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(10),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
@@ -248,7 +247,7 @@ class _IdentiAreasState extends State<IdentiAreas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -264,9 +263,9 @@ class _IdentiAreasState extends State<IdentiAreas>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.only(
-                                        top: 10, bottom: 40),
-                                    child: const SizedBox(
+                                    padding:
+                                        EdgeInsets.only(top: 10, bottom: 40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
@@ -295,14 +294,14 @@ class _IdentiAreasState extends State<IdentiAreas>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Financiadores",
                                       style: TextStyle(
@@ -311,7 +310,7 @@ class _IdentiAreasState extends State<IdentiAreas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,

@@ -1,4 +1,5 @@
-// ignore: file_names
+// ignore_for_file: file_names
+
 import 'package:curriculo/layouts/desktop/mapeamento/machado.dart';
 import 'package:curriculo/layouts/desktop/mapeamento/mantiqueira.dart';
 import 'package:flutter/material.dart';
@@ -101,7 +102,7 @@ class _MapeamentoMobState extends State<MapeamentoMob> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const Sebastiao(),
+                              builder: (context) => const SebastiaoMobi(),
                             ),
                           );
                         },

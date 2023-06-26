@@ -1,7 +1,7 @@
-// ignore: file_names
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import '../../../constantes.dart';
-import '../../componete_menu_desktop.dart';
 
 class CaractAgroecossistemas extends StatefulWidget {
   const CaractAgroecossistemas({Key? key}) : super(key: key);
@@ -30,7 +30,6 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const ListaMenu(),
       body: Column(
         children: [
           Container(
@@ -79,14 +78,14 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Caracterização de agroecossistemas cafeeiros da região Sul de Minas Gerais",
                                       style: TextStyle(
@@ -95,7 +94,7 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -111,8 +110,8 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.justify,
@@ -141,14 +140,14 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Resultados",
                                       style: TextStyle(
@@ -157,7 +156,7 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -173,8 +172,8 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         "VIEIRA, T.G.C.; ALVES, H.M.R.; LACERDA, M.P.C.; VEIGA, R.D.; EPIPHANIO, J.C.N. Crop parameters and spectral response of coffee (Coffeaarábica L.) areas within the state of Minas Gerais, Brazil. Coffee Science, Lavras, v. 1, n. 2, p.111-118, jul./dez. 2006.\n\nVIEIRA, T.G.C.; ALVES, H.M.R.; BERTOLDO, M.; SOUZA, V.C.O. Geothecnologies in the assessment of land use changes in coffee regions of the state of Minas Gerais in Brasil. Coffee Science, Lavras, v.2, p.142-149, 2007.",
@@ -203,14 +202,14 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Equipe",
                                       style: TextStyle(
@@ -219,7 +218,7 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -235,8 +234,8 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(10),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(10),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
@@ -248,7 +247,7 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -264,9 +263,9 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.only(
-                                        top: 10, bottom: 40),
-                                    child: const SizedBox(
+                                    padding:
+                                        EdgeInsets.only(top: 10, bottom: 40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
@@ -295,14 +294,14 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Financiadores",
                                       style: TextStyle(
@@ -311,7 +310,7 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,

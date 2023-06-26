@@ -1,12 +1,17 @@
 import 'package:curriculo/constantes.dart';
 import 'package:flutter/material.dart';
 
+import 'menuMapeamento.dart';
+
 class Sebastiao extends StatelessWidget {
   const Sebastiao({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: const MunuMapeamento(
+        menu: "São Sebastião do Paraíso",
+      ),
       body: Container(
         color: kbackgroundColor,
         child: Center(

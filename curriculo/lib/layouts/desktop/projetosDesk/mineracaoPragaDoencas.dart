@@ -1,7 +1,7 @@
-// ignore: file_names
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import '../../../constantes.dart';
-import '../../componete_menu_desktop.dart';
 
 class MineracaoPragaDoencas extends StatefulWidget {
   const MineracaoPragaDoencas({Key? key}) : super(key: key);
@@ -30,7 +30,6 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const ListaMenu(),
       body: Column(
         children: [
           Container(
@@ -79,14 +78,14 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Mineração de Dados na Identificação de Padrões Espectrais, \nEspaciais e Climáticos para a Modelagem de Ocorrência de Pragas e Doenças \ndo Cafeeiro no Sul de Minas Gerais",
                                       style: TextStyle(
@@ -95,7 +94,7 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -111,8 +110,8 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.justify,
@@ -141,14 +140,14 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Resultados",
                                       style: TextStyle(
@@ -157,7 +156,7 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -173,8 +172,8 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         "ALVARENGA, M. T.; LACERDA, W. S.; ANDRADE, L. N.; VOLPATO, M. M. L.; CUNHA, R. L.; MARUJO, R. F. B. Mineração de Dados Espectrais e Climáticos para Modelagem de Ocorrência de Cercospora (Cercorsporacoffeicola Berkeley &Cooke) em Cafeeiros. In: CONGRESSO DE INICIAÇÃO CIENTÍFICA DA UFLA, 25., 2012, Lavras. Anais... Lavras:PRP-UFLA, 2012.\n\nBOELL, V.G; VOLPATO, M.M.L.; ALVES, H.M.R.; VIEIRA, T.G.C.; ALVARENGA, M.T.; SOUZA, J.C. Mineração de dados espectrais e climáticos para modelagem de ocorrência de broca do café (Hypothenemus hampei). In: CONGRESSO DE INICIAÇÃO CIENTÍFICA DA UFLA, 26., 2013. Anais... ... Lavras:PRP-UFLA, 2013.\n\nVOLPATO, M.M.L.; ALVES, H.M.R.; VIEIRA, T.G.C.; ANDRADE, L.N.; SOARES, W.L.; SOUZA, V.C.O.; ALVARENGA, M.T.; BOELL, M.G. Mineração de dados espectrais para modelagem de ocorrência de Cercosporiose em cafeeiros. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 8., 2013. Salvador. Anais... Brasília:Embrapa Café, 2013.\n\nSOUZA, V.C.O.; CUNHA, L.R.; ANDRADE, L.N.; VOLPATO, M.M.L.; CARVALHO, V.L.; ESMIN, A.A.A. Técnicas de extração de conhecimentos aplicadas à modelagem de ocorrência da Cercosporiose ( Cercospora coffeicola Berkeley & Cooke) em cafeeiros na região Sul de Minas Gerais.  Coffe Science, Lavras, v.8, n.1, p.91-100, jan./mar. 2013",
@@ -203,14 +202,14 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Equipe",
                                       style: TextStyle(
@@ -219,7 +218,7 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -235,8 +234,8 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(10),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(10),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
@@ -248,7 +247,7 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -264,9 +263,9 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.only(
-                                        top: 10, bottom: 40),
-                                    child: const SizedBox(
+                                    padding:
+                                        EdgeInsets.only(top: 10, bottom: 40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
@@ -295,14 +294,14 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Financiadores",
                                       style: TextStyle(
@@ -311,7 +310,7 @@ class _MineracaoPragaDoencasState extends State<MineracaoPragaDoencas>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,

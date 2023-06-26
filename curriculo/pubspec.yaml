@@ -51,6 +51,10 @@ dependencies:
   flutter_pdfview: ^1.2.5
   syncfusion_flutter_pdfviewer: ^20.4.53
   file_picker: ^5.2.6
+  flutter_snake_navigationbar: ^0.6.1
+
+
+  
   
   
 

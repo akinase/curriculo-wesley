@@ -1,6 +1,7 @@
-import 'package:curriculo/layouts/componete_menu_desktop.dart';
 import 'package:flutter/material.dart';
 import 'package:curriculo/constantes.dart';
+
+import 'menuMapeamento.dart';
 
 class Mantiqueira extends StatelessWidget {
   const Mantiqueira({super.key});
@@ -8,7 +9,9 @@ class Mantiqueira extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const ListaMenu(),
+      appBar: const MunuMapeamento(
+        menu: "Mantiqueira de Minas",
+      ),
       body: Container(
         color: kbackgroundColor,
         child: Center(
@@ -90,7 +93,7 @@ class Mantiqueira extends StatelessWidget {
                         width: 800,
                         child: Text(
                           textAlign: TextAlign.justify,
-                          "A região de estudo possui uma extensão territorial de 549.269 ha com altitudes mínimas de 812m que compreende o município de Santa Rita do Sapucaí chegando a altitudes máximas de 2.252m para o município de Baependi. A temperatura média anual da região é de 17,9°C sendo observadas médias para temperaturas mínimas de 13°C no município de Paraisópolis e, máximas de 18,5°C para campanha. A precipitação média anual da região fica em torno de 1.665mm, a máxima em 1.774mm observada para o município de Paraisópolis e a mínima em 1.605mm para o município de Campanha. Sua posição geográfica encontra-se inserida em um retângulo envolvente com as coordenadas latitudes sul de 21° 39\’ 43\’\’/22°46\’10\’\’e longitude de 46° 2\’ 20\’\’/44°34\’28\’\’ a oeste conforme apresentado na Figura 1.",
+                          "A região de estudo possui uma extensão territorial de 549.269 ha com altitudes mínimas de 812m que compreende o município de Santa Rita do Sapucaí chegando a altitudes máximas de 2.252m para o município de Baependi. A temperatura média anual da região é de 17,9°C sendo observadas médias para temperaturas mínimas de 13°C no município de Paraisópolis e, máximas de 18,5°C para campanha. A precipitação média anual da região fica em torno de 1.665mm, a máxima em 1.774mm observada para o município de Paraisópolis e a mínima em 1.605mm para o município de Campanha. Sua posição geográfica encontra-se inserida em um retângulo envolvente com as coordenadas latitudes sul de 21° 39’ 43’’/22°46’10’’e longitude de 46° 2’ 20’’/44°34’28’’ a oeste conforme apresentado na Figura 1.",
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: kfontText,

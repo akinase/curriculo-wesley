@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:curriculo/constantes.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';

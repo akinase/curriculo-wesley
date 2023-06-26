@@ -1,7 +1,7 @@
-// ignore: file_names
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import '../../../constantes.dart';
-import '../../componete_menu_desktop.dart';
 
 class DistriEspacial extends StatefulWidget {
   const DistriEspacial({Key? key}) : super(key: key);
@@ -30,7 +30,6 @@ class _DistriEspacialState extends State<DistriEspacial>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const ListaMenu(),
       body: Column(
         children: [
           Container(
@@ -79,14 +78,14 @@ class _DistriEspacialState extends State<DistriEspacial>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Distribuição espacial e padrões ambientais dos cafés especiais \nda microrregião da Serra da Mantiqueira de Minas Gerais, por meio de \nprocessamentos geocomputacionais",
                                       style: TextStyle(
@@ -95,7 +94,7 @@ class _DistriEspacialState extends State<DistriEspacial>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -111,8 +110,8 @@ class _DistriEspacialState extends State<DistriEspacial>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.justify,
@@ -141,14 +140,14 @@ class _DistriEspacialState extends State<DistriEspacial>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Resultados",
                                       style: TextStyle(
@@ -157,7 +156,7 @@ class _DistriEspacialState extends State<DistriEspacial>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -173,8 +172,8 @@ class _DistriEspacialState extends State<DistriEspacial>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         "SILVA, L.F.M.; ALVES, H.M.R.; VIEIRA, T.G.C.; VOLPATO, M.M.L.; BORÉM, F.M. Avaliação de interpoladores espaciais para representação da temperatura do ar na região da Serra da Mantiqueira, Minas Gerais. In: CONGRESSO BRASILEIRO DE ENGENHARIA AGRÍCOLA, 42., 2013. Fortaleza. Anais... Jaboticabal:SBEA, 2013.\n\n LUZ, M.P.S.; VOLPATO, M.M.L.; ALVES, H.M.R.; VIEIRA, T.G.C.; BORÉM, F.M. Caracterização da temperatura do ar e precipitação em áreas cafeeiras na região da Serra da Mantiqueira de Minas Gerais. In: CONGRESSO BRASILEIRO DE ENGENHARIA AGRÍCOLA, 42., 2013. Fortaleza. Anais... Jaboticabal:SBEA, 2013\n\n VOLPATO, M.M.L.; ALVES, H.M.R.; VIEIRA, T.G.C.; SILVA, L.F.M.; BORÉM, F.M.; MEIRELES, E.J.L.; BORÉM R.A.T. Espacialização da temperatura do ar na região de Indicação Geográfica da Mantiqueira de Minas. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 8., 2013. Salvador. Anais... Brasília:Embrapa Café, 2013. \n\nVOLPATO, M.M.L.; ALVES, H.M.R.; VIEIRA, T.G.C. Comportamento sazonal do índice espectral EV12 do sensor orbital MODIS para o monitoramento de áreas cafeeiras do Sul de Minas Gerais. In: CONGRESSO BRASILEIRO DE ENGENHARIA AGRÍCOLA, 43., 2014, Campo Grande. Anais... Jaboticabal:SBEA, 2014.",
@@ -203,14 +202,14 @@ class _DistriEspacialState extends State<DistriEspacial>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Equipe",
                                       style: TextStyle(
@@ -219,7 +218,7 @@ class _DistriEspacialState extends State<DistriEspacial>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -235,8 +234,8 @@ class _DistriEspacialState extends State<DistriEspacial>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(10),
-                                    child: const SizedBox(
+                                    padding: EdgeInsets.all(10),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
@@ -248,7 +247,7 @@ class _DistriEspacialState extends State<DistriEspacial>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
@@ -264,9 +263,9 @@ class _DistriEspacialState extends State<DistriEspacial>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.only(
-                                        top: 10, bottom: 40),
-                                    child: const SizedBox(
+                                    padding:
+                                        EdgeInsets.only(top: 10, bottom: 40),
+                                    child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
@@ -295,14 +294,14 @@ class _DistriEspacialState extends State<DistriEspacial>
                             padding: const EdgeInsets.all(40),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 // ignore: prefer_const_literals_to_create_immutables
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: const EdgeInsets.all(40),
-                                    child: const Text(
+                                    padding: EdgeInsets.all(40),
+                                    child: Text(
                                       textAlign: TextAlign.center,
                                       "Financiadores",
                                       style: TextStyle(
@@ -311,7 +310,7 @@ class _DistriEspacialState extends State<DistriEspacial>
                                       ),
                                     ),
                                   ),
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.all(40),
                                     child: SizedBox(
                                       width: 800,
