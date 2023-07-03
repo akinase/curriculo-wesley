@@ -10,7 +10,7 @@ class Artigos2023 extends StatelessWidget {
       'PDF':
           'Evaluation of the Water Conditions in Coffee Plantations Using RPA',
       'path':
-          'curriculo/assets/publicacoes/2023/Evaluation of the Water Conditions in Coffee Plantations.pdf',
+          '/assets/publicacoes/2023/Evaluation of the Water Conditions in Coffee Plantations.pdf',
       'referencial':
           'SANTOS, S.A.; FERRAZ, G.A.S. ; FIGUEIREDO, V.C. ; VOLPATO, M.M.L. ; MACHADO, M.L. ; SILVA, V.A. . Evaluation of the Water Conditions in Coffee Plantations Using RPA. Agriengineering, v. 5, p. 65-84, 2023.'
     },
@@ -18,7 +18,7 @@ class Artigos2023 extends StatelessWidget {
       'PDF':
           'Agronomic performance and productivity of Arabica coffee intercropped with timber species',
       'path':
-          'curriculo/assets/publicacoes/2023/Agronomic performance and productivity of Arabica coffee intercropped with timber species.pdf',
+          '/assets/publicacoes/2023/Agronomic performance and productivity of Arabica coffee intercropped with timber species.pdf',
       'referencial':
           'FREITAS, A.F.; FONSECA, A.J.; VOLPATO, M.M.L.; CARVALHO, G.R.; VENTURIN, R.P.; SILVA, V.A. . Agronomic performance and productivity of Arabica coffee intercropped with timber species. REVISTA CERES, v. 70, p. 73-80, 2023.'
     },
@@ -26,7 +26,7 @@ class Artigos2023 extends StatelessWidget {
       'PDF':
           'Predicting coffee water potential from spectral reflectance indices with neural networks',
       'path':
-          'curriculo/assets/publicacoes/2023/Predicting coffee water potential from spectral reflectance indices with neural networks.pdf',
+          '/assets/publicacoes/2023/Predicting coffee water potential from spectral reflectance indices with neural networks.pdf',
       'referencial':
           'NUNES, P.H.; PIERANGELI, E.V.; SANTOS, M.O.; SILVEIRA, H.R.O.; MATOS, C.S.M.; PEREIRA, A.B.; ALVES, H.M.R.; VOLPATO, M.M.L.; SILVA, V.A.; FERREIRA, D.D. . Predicting coffee water potential from spectral reflectance indices with neural networks. Smart Agricultural Technology, v. 4, p. 100213, 2023.'
     }
@@ -73,20 +73,19 @@ class Artigos2023 extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(height: 16),
-                                  const Text('Baixar PDF:'),
+                                  const Text('Visualizar PDF:'),
+                                  const SizedBox(height: 8),
                                   ElevatedButton(
                                     child: const Text('Baixar'),
                                     onPressed: () {
-                                      // Lógica para baixar PDF
-                                      /*Navigator.push(
-                                        context,
+                                      Navigator.of(context).pop();
+                                      Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => Publi2014(
-                                            pdfPath: publi2014[index]['path']!,
+                                          builder: (context) => PdfViewerPage(
+                                            pdfPath: publi2023[index]['path']!,
                                           ),
                                         ),
                                       );
-                                      */
                                     },
                                   ),
                                 ],

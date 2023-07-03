@@ -10,15 +10,14 @@ class Dissertacao2009 extends StatelessWidget {
       'PDF':
           'Distribuição espacial de cafés do estado de Minas Gerais e sua relação com a qualidade.',
       'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2009/dissertacao/Distribuicao_Espacial_Cafe.pdf',
+          '/assets/publicacoes/2009/dissertacao/Distribuicao_Espacial_Cafe.pdf',
       'referencial':
           'BARBOSA, J.N. Distribuição espacial de cafés do estado de Minas Gerais e sua relação com a qualidade. 2009. 91f. Tese ( Mestrado em Agronomia) - Universidade Federal de Lavras, Lavras, 2009.',
     },
     {
       'PDF':
           'Geotecnologias para o estudo espaço-temporal da cafeicultura da região de São Sebastião do Paraíso, MG.',
-      'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2009/dissertacao/monografia_walbert.pdf',
+      'path': '/assets/publicacoes/2009/dissertacao/monografia_walbert.pdf',
       'referencial':
           'SANTOS, W.J.R. Geotecnologias para o estudo espaço-temporal da cafeicultura da região de São Sebastião do Paraíso, MG. 2009. 49f. Monografia ( Agronomia) - Universidade Federal de Lavras, Lavras, 2009',
     },
@@ -65,20 +64,19 @@ class Dissertacao2009 extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(height: 16),
-                                  const Text('Baixar PDF:'),
+                                  const Text('Visualizar PDF:'),
+                                  const SizedBox(height: 8),
                                   ElevatedButton(
                                     child: const Text('Baixar'),
                                     onPressed: () {
-                                      // Lógica para baixar PDF
-                                      /*Navigator.push(
-                                        context,
+                                      Navigator.of(context).pop();
+                                      Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => Publi2014(
-                                            pdfPath: publi2014[index]['path']!,
+                                          builder: (context) => PdfViewerPage(
+                                            pdfPath: publi2009[index]['path']!,
                                           ),
                                         ),
                                       );
-                                      */
                                     },
                                   ),
                                 ],

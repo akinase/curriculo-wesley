@@ -1,5 +1,6 @@
 // ignore_for_file: file_names
 
+import 'package:curriculo/layouts/menu.dart';
 import 'package:flutter/material.dart';
 import '../../../constantes.dart';
 
@@ -30,6 +31,7 @@ class _CaractAgroecossistemasState extends State<CaractAgroecossistemas>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: const ListaMenu(menu: "Projetos"),
       body: Column(
         children: [
           Container(

@@ -38,7 +38,7 @@ dependencies:
   # firebase_analytics: ^9.1.9
   # firebase_auth: ^3.3.19
   # firebase_database: ^9.0.15
-  flutter_svg: ^1.1.1+1
+  flutter_svg: ^2.0.7
   animations: ^2.0.3
   #cupertino_icons: ^1.0.2
   http:
@@ -48,10 +48,12 @@ dependencies:
   animated_text_kit: ^4.2.2
   carousel_slider: ^4.2.1
   url_launcher: ^6.1.10
-  flutter_pdfview: ^1.2.5
-  syncfusion_flutter_pdfviewer: ^20.4.53
   file_picker: ^5.2.6
   flutter_snake_navigationbar: ^0.6.1
+  flutter_file_downloader: ^1.1.2
+  path_provider: ^2.0.15
+  syncfusion_flutter_pdfviewer: ^21.2.10
+  flutter_pdfview: ^1.3.1
 
 
   
@@ -82,6 +84,36 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+  - assets/publicacoes/2000/
+  - assets/publicacoes/2000/dissertacao/
+  - assets/publicacoes/2001/
+  - assets/publicacoes/2002/
+  - assets/publicacoes/2002/dissertacao/
+  - assets/publicacoes/2003/
+  - assets/publicacoes/2003/dissertacao/
+  - assets/publicacoes/2004/
+  - assets/publicacoes/2004/dissertacao/
+  - assets/publicacoes/2005/
+  - assets/publicacoes/2006/
+  - assets/publicacoes/2006/dissertacao/
+  - assets/publicacoes/2007/
+  - assets/publicacoes/2007/dissertacao/
+  - assets/publicacoes/2008/
+  - assets/publicacoes/2008/dissertacao/
+  - assets/publicacoes/2009/
+  - assets/publicacoes/2009/dissertacao/
+  - assets/publicacoes/2010/
+  - assets/publicacoes/2011/
+  - assets/publicacoes/2012/
+  - assets/publicacoes/2013/
+  - assets/publicacoes/2014/
+  - assets/publicacoes/2015/
+  - assets/publicacoes/2016/
+  - assets/publicacoes/2017/
+  - assets/publicacoes/2018/
+  - assets/publicacoes/2019/
+  - assets/publicacoes/2020/
+  - assets/publicacoes/2023/
   - assets/icons/
   - assets/images/
   - assets/slide/
@@ -90,6 +122,7 @@ flutter:
   - assets/sebastiao/
   - assets/tres_pontas/
   - assets/contato/pesquisadoras/
+  - assets/equipe/
   - assets/projetos/
 
   #- assets/animations

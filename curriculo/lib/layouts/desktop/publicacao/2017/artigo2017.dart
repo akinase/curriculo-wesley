@@ -10,7 +10,7 @@ class Artigos2017 extends StatelessWidget {
       'PDF':
           'Mapeamento da cultura cafeeira por meio de classificação automática utilizando atributos espectrais, texturais e fator de iluminação',
       'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2017/Mapeamento da cultura cafeeira por meio de classificação automática utilizando atributos espectrais, texturais e fator de iluminação.pdf',
+          '/assets/publicacoes/2017/Mapeamento da cultura cafeeira por meio de classificação automática utilizando atributos espectrais, texturais e fator de iluminação.pdf',
       'referencial':
           'MARUJO, R.F.B.; MOREIRA, M.A.; VOLPATO, M.M.L.; ALVES, H.M.R. .Mapeamento da cultura cafeeira por meio de classificação automática utilizando atributos espectrais, texturais e fator de iluminação. COFFEE SCIENCE, v. 12, p. 164, 2017.',
     },
@@ -57,20 +57,19 @@ class Artigos2017 extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(height: 16),
-                                  const Text('Baixar PDF:'),
+                                  const Text('Visualizar PDF:'),
+                                  const SizedBox(height: 8),
                                   ElevatedButton(
                                     child: const Text('Baixar'),
                                     onPressed: () {
-                                      // Lógica para baixar PDF
-                                      /*Navigator.push(
-                                        context,
+                                      Navigator.of(context).pop();
+                                      Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => Publi2014(
-                                            pdfPath: publi2014[index]['path']!,
+                                          builder: (context) => PdfViewerPage(
+                                            pdfPath: publi2017[index]['path']!,
                                           ),
                                         ),
                                       );
-                                      */
                                     },
                                   ),
                                 ],

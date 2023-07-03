@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import '../../../constantes.dart';
+import '../../menu.dart';
 
 class CaractAmbiental extends StatefulWidget {
   const CaractAmbiental({Key? key}) : super(key: key);
@@ -30,6 +31,7 @@ class _CaractAmbientalState extends State<CaractAmbiental>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: const ListaMenu(menu: "Projetos"),
       body: Column(
         children: [
           Container(

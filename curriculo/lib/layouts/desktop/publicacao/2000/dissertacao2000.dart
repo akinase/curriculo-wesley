@@ -9,8 +9,7 @@ class Dissertacao2000 extends StatelessWidget {
     {
       'PDF':
           'Caracterização do meio físico de áreas cafeeiras do Sul de Minas por meio do SPRING.',
-      'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2000/dissertacao/Tese Ricardo.pdf',
+      'path': '/assets/publicacoes/2000/dissertacao/Tese Ricardo.pdf',
       'referencial':
           'RESENDE, R.J.T.P. Caracterização do meio físico de áreas cafeeiras do Sul de Minas por meio do SPRING. 2000. 135f. Tese ( Mestrado em Agronomia) - Universidade Federal de Lavras, Lavras, 2000.',
     },
@@ -58,19 +57,18 @@ class Dissertacao2000 extends StatelessWidget {
                                   ),
                                   const SizedBox(height: 16),
                                   const Text('Baixar PDF:'),
+                                  const SizedBox(height: 8),
                                   ElevatedButton(
                                     child: const Text('Baixar'),
                                     onPressed: () {
-                                      // Lógica para baixar PDF
-                                      /*Navigator.push(
-                                        context,
+                                      Navigator.of(context).pop();
+                                      Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => Publi2014(
-                                            pdfPath: publi2014[index]['path']!,
+                                          builder: (context) => PdfViewerPage(
+                                            pdfPath: publi2000[index]['path']!,
                                           ),
                                         ),
                                       );
-                                      */
                                     },
                                   ),
                                 ],

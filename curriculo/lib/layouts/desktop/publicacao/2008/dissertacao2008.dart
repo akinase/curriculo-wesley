@@ -9,8 +9,7 @@ class Dissertacao2008 extends StatelessWidget {
     {
       'PDF':
           'Determinação das áreas cafeeiras mecanizáveis no Sul de Minas Gerais com cenários para a colheita.',
-      'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2008/disssertacao/Dissertacao_Fabiano.pdf',
+      'path': '/assets/publicacoes/2008/disssertacao/Dissertacao_Fabiano.pdf',
       'referencial':
           'REZENDE, F.A. Determinação das áreas cafeeiras mecanizáveis no Sul de Minas Gerais com cenários para a colheita. 2008. 94f. Tese ( Mestrado em Engenharia Agrícola) - Universidade Federal de Lavras, Lavras, 2008.',
     },
@@ -57,20 +56,19 @@ class Dissertacao2008 extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(height: 16),
-                                  const Text('Baixar PDF:'),
+                                  const Text('Visualizar PDF:'),
+                                  const SizedBox(height: 8),
                                   ElevatedButton(
                                     child: const Text('Baixar'),
                                     onPressed: () {
-                                      // Lógica para baixar PDF
-                                      /*Navigator.push(
-                                        context,
+                                      Navigator.of(context).pop();
+                                      Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => Publi2014(
-                                            pdfPath: publi2014[index]['path']!,
+                                          builder: (context) => PdfViewerPage(
+                                            pdfPath: publi2008[index]['path']!,
                                           ),
                                         ),
                                       );
-                                      */
                                     },
                                   ),
                                 ],

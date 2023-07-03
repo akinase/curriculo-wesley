@@ -9,8 +9,7 @@ class Dissertacao2003 extends StatelessWidget {
     {
       'PDF':
           'Uso de geotecnologias no estudo das relações entre solos, orientação de vertentes e o comportamento espectral de áreas cafeeiras em Machado, Minas Gerais.',
-      'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2003/dissertacao/TESE Hudson PRONTA.pdf',
+      'path': '/assets/publicacoes/2003/dissertacao/TESE Hudson PRONTA.pdf',
       'referencial':
           'MARQUES, H.S. Uso de geotecnologias no estudo das relações entre solos, orientação de vertentes e o comportamento espectral de áreas cafeeiras em Machado, Minas Gerais. 2003. 82f. Tese ( Mestrado em Agronomia) - Universidade Federal de Lavras, Lavras, 2003.',
     },
@@ -57,20 +56,19 @@ class Dissertacao2003 extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(height: 16),
-                                  const Text('Baixar PDF:'),
+                                  const Text('Visualizar PDF:'),
+                                  const SizedBox(height: 8),
                                   ElevatedButton(
                                     child: const Text('Baixar'),
                                     onPressed: () {
-                                      // Lógica para baixar PDF
-                                      /*Navigator.push(
-                                        context,
+                                      Navigator.of(context).pop();
+                                      Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => Publi2014(
-                                            pdfPath: publi2014[index]['path']!,
+                                          builder: (context) => PdfViewerPage(
+                                            pdfPath: publi2003[index]['path']!,
                                           ),
                                         ),
                                       );
-                                      */
                                     },
                                   ),
                                 ],

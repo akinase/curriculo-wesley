@@ -10,7 +10,7 @@ class Artigos2019 extends StatelessWidget {
       'PDF':
           'Meteorological variables and sensorial quality of coffee in the mantiqueira region of minas gerais',
       'path':
-          'curriculo/assets/publicacoes/2019/Meteorological variables and sensorial quality of coffee in the mantiqueira region of minas gerais.pdf',
+          '/assets/publicacoes/2019/Meteorological variables and sensorial quality of coffee in the mantiqueira region of minas gerais.pdf',
       'referencial':
           'BOREM, F.M.; LUZ, M.P.S.; SÁFADI, T.; VOLPATO, M.M.L.; ALVES, H.M.R.; BORÉM, R.A.T., MACIEL, D.A.'
     },
@@ -18,7 +18,7 @@ class Artigos2019 extends StatelessWidget {
       'PDF':
           'Selection of conilon coffee clones tolerant to pests and diseases in Minas Gerais',
       'path':
-          'curriculo/assets/publicacoes/2019/Selection of conilon coffee clones tolerant to pests and diseases in Minas Gerais.pdf',
+          '/assets/publicacoes/2019/Selection of conilon coffee clones tolerant to pests and diseases in Minas Gerais.pdf',
       'referencial':
           'SILVA, V.A.; ABRAHÃO, J.C.R.; LIMA, L.A.; CARVALHO, G.R.; FERRÃO, A.G.; SALGADO, S.M.L.; VOLPATO, M.M.L.; BOTELHO, C.E.'
     },
@@ -65,20 +65,19 @@ class Artigos2019 extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(height: 16),
-                                  const Text('Baixar PDF:'),
+                                  const Text('Visualizar PDF:'),
+                                  const SizedBox(height: 8),
                                   ElevatedButton(
                                     child: const Text('Baixar'),
                                     onPressed: () {
-                                      // Lógica para baixar PDF
-                                      /*Navigator.push(
-                                        context,
+                                      Navigator.of(context).pop();
+                                      Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => Publi2014(
-                                            pdfPath: publi2014[index]['path']!,
+                                          builder: (context) => PdfViewerPage(
+                                            pdfPath: publi2019[index]['path']!,
                                           ),
                                         ),
                                       );
-                                      */
                                     },
                                   ),
                                 ],

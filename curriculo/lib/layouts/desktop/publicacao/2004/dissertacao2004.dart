@@ -9,8 +9,7 @@ class Dissertacao2004 extends StatelessWidget {
     {
       'PDF':
           'Portal Vertical do GeoSolos: Geoprocessamento e Caracterização de Agroecossistemas Cafeeiros.',
-      'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2004/dissetacao/monografia_Vanessa.pdf',
+      'path': '/assets/publicacoes/2004/dissetacao/monografia_Vanessa.pdf',
       'referencial':
           'SOUZA, V.C.O. Portal Vertical do GeoSolos: Geoprocessamento e Caracterização de Agroecossistemas Cafeeiros. 2004. 53f. Monografia ( Bacharel em Ciência da Computação) - Universidade Federal de Lavras, Lavras, 2004.',
     },
@@ -57,20 +56,19 @@ class Dissertacao2004 extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(height: 16),
-                                  const Text('Baixar PDF:'),
+                                  const Text('Visualizar PDF:'),
+                                  const SizedBox(height: 8),
                                   ElevatedButton(
                                     child: const Text('Baixar'),
                                     onPressed: () {
-                                      // Lógica para baixar PDF
-                                      /*Navigator.push(
-                                        context,
+                                      Navigator.of(context).pop();
+                                      Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => Publi2014(
-                                            pdfPath: publi2014[index]['path']!,
+                                          builder: (context) => PdfViewerPage(
+                                            pdfPath: publi2004[index]['path']!,
                                           ),
                                         ),
                                       );
-                                      */
                                     },
                                   ),
                                 ],

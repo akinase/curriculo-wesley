@@ -11,6 +11,12 @@ class ContatoDesk extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final List<Widget> listaCircleAvatar = [];
+    // Cria a lista de CircleAvatar usando a lista de fotos
+    listaCircleAvatar.addAll(listaFotos.map(
+      (foto) => CircleAvatar(radius: 30.0, foregroundImage: AssetImage(foto)),
+    ));
+
     return Scaffold(
       appBar: const ListaMenu(menu: "Equipe GeoSolos"),
       backgroundColor: kbackgroundColor,
@@ -57,21 +63,25 @@ class ContatoDesk extends StatelessWidget {
                               fontWeight: kfontText,
                             ),
                           ),
-                          const Icon(Icons.link),
-                          Padding(
-                            padding: const EdgeInsets.only(left: 8),
-                            child: RichText(
-                              text: TextSpan(
-                                text: 'Curriculo Lattes',
-                                style: const TextStyle(color: Colors.blue),
-                                recognizer: TapGestureRecognizer()
-                                  ..onTap = () {
-                                    // ignore: deprecated_member_use
-                                    launch(
-                                        'http://lattes.cnpq.br/4766494058302983');
-                                  },
+                          Row(
+                            children: [
+                              const Icon(Icons.link),
+                              const Padding(
+                                padding: EdgeInsets.only(left: 8),
                               ),
-                            ),
+                              RichText(
+                                text: TextSpan(
+                                  text: 'Curriculo Lattes',
+                                  style: const TextStyle(color: Colors.blue),
+                                  recognizer: TapGestureRecognizer()
+                                    ..onTap = () {
+                                      // ignore: deprecated_member_use
+                                      launch(
+                                          'http://lattes.cnpq.br/4766494058302983');
+                                    },
+                                ),
+                              ),
+                            ],
                           ),
                           const Icon(Icons.email),
                           const Row(
@@ -103,21 +113,25 @@ class ContatoDesk extends StatelessWidget {
                             fontWeight: kfontText,
                           ),
                         ),
-                        const Icon(Icons.link),
-                        Padding(
-                          padding: const EdgeInsets.only(left: 8),
-                          child: RichText(
-                            text: TextSpan(
-                              text: 'Curriculo Lattes',
-                              style: const TextStyle(color: Colors.blue),
-                              recognizer: TapGestureRecognizer()
-                                ..onTap = () {
-                                  // ignore: deprecated_member_use
-                                  launch(
-                                      'http://lattes.cnpq.br/9088910054495930');
-                                },
+                        Row(
+                          children: [
+                            const Icon(Icons.link),
+                            const Padding(
+                              padding: EdgeInsets.only(left: 8),
                             ),
-                          ),
+                            RichText(
+                              text: TextSpan(
+                                text: 'Curriculo Lattes',
+                                style: const TextStyle(color: Colors.blue),
+                                recognizer: TapGestureRecognizer()
+                                  ..onTap = () {
+                                    // ignore: deprecated_member_use
+                                    launch(
+                                        'http://lattes.cnpq.br/9088910054495930');
+                                  },
+                              ),
+                            ),
+                          ],
                         ),
                         const Icon(Icons.email),
                         const Row(
@@ -144,7 +158,7 @@ class ContatoDesk extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               color: kbackgroundColorSec,
               height: 300,
-              width: 500,
+              width: 700,
               child: Expanded(
                 child: ListView.builder(
                   itemCount: equipeTecnica.length,
@@ -154,7 +168,7 @@ class ContatoDesk extends StatelessWidget {
                     return ListTile(
                       title: Text(key),
                       subtitle: Text(descricao),
-                      leading: const CircleAvatar(),
+                      leading: listaCircleAvatar[index],
                     );
                   },
                 ),

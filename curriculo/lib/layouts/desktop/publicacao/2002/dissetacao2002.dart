@@ -10,7 +10,7 @@ class Dissertacao2002 extends StatelessWidget {
       'PDF':
           'Caracterização de agroecossistemas cafeeiros da Zona da Mata de Minas Gerias, usando Sensoriamento Remoto e Sistemas de Informações Geográficas.',
       'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2002/dissetacao/Marley dissertação final.pdf',
+          '/assets/publicacoes/2002/dissetacao/Marley dissertação final.pdf',
       'referencial':
           'RESENDE, R.J.T.P. Caracterização do meio físico de áreas cafeeiras do Sul de Minas por meio do SPRING. 2000. 135f. Tese ( Mestrado em Agronomia) - Universidade Federal de Lavras, Lavras, 2000.',
     },
@@ -57,20 +57,19 @@ class Dissertacao2002 extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(height: 16),
-                                  const Text('Baixar PDF:'),
+                                  const Text('Visualizar PDF:'),
+                                  const SizedBox(height: 8),
                                   ElevatedButton(
                                     child: const Text('Baixar'),
                                     onPressed: () {
-                                      // Lógica para baixar PDF
-                                      /*Navigator.push(
-                                        context,
+                                      Navigator.of(context).pop();
+                                      Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => Publi2014(
-                                            pdfPath: publi2014[index]['path']!,
+                                          builder: (context) => PdfViewerPage(
+                                            pdfPath: publi2002[index]['path']!,
                                           ),
                                         ),
                                       );
-                                      */
                                     },
                                   ),
                                 ],

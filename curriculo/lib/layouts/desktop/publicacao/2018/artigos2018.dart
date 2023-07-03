@@ -10,7 +10,7 @@ class Artigos2018 extends StatelessWidget {
       'PDF':
           'Exploiting feature extraction techniques for remote sensing image classification. In: IEEE Latin America Tranactions, VOL. 16, NO. 10, October 2018',
       'path':
-          'curriculo/assets/publicacoes/2018/Exploiting feature extraction techniques for remote sensing image classification.pdf',
+          '/assets/publicacoes/2018/Exploiting feature extraction techniques for remote sensing image classification.pdf',
       'referencial':
           'M. Boell, H. Alves, M. Volpato, D. Ferreira, and W. Lacerda'
     },
@@ -18,20 +18,20 @@ class Artigos2018 extends StatelessWidget {
       'PDF':
           'Evaluating Precipitation Estimates from Eta, TRMM and CHRIPS Data in the South-Southeast Region of Minas Gerais State - Brazil',
       'path':
-          'curriculo/assets/publicacoes/2018/Exploiting feature extraction techniques for remote sensing image classification.pdf',
+          '/assets/publicacoes/2018/Exploiting feature extraction techniques for remote sensing image classification.pdf',
       'referencial': 'NOGUEIRA, S.M.C.; MOREIRA, M.A.; VOLPATO, M.M.L.'
     },
     {
       'PDF':
           'Relationship between coffee crop productivity and vegetation indexes derived from oli / landsat-8 sensor data with and without topographic correction',
       'path':
-          'curriculo/assets/publicacoes/2018/Relationship between coffee crop productivity and vegetation indexes derived from oli - landsat-8 sensor data with and without topographic correction.pdf',
+          '/assets/publicacoes/2018/Relationship between coffee crop productivity and vegetation indexes derived from oli - landsat-8 sensor data with and without topographic correction.pdf',
       'referencial': 'NOGUEIRA, S.M.C.; MOREIRA, M.A.; VOLPATO, M.M.L.'
     },
     {
       'PDF': 'Indicadores de sustentabilidade em agroecossistemas (isa)',
       'path':
-          'curriculo/assets/publicacoes/2018/Indicadores de sustentabilidade em agroecossistemas.pdf',
+          '/assets/publicacoes/2018/Indicadores de sustentabilidade em agroecossistemas.pdf',
       'referencial':
           'Guimarães, D.P.; LANDAU, E.C.; FERREIRA, J.M.L.; VOLPATO, M.M.L.; ALVES, H.M.R. . Uso de imagens de satélite no planejamento do setor agropecuário. INFORME AGROPECUÁRIO (BELO HORIZONTE), v. 38, p. 42-54, 2018.',
     }
@@ -78,20 +78,19 @@ class Artigos2018 extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(height: 16),
-                                  const Text('Baixar PDF:'),
+                                  const Text('Visualizar PDF:'),
+                                  const SizedBox(height: 8),
                                   ElevatedButton(
                                     child: const Text('Baixar'),
                                     onPressed: () {
-                                      // Lógica para baixar PDF
-                                      /*Navigator.push(
-                                        context,
+                                      Navigator.of(context).pop();
+                                      Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => Publi2014(
-                                            pdfPath: publi2014[index]['path']!,
+                                          builder: (context) => PdfViewerPage(
+                                            pdfPath: publi2018[index]['path']!,
                                           ),
                                         ),
                                       );
-                                      */
                                     },
                                   ),
                                 ],

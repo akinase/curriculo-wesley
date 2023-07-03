@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import '../../../constantes.dart';
+import '../../menu.dart';
 
 class GeotecIntegracao extends StatefulWidget {
   const GeotecIntegracao({Key? key}) : super(key: key);
@@ -30,6 +31,7 @@ class _GeotecIntegracaoState extends State<GeotecIntegracao>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: const ListaMenu(menu: "Projetos"),
       body: Column(
         children: [
           Container(

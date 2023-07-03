@@ -3,6 +3,7 @@ import 'package:curriculo/layouts/desktop/mapeamento/mantiqueira.dart';
 import 'package:curriculo/layouts/desktop/mapeamento/tres_pontas.dart';
 import 'package:curriculo/layouts/desktop/mapeamento/sebastiao.dart';
 import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import 'layouts/desktop/contatoDesk.dart';
 import 'layouts/desktop/mapeamento/machado.dart';
 import 'layouts/desktop/mapeamentoDesk.dart';
@@ -44,3 +45,36 @@ final Map<String, String> equipeTecnica = {
   'Vinícius Teske de Carvalho': 'Estudante Graduação UFLA',
   'Wesley Ribeiro de Souza': 'Bacharel em Sistemas de Informação',
 };
+
+List<String> listaFotos = [
+  "/equipe/franklin.jpg",
+  "/equipe/wesley.jpg",
+  "/equipe/tiago.jpg",
+  "/equipe/wesley.jpg",
+  "/equipe/wesley.jpg",
+];
+
+class PdfViewerPage extends StatelessWidget {
+  final String pdfPath;
+
+  const PdfViewerPage({Key? key, required this.pdfPath}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Visualizador de PDF',
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.w300,
+              color: Color.fromARGB(255, 112, 90, 49),
+            )),
+        backgroundColor: kbackgroundColor,
+        centerTitle: true,
+      ),
+      body: SfPdfViewer.network(
+        pdfPath,
+      ),
+    );
+  }
+}

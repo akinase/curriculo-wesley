@@ -9,16 +9,14 @@ class Dissertacao2011 extends StatelessWidget {
     {
       'PDF':
           'Redes neurais artificiais aplicadas na identificação automática de áreas cafeeiras em imagens de satélite.',
-      'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2011/dissertacao/LiviaNAndrade_dissert.pdf',
+      'path': '/assets/publicacoes/2011/dissertacao/LiviaNAndrade_dissert.pdf',
       'referencial':
           'ANDRADE, L.N. Redes neurais artificiais aplicadas na identificação automática de áreas cafeeiras em imagens de satélite. 2011. 87f. Tese ( Mestrado em Ciência da Computação) - Universidade Federal de Minas Gerais, Belo Horizonte, 2011.',
     },
     {
       'PDF':
           'Classificação automática de áreas cafeeiras em imagens de satélite, utilizando Redes Neurais Artificiais',
-      'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2011/dissertacao/Monografia_Liliany.pdf',
+      'path': '/assets/publicacoes/2011/dissertacao/Monografia_Liliany.pdf',
       'referencial':
           'PEREIRA, L.A.A. Classificação automática de áreas cafeeiras em imagens de satélite, utilizando Redes Neurais Artificiais. 2011. 50f. Monografia ( Bacharel em Ciência da Computação) - Universidade Federal de Lavras, Lavras, 2011.',
     },
@@ -65,20 +63,19 @@ class Dissertacao2011 extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(height: 16),
-                                  const Text('Baixar PDF:'),
+                                  const Text('Visualizar PDF:'),
+                                  const SizedBox(height: 8),
                                   ElevatedButton(
                                     child: const Text('Baixar'),
                                     onPressed: () {
-                                      // Lógica para baixar PDF
-                                      /*Navigator.push(
-                                        context,
+                                      Navigator.of(context).pop();
+                                      Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => Publi2014(
-                                            pdfPath: publi2014[index]['path']!,
+                                          builder: (context) => PdfViewerPage(
+                                            pdfPath: publi2011[index]['path']!,
                                           ),
                                         ),
                                       );
-                                      */
                                     },
                                   ),
                                 ],

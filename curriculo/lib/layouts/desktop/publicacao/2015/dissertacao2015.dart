@@ -33,17 +33,6 @@ class Dissertacao2015 extends StatelessWidget {
                       return ListTile(
                         title: Text(publi2015[index]['PDF']!,
                             textAlign: TextAlign.center),
-                        onTap: () {
-                          /*Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Publi2014(
-                                pdfPath: publi2014[index]['path']!,
-                              ),
-                            ),
-                          );
-                          */
-                        },
                       );
                     },
                   ),

@@ -9,8 +9,7 @@ class Dissertacao2007 extends StatelessWidget {
     {
       'PDF':
           ' A ocupação espaço - temporal dos cafezais no município de Machado, no Sul de Minas: a relação entre aptidão agrícola da terra e seu uso na atividade cafeeira.',
-      'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2007/dissertacao/Tese_Doutorado_Lucio.pdf',
+      'path': '/assets/publicacoes/2007/dissertacao/Tese_Doutorado_Lucio.pdf',
       'referencial':
           'MOURA, L.C. A ocupação espaço - temporal dos cafezais no município de Machado, no Sul de Minas: a relação entre aptidão agrícola da terra e seu uso na atividade cafeeira. 2007. 117f. Tese ( Doutorado em Agronomia) - Universidade Federal de Lavras, Lavras, 2007',
     },
@@ -57,20 +56,19 @@ class Dissertacao2007 extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(height: 16),
-                                  const Text('Baixar PDF:'),
+                                  const Text('Visualizar PDF:'),
+                                  const SizedBox(height: 8),
                                   ElevatedButton(
                                     child: const Text('Baixar'),
                                     onPressed: () {
-                                      // Lógica para baixar PDF
-                                      /*Navigator.push(
-                                        context,
+                                      Navigator.of(context).pop();
+                                      Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => Publi2014(
-                                            pdfPath: publi2014[index]['path']!,
+                                          builder: (context) => PdfViewerPage(
+                                            pdfPath: publi2007[index]['path']!,
                                           ),
                                         ),
                                       );
-                                      */
                                     },
                                   ),
                                 ],

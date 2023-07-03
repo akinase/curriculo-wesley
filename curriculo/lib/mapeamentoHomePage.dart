@@ -37,7 +37,7 @@ class _MapeamentoHomePageState extends State<MapeamentoHomePage> {
                             child: AnimatedContainer(
                               duration: const Duration(milliseconds: 200),
                               height: _isHovering ? 1000 : 700,
-                              width: _isHovering ? 1000 : 500,
+                              width: _isHovering ? 700 : 400,
                               child: Image.network(
                                 'assets/machado/machado.jpg',
                                 fit: BoxFit.cover,
@@ -77,7 +77,7 @@ class _MapeamentoHomePageState extends State<MapeamentoHomePage> {
                             child: AnimatedContainer(
                               duration: const Duration(milliseconds: 200),
                               height: _isHovering ? 1000 : 700,
-                              width: _isHovering ? 1000 : 500,
+                              width: _isHovering ? 700 : 400,
                               child: Image.network(
                                 'assets/mantiqueira/mantiqueira.jpg',
                                 fit: BoxFit.cover,
@@ -117,7 +117,7 @@ class _MapeamentoHomePageState extends State<MapeamentoHomePage> {
                             child: AnimatedContainer(
                               duration: const Duration(milliseconds: 200),
                               height: _isHovering ? 1000 : 700,
-                              width: _isHovering ? 1000 : 500,
+                              width: _isHovering ? 700 : 400,
                               child: Image.network(
                                 'assets/sebastiao/sebastiao.jpg',
                                 fit: BoxFit.cover,
@@ -157,7 +157,7 @@ class _MapeamentoHomePageState extends State<MapeamentoHomePage> {
                             child: AnimatedContainer(
                               duration: const Duration(milliseconds: 200),
                               height: _isHovering ? 1000 : 700,
-                              width: _isHovering ? 1000 : 500,
+                              width: _isHovering ? 700 : 400,
                               child: Image.network(
                                 'assets/tres_pontas/tres_pontas.jpg',
                                 fit: BoxFit.cover,
