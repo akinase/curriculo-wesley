@@ -1,8 +1,9 @@
 // ignore_for_file: file_names
+
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import '../../slide_home.dart';
 import 'package:curriculo/constantes.dart';
+import 'package:curriculo/slide_home.dart';
 
 class DesktopHome extends StatelessWidget {
   const DesktopHome({Key? key}) : super(key: key);
@@ -22,37 +23,25 @@ class DesktopHome extends StatelessWidget {
               child: Stack(
                 fit: StackFit.expand,
                 children: [
-                  const Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Carousel(),
-                    ],
+                  const Center(
+                    child: SizedBox(
+                        width: double.infinity,
+                        height: double.infinity,
+                        child: Carousel()),
                   ),
                   Container(color: Colors.black.withOpacity(0.40)),
-                  Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 20, vertical: 40),
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Text(
-                              "Laboratório de Geoprocessamento GeoSolos",
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .displaySmall!
-                                  .copyWith(
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white,
-                                  ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  )
+                  Padding(
+                    padding:
+                        const EdgeInsets.only(left: 200, right: 200, top: 20),
+                    child: Text(
+                      "Laboratório de Geoprocessamento GeoSolos",
+                      style: Theme.of(context).textTheme.displaySmall!.copyWith(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                          ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
                 ],
               ),
             ),

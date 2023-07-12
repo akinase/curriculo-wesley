@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import '../../../constantes.dart';
-import '../../menu.dart';
+import '../../../menu.dart';
 
 class MineracaoPragaDoencas extends StatefulWidget {
   const MineracaoPragaDoencas({Key? key}) : super(key: key);

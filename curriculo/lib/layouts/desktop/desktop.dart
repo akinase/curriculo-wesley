@@ -1,6 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import '../slide_home.dart';
+import '../../slide_home.dart';
 import 'package:curriculo/constantes.dart';
 
 class Desktop extends StatelessWidget {
@@ -33,15 +33,19 @@ class Desktop extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text(
-                              "Laboratório de Geoprocessamento GeoSolos",
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .displaySmall!
-                                  .copyWith(
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white,
-                                  ),
+                            Expanded(
+                              child: Center(
+                                child: Text(
+                                  "Laboratório de Geoprocessamento GeoSolos",
+                                  style: Theme.of(context)
+                                      .textTheme
+                                      .displaySmall!
+                                      .copyWith(
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.white,
+                                      ),
+                                ),
+                              ),
                             ),
                           ],
                         ),

@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:curriculo/layouts/menu.dart';
+import 'package:curriculo/menu.dart';
 import 'package:flutter/material.dart';
 import '../../../constantes.dart';
 

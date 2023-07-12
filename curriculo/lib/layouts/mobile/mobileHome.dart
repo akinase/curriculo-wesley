@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import '../../constantes.dart';
-import '../slide_home.dart';
+import '../../slide_home.dart';
 
 class MobileHome extends StatelessWidget {
   const MobileHome({Key? key}) : super(key: key);

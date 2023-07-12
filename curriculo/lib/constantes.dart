@@ -42,7 +42,6 @@ final Map<String, String> equipeTecnica = {
   'Franklin Daniel Inácio': 'Agrônomo',
   'Larissa Machado Rodrigues Monteiro': 'Estudante Graduação UFLA',
   'Tiago Henrique da Silva': 'Tecnólogo em Meio Ambiente',
-  'Vinícius Teske de Carvalho': 'Estudante Graduação UFLA',
   'Wesley Ribeiro de Souza': 'Bacharel em Sistemas de Informação',
 };
 
@@ -50,7 +49,6 @@ List<String> listaFotos = [
   "/equipe/franklin.jpg",
   "/equipe/wesley.jpg",
   "/equipe/tiago.jpg",
-  "/equipe/wesley.jpg",
   "/equipe/wesley.jpg",
 ];
 

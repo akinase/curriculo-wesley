@@ -5,7 +5,7 @@ import 'package:curriculo/layouts/desktop/mapeamento/machado.dart';
 import 'package:curriculo/layouts/desktop/mapeamento/mantiqueira.dart';
 import 'package:curriculo/layouts/desktop/mapeamento/sebastiao.dart';
 import 'package:curriculo/layouts/desktop/mapeamento/tres_pontas.dart';
-import 'package:curriculo/layouts/menu.dart';
+import 'package:curriculo/menu.dart';
 import 'package:flutter/material.dart';
 
 class MapeamentoDesk extends StatefulWidget {

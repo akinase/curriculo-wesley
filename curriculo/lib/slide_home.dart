@@ -30,6 +30,8 @@ class _CarouselState extends State<Carousel> {
               child: Image.asset(
                 element,
                 fit: BoxFit.cover,
+                width: double.infinity,
+                height: double.infinity,
               ),
             ))
         .toList();
@@ -42,7 +44,7 @@ class _CarouselState extends State<Carousel> {
       padding: const EdgeInsets.only(top: 20, bottom: 20),
       child: Stack(
         children: [
-          Expanded(
+          Positioned.fill(
             child: CarouselSlider(
               items: generateImages(),
               options: CarouselOptions(

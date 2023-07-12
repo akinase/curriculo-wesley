@@ -1,6 +1,6 @@
 import 'package:curriculo/layouts/mobile/mapeamentoMob.dart';
 import 'package:flutter/material.dart';
-import '../../constantes.dart';
+import '../constantes.dart';
 
 class ListaMenu extends StatefulWidget implements PreferredSizeWidget {
   final String menu;

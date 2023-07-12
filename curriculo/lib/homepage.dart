@@ -1,15 +1,15 @@
 // ignore_for_file: no_logic_in_create_state, sort_child_properties_last, unrelated_type_equality_checks, prefer_typing_uninitialized_variables
 
-import 'package:curriculo/layouts/desktop/desktop.dart';
-import 'package:curriculo/layouts/menu.dart';
+import 'package:curriculo/menu.dart';
 import 'package:curriculo/layouts/mobile/contatoMobi.dart';
 import 'package:curriculo/layouts/mobile/mobile.dart';
 import 'package:curriculo/projetoHomePage.dart';
 import 'package:flutter/material.dart';
 import 'ContatoHomePage.dart';
+import 'desktopHome.dart';
 import 'layouts/desktop/publicacoes.dart';
 import 'layouts/mobile/mapeamentoMob.dart';
-import 'layouts/responsividade.dart';
+import 'responsividade.dart';
 import 'mapeamentoHomePage.dart';
 
 class HomePage extends StatefulWidget {
@@ -17,7 +17,7 @@ class HomePage extends StatefulWidget {
 
   @override
   State<HomePage> createState() => _HomePageState(
-        desktopApp: const Desktop(),
+        desktopApp: const DesktopHome(),
         mobilebody: const Mobile(),
         mapeamDesk: const MapeamentoHomePage(),
         mapeamMobi: const MapeamentoMob(),

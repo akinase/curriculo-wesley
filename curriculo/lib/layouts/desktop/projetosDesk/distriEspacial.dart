@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import '../../../constantes.dart';
-import '../../menu.dart';
+import '../../../menu.dart';
 
 class DistriEspacial extends StatefulWidget {
   const DistriEspacial({Key? key}) : super(key: key);

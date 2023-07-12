@@ -140,8 +140,8 @@ class Artigos2000 extends StatelessWidget {
                                   const Text('Visualizar PDF:'),
                                   const SizedBox(height: 8),
                                   ElevatedButton(
-                                    child: const Text('Baixar'),
-                                    onPressed: () {
+                                    child: const Text('Clique aqui'),
+                                    onPressed: () async {
                                       Navigator.of(context).pop();
                                       Navigator.of(context).push(
                                         MaterialPageRoute(

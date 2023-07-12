@@ -1,10 +1,10 @@
 // ignore_for_file: file_names
 
-import 'package:curriculo/layouts/menu.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../../constantes.dart';
+import '../../menu.dart';
 
 class ContatoDesk extends StatelessWidget {
   const ContatoDesk({super.key});
@@ -18,7 +18,9 @@ class ContatoDesk extends StatelessWidget {
     ));
 
     return Scaffold(
-      appBar: const ListaMenu(menu: "Equipe GeoSolos"),
+      appBar: const ListaMenu(
+        menu: 'Equipe GeoSolos',
+      ),
       backgroundColor: kbackgroundColor,
       body: SizedBox(
         width: double.infinity,
@@ -159,19 +161,17 @@ class ContatoDesk extends StatelessWidget {
               color: kbackgroundColorSec,
               height: 300,
               width: 700,
-              child: Expanded(
-                child: ListView.builder(
-                  itemCount: equipeTecnica.length,
-                  itemBuilder: (context, index) {
-                    final key = equipeTecnica.keys.toList()[index];
-                    final descricao = equipeTecnica[key]!;
-                    return ListTile(
-                      title: Text(key),
-                      subtitle: Text(descricao),
-                      leading: listaCircleAvatar[index],
-                    );
-                  },
-                ),
+              child: ListView.builder(
+                itemCount: equipeTecnica.length,
+                itemBuilder: (context, index) {
+                  final key = equipeTecnica.keys.toList()[index];
+                  final descricao = equipeTecnica[key]!;
+                  return ListTile(
+                    title: Text(key),
+                    subtitle: Text(descricao),
+                    leading: listaCircleAvatar[index],
+                  );
+                },
               ),
             ),
           ],

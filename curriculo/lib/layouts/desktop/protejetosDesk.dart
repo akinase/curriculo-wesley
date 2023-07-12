@@ -3,7 +3,7 @@
 import 'package:curriculo/layouts/desktop/projetosDesk/geotecIntegracao.dart';
 import 'package:flutter/material.dart';
 import '../../constantes.dart';
-import '../menu.dart';
+import '../../menu.dart';
 import 'projetosDesk/caractAgroecossistemas.dart';
 import 'projetosDesk/caractAmbiental.dart';
 import 'projetosDesk/distriEspacial.dart';

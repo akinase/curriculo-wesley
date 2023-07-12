@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../constantes.dart';
-import '../slide_home.dart';
+import '../../slide_home.dart';
 
 class Mobile extends StatelessWidget {
   const Mobile({Key? key}) : super(key: key);

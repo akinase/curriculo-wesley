@@ -157,19 +157,17 @@ class ContatoHomePage extends StatelessWidget {
               color: kbackgroundColorSec,
               height: 300,
               width: 700,
-              child: Expanded(
-                child: ListView.builder(
-                  itemCount: equipeTecnica.length,
-                  itemBuilder: (context, index) {
-                    final key = equipeTecnica.keys.toList()[index];
-                    final descricao = equipeTecnica[key]!;
-                    return ListTile(
-                      title: Text(key),
-                      subtitle: Text(descricao),
-                      leading: listaCircleAvatar[index],
-                    );
-                  },
-                ),
+              child: ListView.builder(
+                itemCount: equipeTecnica.length,
+                itemBuilder: (context, index) {
+                  final key = equipeTecnica.keys.toList()[index];
+                  final descricao = equipeTecnica[key]!;
+                  return ListTile(
+                    title: Text(key),
+                    subtitle: Text(descricao),
+                    leading: listaCircleAvatar[index],
+                  );
+                },
               ),
             ),
           ],
