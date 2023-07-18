@@ -1,29 +1,24 @@
-// ignore_for_file: file_names, use_key_in_widget_constructors
+// ignore_for_file: file_names
 
-import 'package:curriculo/layouts/desktop/projetosDesk/geotecIntegracao.dart';
+import 'package:curriculo/layouts/mobile/projetosMobi/caractAgroecossistemasMobi.dart';
+import 'package:curriculo/layouts/mobile/projetosMobi/geotecIntegracaoMobi.dart';
 import 'package:flutter/material.dart';
 import '../../constantes.dart';
-import '../../menu.dart';
-import 'projetosDesk/caractAgroecossistemas.dart';
-import 'projetosDesk/caractAmbiental.dart';
-import 'projetosDesk/distriEspacial.dart';
-import 'projetosDesk/identiAreas.dart';
-import 'projetosDesk/mineracaoPragaDoencas.dart';
+import 'projetosMobi/caractAmbientalMobi.dart';
+import 'projetosMobi/distriEspacialMobi.dart';
+import 'projetosMobi/identiAreasMobi.dart';
+import 'projetosMobi/mineracaoPragaDoencasMobi.dart';
 
-class ProjetosDesk extends StatelessWidget {
-  const ProjetosDesk({Key? key});
+class ProjetosMobi extends StatelessWidget {
+  const ProjetosMobi({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const ListaMenu(
-        menu: 'Projetos',
-      ),
       body: Container(
         color: kbackgroundColor,
-        child: Padding(
-          padding:
-              const EdgeInsets.only(top: 30, bottom: 30, left: 80, right: 80),
+        child: Container(
+          padding: const EdgeInsets.all(30.0),
           child: ListView.builder(
             itemCount: materialItens.length,
             itemBuilder: (BuildContext context, int index) {
@@ -35,21 +30,21 @@ class ProjetosDesk extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const GeotecIntegracaoDesk()),
+                            builder: (context) => const GeotecIntegracaoMobi()),
                       );
                       break;
                     case 1:
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const IdentiAreas()),
+                            builder: (context) => const IdentiAreasMobi()),
                       );
                       break;
                     case 2:
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const DistriEspacial()),
+                            builder: (context) => const DistriEspacialMobi()),
                       );
                       break;
                     case 3:
@@ -57,14 +52,14 @@ class ProjetosDesk extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                             builder: (context) =>
-                                const MineracaoPragaDoencas()),
+                                const MineracaoPragaDoencasMobi()),
                       );
                       break;
                     case 4:
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const CaractAmbiental()),
+                            builder: (context) => const CaractAmbientalMobi()),
                       );
                       break;
                     case 5:
@@ -72,7 +67,7 @@ class ProjetosDesk extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                             builder: (context) =>
-                                const CaractAgroecossistemas()),
+                                const CaractAgroecossistemasMobi()),
                       );
                       break;
                   }
@@ -89,12 +84,12 @@ class ProjetosDesk extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(20.0),
+                            padding: const EdgeInsets.all(25.0),
                             child: Image.network(
                               materialItem["imagemUrl"]!,
                               fit: BoxFit.cover,
-                              height: 300,
-                              width: MediaQuery.of(context).size.width * 0.30,
+                              height: 200,
+                              width: MediaQuery.of(context).size.width * 0.20,
                             ),
                           ),
                           Padding(
@@ -108,19 +103,22 @@ class ProjetosDesk extends StatelessWidget {
                                     textAlign: TextAlign.center,
                                     materialItem["titulo"]!,
                                     style: const TextStyle(
-                                      fontSize: 18.0,
+                                      fontSize: 10.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
                                 ),
                                 const SizedBox(height: 8.0),
                                 SizedBox(
-                                  height: 200,
+                                  height: 100,
                                   width:
                                       MediaQuery.of(context).size.width * 0.25,
                                   child: Text(
                                     materialItem["descricao"]!,
-                                    textAlign: TextAlign.justify,
+                                    style: const TextStyle(
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 8.0,
+                                    ),
                                   ),
                                 ),
                               ],

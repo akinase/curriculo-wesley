@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:curriculo/layouts/mobile/mapeamentoMob.dart';
+import 'package:curriculo/layouts/mobile/mapeamentoMobi.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constantes.dart';

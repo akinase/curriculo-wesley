@@ -4,15 +4,16 @@ import 'package:flutter/material.dart';
 import '../../../constantes.dart';
 import '../../../menu.dart';
 
-class GeotecIntegracaoDesk extends StatefulWidget {
-  const GeotecIntegracaoDesk({Key? key}) : super(key: key);
+class MineracaoPragaDoencasMobi extends StatefulWidget {
+  const MineracaoPragaDoencasMobi({Key? key}) : super(key: key);
 
   @override
 // ignore: library_private_types_in_public_api
-  _GeotecIntegracaoDeskState createState() => _GeotecIntegracaoDeskState();
+  _MineracaoPragaDoencasMobiState createState() =>
+      _MineracaoPragaDoencasMobiState();
 }
 
-class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
+class _MineracaoPragaDoencasMobiState extends State<MineracaoPragaDoencasMobi>
     with SingleTickerProviderStateMixin {
   late final TabController _tabController;
 
@@ -35,7 +36,7 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
       body: Column(
         children: [
           Container(
-            height: MediaQuery.of(context).size.height * 0.15,
+            height: MediaQuery.of(context).size.height * 0.10,
             width: double.infinity,
             color: kbackgroundColor,
             child: const Center(
@@ -43,7 +44,7 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
                 "Projeto",
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 24,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -77,7 +78,7 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
                       child: Center(
                         child: Center(
                           child: Padding(
-                            padding: const EdgeInsets.all(40),
+                            padding: const EdgeInsets.all(20),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
                               child: const Column(
@@ -86,25 +87,25 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: EdgeInsets.all(40),
+                                    padding: EdgeInsets.all(20),
                                     child: Text(
-                                      "Geotecnologias na Integração, Espacialização e Visualização \nde Dados de Pesquisa da Cafeicultura Mineira",
                                       textAlign: TextAlign.center,
+                                      "Mineração de Dados na Identificação de Padrões Espectrais, \nEspaciais e Climáticos para a Modelagem de Ocorrência de Pragas e Doenças \ndo Cafeeiro no Sul de Minas Gerais",
                                       style: TextStyle(
-                                        fontSize: 24,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsets.all(40),
+                                    padding: EdgeInsets.all(20),
                                     child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
                                         "Área de Estudo",
                                         style: TextStyle(
-                                          fontSize: 20,
+                                          fontSize: 13,
                                           fontWeight: FontWeight.bold,
                                         ),
                                       ),
@@ -112,14 +113,14 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
                                   ),
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: EdgeInsets.all(40),
+                                    padding: EdgeInsets.all(20),
                                     child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.justify,
-                                        "Ao longo dos últimos dez anos, pesquisadores vinculados ao Consórcio Brasileiro de Pesquisa Cafeeira (CBP&D/Café) produziram um grande volume de informações e conhecimentos tácitos e explícitos sobre a cafeicultura mineira. No entanto, essas informações estão dispersas, são de difícil acesso e seu volume excede a capacidade de análise pelos métodos tradicionais. Esses métodos podem gerar relatórios a partir dos dados, mas não conseguem analisá-los como um todo. Sendo assim, neste projeto pretende-se integrar, em um único banco de dados geográfico (BDG), informações de dez anos de pesquisa, geradas pelos pesquisadores da Empresa de Pesquisa Agropecuária de Minas Gerais – Epamig e Instituto Nacional de Pesquisas Espaciais – INPE, vinculados ao CBP&D/Café e relaciona-las a uma base de dados cartográfica digital, provendo assim, mecanismos de difusão de informação sobre a cafeicultura mineira para a comunidade científica, tomadores de decisão e demais membros da cadeia produtiva do café. Dados de outras instituições não vinculados ao CBP&D/Café também serão espacializados, integrados, sistematizados e disponibilizados por este projeto. A área de estudo abrangerá o estado de Minas Gerais, em especial, a mesorregião Sul/Sudoeste de Minas. Dentre as áreas do conhecimento cujos resultados de pesquisa serão integrados estão o melhoramento genético, manejo e incidência de pragas e doenças, qualidade de bebida e sementes, caracterização ambiental e uso da terra, dados de produção, área plantada, dados climáticos. Ao final deste projeto, o banco de dados integrado da cafeicultura de Minas Gerais estará disponível na Internet para consultas textuais e espaciais. Trata-se de um projeto que viabilizará a organização/integração de informações tecnológicas já existentes de forma inovadora. O principal impacto desse projeto será prover um ambiente integrado de consulta sobre a cafeicultura mineira, possibilitando a cadeia produtiva do café, acessar dados, informações e conhecimentos, permitindo análises de indicadores da cafeicultura e sua relação com o ambiente.",
+                                        "Uma das maiores dificuldades para implementação de monitoramentos fitossanitários baseado em variáveis climáticas é a aquisição de dados meteorológicos locais. A rede de estações de superfície é deficiente e mal distribuída e nem sempre os dados são disponibilizados. Deve-se considerar, ainda, que a grande variabilidade espacial e temporal destes dados impede que os dados locais representem adequadamente uma região. Uma alternativa para superar este problema é utilizar dados e produtos de imagens obtidas por satélites, em função da excelente cobertura espacial e temporal, e de sua relação com as variações do clima e da vegetação de uma região. São inúmeras as aplicações dos dados de sensoriamento remoto em estudos agrometeorológicos e de dinâmica da vegetação. Entretanto, são escassos os exemplos de aplicação na identificação e monitoramento de pragas e doenças nas lavouras, uma vez que, para o desenvolvimento desse tipo de modelagem, é necessária a utilização de metodologias que permitam a análise de grande número de dados. Diante deste problema o presente projeto objetiva aplicar técnicas de mineração de dados para encontrar e validar modelos de dados climáticos e espectrais associados à ocorrência de pragas e doenças da cafeicultura, de forma que possam ser utilizados no monitoramento fitossanitário e estender esses modelos para condições climáticas previstas nas projeções do IPCC. Para tanto os estudo será realizada nos municípios de São Sebastião do Paraíso e Machado, localizados no Sul de Minas Gerais, que além de possuir fazendas da EPAMIG (Empresa de Pesquisa Agropecuária de Minas Gerais) com histórico de trinta anos de monitoramento fitossanitário, possuem também estações meteorológicas pertencentes à rede oficial do INMET. A metodologia baseia-se no processo de descoberta de conhecimento (KDD) proposto por Fayyad et al (1996). Espera-se com este estudo desenvolver modelos matemáticos e softwares que possam monitorar a ocorrência/desenvolvimento das principais pragas e doenças de cafeeiros no Sul de Minas Gerias, utilizando-se produtos de imagens do satélite TERRA/MODIS, que são geradas periodicamente, possibilitando o monitoramento da cafeicultura com um menor custo quando comparado ao monitoramento tradicional. Estes modelos poderão ser utilizados pelos diversos setores do agronegócio café para tomada de decisão relacionada ao manejo da cultura. Proporcionará economia reduzindo o custo de produção por meio de aplicações oportunas de medidas de controle e segurança envolvendo não apenas a cultura, reduzindo efeitos tóxicos sobre as plantas, mas também o ambiente externo, reduzindo a exposição de agrotóxicos a outras espécies de plantas, aos trabalhadores e aos consumidores.",
                                         style: TextStyle(
-                                          fontSize: 18,
+                                          fontSize: 10,
                                           fontWeight: kfontText,
                                         ),
                                       ),
@@ -139,7 +140,7 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
                       child: Center(
                         child: Center(
                           child: Padding(
-                            padding: const EdgeInsets.all(40),
+                            padding: const EdgeInsets.all(20),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
                               child: const Column(
@@ -148,25 +149,25 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: EdgeInsets.all(40),
+                                    padding: EdgeInsets.all(20),
                                     child: Text(
                                       textAlign: TextAlign.center,
                                       "Resultados",
                                       style: TextStyle(
-                                        fontSize: 24,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsets.all(40),
+                                    padding: EdgeInsets.all(20),
                                     child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
                                         "Texto de citações e arquivos",
                                         style: TextStyle(
-                                          fontSize: 20,
+                                          fontSize: 13,
                                           fontWeight: FontWeight.bold,
                                         ),
                                       ),
@@ -178,10 +179,10 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
                                     child: SizedBox(
                                       width: 800,
                                       child: Text(
+                                        "ALVARENGA, M. T.; LACERDA, W. S.; ANDRADE, L. N.; VOLPATO, M. M. L.; CUNHA, R. L.; MARUJO, R. F. B. Mineração de Dados Espectrais e Climáticos para Modelagem de Ocorrência de Cercospora (Cercorsporacoffeicola Berkeley &Cooke) em Cafeeiros. In: CONGRESSO DE INICIAÇÃO CIENTÍFICA DA UFLA, 25., 2012, Lavras. Anais... Lavras:PRP-UFLA, 2012.\n\nBOELL, V.G; VOLPATO, M.M.L.; ALVES, H.M.R.; VIEIRA, T.G.C.; ALVARENGA, M.T.; SOUZA, J.C. Mineração de dados espectrais e climáticos para modelagem de ocorrência de broca do café (Hypothenemus hampei). In: CONGRESSO DE INICIAÇÃO CIENTÍFICA DA UFLA, 26., 2013. Anais... ... Lavras:PRP-UFLA, 2013.\n\nVOLPATO, M.M.L.; ALVES, H.M.R.; VIEIRA, T.G.C.; ANDRADE, L.N.; SOARES, W.L.; SOUZA, V.C.O.; ALVARENGA, M.T.; BOELL, M.G. Mineração de dados espectrais para modelagem de ocorrência de Cercosporiose em cafeeiros. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 8., 2013. Salvador. Anais... Brasília:Embrapa Café, 2013.\n\nSOUZA, V.C.O.; CUNHA, L.R.; ANDRADE, L.N.; VOLPATO, M.M.L.; CARVALHO, V.L.; ESMIN, A.A.A. Técnicas de extração de conhecimentos aplicadas à modelagem de ocorrência da Cercosporiose ( Cercospora coffeicola Berkeley & Cooke) em cafeeiros na região Sul de Minas Gerais.  Coffe Science, Lavras, v.8, n.1, p.91-100, jan./mar. 2013",
                                         textAlign: TextAlign.justify,
-                                        "LEME, D.S.; BOELL, M.G.; VIEIRA, T.G.C.; VOLPATO, M.M.L.; ALVES, H.M.R. Banco de dados geográfico sobre a cafeicultura mineira: organização lógica e inserção de dados. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 8., 2013. Salvador. Anais... Brasília:Embrapa Café, 2013.\n\nANDRADE, L.N.; VIEIRA, T.G.C. ; VOLPATO, M.M.L.; SOUZA, V.C.O.; SOUZA, C.G.; ALVES, H.M.R. Modelagem, estruturação e implantação de um banco de dados geográfico de dados de pesquisa da cafeicultura mineira. In: SIMPÓSIO BRASILEIRO DE SENSORIAMENTO REMOTO, 16., Foz do Iguaçu. Anais... São José dos Campos:INPE, 2013, p.6002-6009.\n\nMESQUITA JÚNIOR, C.H.; VOLPATO, M.M.L.; ALVES, H.M.R.; VIEIRA, T.G.C.; LEME, D.S.; BOELL, M.G. Processo de desenvolvimento de um site utilizando WEB Mapping para o laboratório de Geoprocessamento Geosolos. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 8., 2013. Salvador. Anais... Brasília:Embrapa Café, 2013.\n\nVIEIRA, T.G.C.; SOUZA, V.C.O.; VOLPATO, M.M.L.; ANDRADE, L.N.; ALVES, H.M.R.; SOUZA, C.G. Sistema de informação geográfica na integração do conhecimento científico e tecnológico da cafeicultura em Minas Gerais. In: SIMPÓSIO BRASILEIRO DE SENSORIAMENTO REMOTO, 16., Foz do Iguaçu. Anais... São José dos Campos:INPE, 2013, p.0688-0695.\n\nVENTURIN R.P.; SILVA, V.A.; CUNHA, R.L.; VOLPATO, M.M.L.; CHALFOUN, S.M.; CARVALHO, G.R.; CARVALHO, V.L. A pesquisa e as mudanças climáticas na cafeicultura. Informe Agropecuário. Semana Internacional do Café, Belo Horizonte, v. 34, Edição Especial, p. 34-43, 2013",
                                         style: TextStyle(
-                                          fontSize: 18,
+                                          fontSize: 10,
                                           fontWeight: kfontText,
                                         ),
                                       ),
@@ -210,25 +211,25 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: EdgeInsets.all(40),
+                                    padding: EdgeInsets.all(20),
                                     child: Text(
                                       textAlign: TextAlign.center,
                                       "Equipe",
                                       style: TextStyle(
-                                        fontSize: 24,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsets.all(40),
+                                    padding: EdgeInsets.all(20),
                                     child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
                                         "Coordenadora",
                                         style: TextStyle(
-                                          fontSize: 20,
+                                          fontSize: 13,
                                           fontWeight: FontWeight.bold,
                                         ),
                                       ),
@@ -241,23 +242,23 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
-                                        "Tatiana Grossi Chquiloff Vieira, \n",
+                                        "Margarete Marin Lordelo Volpato\n",
                                         style: TextStyle(
-                                          fontSize: 18,
+                                          fontSize: 13,
                                           fontWeight: kfontText,
                                         ),
                                       ),
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsets.all(40),
+                                    padding: EdgeInsets.all(20),
                                     child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
                                         "Integrantes",
                                         style: TextStyle(
-                                          fontSize: 20,
+                                          fontSize: 13,
                                           fontWeight: FontWeight.bold,
                                         ),
                                       ),
@@ -266,14 +267,14 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
                                   // ignore: prefer_const_constructors
                                   Padding(
                                     padding:
-                                        EdgeInsets.only(top: 10, bottom: 40),
+                                        EdgeInsets.only(top: 10, bottom: 15),
                                     child: SizedBox(
                                       width: 800,
                                       child: Text(
-                                        "Helena Maria Ramos Alves, \nMargarete Marin Lordelo Volpato,\nAntonio Rodrigues Vieira,\nMarilusa Pinto Coelho Lacerda, \nMarcelo Ribeiro Malta,\nAndré Luiz Zambalde,\nCésar Elias Botelho, \nEduardo Delgado Assad, \nEmília Hamada, \nGladston Rodrigues Carvalho, \nHilton Silveira Pinto, \nJuliana Costa Rezende, \nJúlio César de Souza, \nRogério Antônio Silva, \nSergio Parreiras Pereira, \nSilvio Julio R. Chaves, \nVicente Luis de Carvalho. ",
                                         textAlign: TextAlign.center,
+                                        "Tatiana Grossi Chquiloff Vieira, \nPaulo Rebelles Reis, \nH.M.R. ALVES, \nWilian Soares Lacerda, \nH. ANDRADE, \nMarluce Rodrigues Pereira, \nElza Jacqueline Leite Meireles, \nEduardo Delgado Assad, \nEmília Hamada, \nJúlio César de Souza, \nRogério Antônio Silva, \nVicente Luis de Carvalho, \nAhmed Ali Abdalla Esmin, \nAline de Holanda Nunes Maia, \nDarlan Einsten Livramento, \nMauricio Sergio Zacarias, \nRodrigo Luz da Cunha, \nSara Maria Chalfoun.",
                                         style: TextStyle(
-                                          fontSize: 18,
+                                          fontSize: 10,
                                           fontWeight: kfontText,
                                         ),
                                       ),
@@ -293,7 +294,7 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
                       child: Center(
                         child: Center(
                           child: Padding(
-                            padding: const EdgeInsets.all(40),
+                            padding: const EdgeInsets.all(20),
                             child: Container(
                               color: const Color.fromARGB(183, 255, 255, 255),
                               child: const Column(
@@ -302,25 +303,25 @@ class _GeotecIntegracaoDeskState extends State<GeotecIntegracaoDesk>
                                 children: <Widget>[
                                   // ignore: prefer_const_constructors
                                   Padding(
-                                    padding: EdgeInsets.all(40),
+                                    padding: EdgeInsets.all(20),
                                     child: Text(
                                       textAlign: TextAlign.center,
                                       "Financiadores",
                                       style: TextStyle(
-                                        fontSize: 24,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsets.all(40),
+                                    padding: EdgeInsets.all(15),
                                     child: SizedBox(
                                       width: 800,
                                       child: Text(
                                         textAlign: TextAlign.center,
-                                        "Consórcio Brasileiro de Pesquisa e Desenvolvimento do Café.",
+                                        "Consórcio Brasileiro de Pesquisa e Desenvolvimento do Café",
                                         style: TextStyle(
-                                          fontSize: 20,
+                                          fontSize: 13,
                                           fontWeight: kfontText,
                                         ),
                                       ),

@@ -34,7 +34,7 @@ import 'package:curriculo/layouts/desktop/publicacao/2019/artigos2019.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2020/artigos2020.dart';
 import 'package:curriculo/layouts/desktop/publicacao/2023/artigos2023.dart';
 import 'package:flutter/material.dart';
-import '../../homepage.dart';
+import 'homepage.dart';
 
 class PublicacoesDesk extends StatelessWidget {
   PublicacoesDesk({super.key});
@@ -102,7 +102,7 @@ class PublicacoesDesk extends StatelessWidget {
             }).toList(),
           ),
           floatingActionButtonLocation:
-              FloatingActionButtonLocation.miniStartTop,
+              FloatingActionButtonLocation.miniCenterFloat,
           floatingActionButton: Tooltip(
             message: 'Voltar à Home Page',
             child: FloatingActionButton(

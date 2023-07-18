@@ -1,5 +1,5 @@
-// ignore_for_file: file_names
-
+// ignore_for_file: file_names, non_constant_identifier_names
+import 'package:image_network/image_network.dart';
 import 'package:curriculo/constantes.dart';
 import 'package:curriculo/layouts/desktop/mapeamento/machado.dart';
 import 'package:curriculo/layouts/desktop/mapeamento/mantiqueira.dart';
@@ -16,6 +16,10 @@ class MapeamentoHomePage extends StatefulWidget {
 
 class _MapeamentoHomePageState extends State<MapeamentoHomePage> {
   bool _isHovering = false;
+  String machado = 'assets/machado/machado.jpg';
+  String mantiqueira = 'assets/mantiqueira/mantiqueira.jpg';
+  String sebastiao = 'assets/sebastiao/sebastiao.jpg';
+  String tresPontas = 'assets/tres_pontas/tres_pontas.jpg';
 
   @override
   Widget build(BuildContext context) {
@@ -38,9 +42,11 @@ class _MapeamentoHomePageState extends State<MapeamentoHomePage> {
                               duration: const Duration(milliseconds: 200),
                               height: _isHovering ? 1000 : 700,
                               width: _isHovering ? 700 : 400,
-                              child: Image.network(
-                                'assets/machado/machado.jpg',
-                                fit: BoxFit.cover,
+                              child: ImageNetwork(
+                                height: 1000,
+                                width: 700,
+                                image: machado,
+                                fitWeb: BoxFitWeb.cover,
                               ),
                             ),
                           ),
@@ -78,9 +84,11 @@ class _MapeamentoHomePageState extends State<MapeamentoHomePage> {
                               duration: const Duration(milliseconds: 200),
                               height: _isHovering ? 1000 : 700,
                               width: _isHovering ? 700 : 400,
-                              child: Image.network(
-                                'assets/mantiqueira/mantiqueira.jpg',
-                                fit: BoxFit.cover,
+                              child: ImageNetwork(
+                                height: 1000,
+                                width: 700,
+                                image: mantiqueira,
+                                fitWeb: BoxFitWeb.cover,
                               ),
                             ),
                           ),
@@ -118,9 +126,11 @@ class _MapeamentoHomePageState extends State<MapeamentoHomePage> {
                               duration: const Duration(milliseconds: 200),
                               height: _isHovering ? 1000 : 700,
                               width: _isHovering ? 700 : 400,
-                              child: Image.network(
-                                'assets/sebastiao/sebastiao.jpg',
-                                fit: BoxFit.cover,
+                              child: ImageNetwork(
+                                height: 1000,
+                                width: 700,
+                                image: sebastiao,
+                                fitWeb: BoxFitWeb.cover,
                               ),
                             ),
                           ),
@@ -158,9 +168,11 @@ class _MapeamentoHomePageState extends State<MapeamentoHomePage> {
                               duration: const Duration(milliseconds: 200),
                               height: _isHovering ? 1000 : 700,
                               width: _isHovering ? 700 : 400,
-                              child: Image.network(
-                                'assets/tres_pontas/tres_pontas.jpg',
-                                fit: BoxFit.cover,
+                              child: ImageNetwork(
+                                height: 1000,
+                                width: 700,
+                                image: tresPontas,
+                                fitWeb: BoxFitWeb.cover,
                               ),
                             ),
                           ),

@@ -1,4 +1,3 @@
-import 'package:curriculo/layouts/mobile/mapeamentoMob.dart';
 import 'package:flutter/material.dart';
 import '../constantes.dart';
 
@@ -28,6 +27,11 @@ class _ListaMenuState extends State<ListaMenu> {
 
   @override
   Widget build(BuildContext context) {
+    double larguraTela = MediaQuery.of(context).size.width;
+    double limiteLargura = 900;
+    bool telaMenorQueLimite = larguraTela < limiteLargura;
+    Map<String, Widget> menuSelecionado =
+        telaMenorQueLimite ? menuMobi : menuDesk;
     return Container(
       height: 60,
       decoration: const BoxDecoration(
@@ -42,7 +46,7 @@ class _ListaMenuState extends State<ListaMenu> {
       ),
       child: ListView(
         scrollDirection: Axis.horizontal,
-        children: categories.keys.map((category) {
+        children: menuSelecionado.keys.map((category) {
           return Padding(
             padding: const EdgeInsets.symmetric(horizontal: 22),
             child: GestureDetector(
@@ -52,8 +56,7 @@ class _ListaMenuState extends State<ListaMenu> {
                 });
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
-                      builder: (context) => categories[category]!),
+                  MaterialPageRoute(builder: (context) => menuDesk[category]!),
                 );
               },
               child: Column(

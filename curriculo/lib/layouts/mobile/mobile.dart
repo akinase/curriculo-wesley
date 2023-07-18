@@ -8,13 +8,25 @@ class Mobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:
-          kSecundaryColor, //esta em constatantes  //esta em constatantes
+      backgroundColor: kSecundaryColor,
       body: Column(
         children: <Widget>[
-          ClipPath(
-            clipper: MyClipper(), //parte ovulada azul
-            child: const Carousel(),
+          Stack(
+            alignment: Alignment.center,
+            children: <Widget>[
+              ClipPath(
+                clipper: MyClipper(), //parte ovulada azul
+                child: const Carousel(),
+              ),
+            ],
+          ),
+          Text(
+            "Laboratório de Geoprocessamento GeoSolos",
+            style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                  fontWeight: FontWeight.w500,
+                  color: Colors.black,
+                ),
+            textAlign: TextAlign.center,
           ),
         ],
       ),

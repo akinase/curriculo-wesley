@@ -55,7 +55,7 @@ class ContatoDesk extends StatelessWidget {
                             child: CircleAvatar(
                               radius: 80.0,
                               backgroundImage: NetworkImage(
-                                  "/assets/contato/pesquisadoras/helena.jpg"),
+                                  '/assets/contato/pesquisadoras/helena.jpg'),
                             ),
                           ),
                           const Text(
@@ -105,7 +105,7 @@ class ContatoDesk extends StatelessWidget {
                           child: CircleAvatar(
                             radius: 80.0,
                             backgroundImage: NetworkImage(
-                                "/assets/contato/pesquisadoras/margarete.jpg"),
+                                '/assets/contato/pesquisadoras/margarete.jpg'),
                           ),
                         ),
                         const Text(
