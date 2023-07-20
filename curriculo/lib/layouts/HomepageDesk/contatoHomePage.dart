@@ -3,7 +3,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import '../../constantes.dart';
+import '../../../../constantes.dart';
 
 class ContatoHomePage extends StatelessWidget {
   const ContatoHomePage({super.key});

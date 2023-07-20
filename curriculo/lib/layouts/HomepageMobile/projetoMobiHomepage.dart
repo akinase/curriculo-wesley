@@ -3,22 +3,18 @@
 import 'package:curriculo/layouts/mobile/projetosMobi/caractAgroecossistemasMobi.dart';
 import 'package:curriculo/layouts/mobile/projetosMobi/geotecIntegracaoMobi.dart';
 import 'package:flutter/material.dart';
-import '../../constantes.dart';
-import '../../menu.dart';
-import 'projetosMobi/caractAmbientalMobi.dart';
-import 'projetosMobi/distriEspacialMobi.dart';
-import 'projetosMobi/identiAreasMobi.dart';
-import 'projetosMobi/mineracaoPragaDoencasMobi.dart';
+import '../../../../constantes.dart';
+import '../mobile/projetosMobi/caractAmbientalMobi.dart';
+import '../mobile/projetosMobi/distriEspacialMobi.dart';
+import '../mobile/projetosMobi/identiAreasMobi.dart';
+import '../mobile/projetosMobi/mineracaoPragaDoencasMobi.dart';
 
-class ProjetosMobi extends StatelessWidget {
-  const ProjetosMobi({super.key});
+class ProjetosMobiHomepage extends StatelessWidget {
+  const ProjetosMobiHomepage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const ListaMenu(
-        menu: 'Projetos',
-      ),
       body: Container(
         color: kbackgroundColor,
         child: Container(

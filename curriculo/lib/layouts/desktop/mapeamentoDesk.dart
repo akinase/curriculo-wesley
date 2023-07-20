@@ -58,6 +58,10 @@ class _MapeamentoDeskState extends State<MapeamentoDesk> {
                                   ),
                                 );
                               },
+                              style: ButtonStyle(
+                                  backgroundColor:
+                                      MaterialStateProperty.all<Color>(
+                                          Colors.white12)),
                               child: const Text(
                                 "Machado",
                                 textAlign: TextAlign.center,
@@ -98,6 +102,10 @@ class _MapeamentoDeskState extends State<MapeamentoDesk> {
                                   ),
                                 );
                               },
+                              style: ButtonStyle(
+                                  backgroundColor:
+                                      MaterialStateProperty.all<Color>(
+                                          Colors.white12)),
                               child: const Text(
                                 "Mantiqueira de Minas",
                                 textAlign: TextAlign.center,
@@ -138,6 +146,10 @@ class _MapeamentoDeskState extends State<MapeamentoDesk> {
                                   ),
                                 );
                               },
+                              style: ButtonStyle(
+                                  backgroundColor:
+                                      MaterialStateProperty.all<Color>(
+                                          Colors.white12)),
                               child: const Text(
                                 "São Sebastião do Paraíso",
                                 textAlign: TextAlign.center,
@@ -178,6 +190,10 @@ class _MapeamentoDeskState extends State<MapeamentoDesk> {
                                   ),
                                 );
                               },
+                              style: ButtonStyle(
+                                  backgroundColor:
+                                      MaterialStateProperty.all<Color>(
+                                          Colors.white12)),
                               child: const Text(
                                 "Três Pontas",
                                 textAlign: TextAlign.center,

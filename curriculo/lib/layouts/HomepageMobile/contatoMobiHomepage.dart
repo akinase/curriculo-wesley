@@ -3,11 +3,10 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import '../../constantes.dart';
-import '../../menu.dart';
+import '../../../../constantes.dart';
 
-class ContatoMobi extends StatelessWidget {
-  const ContatoMobi({super.key});
+class ContatoMobiHomepage extends StatelessWidget {
+  const ContatoMobiHomepage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,9 +17,6 @@ class ContatoMobi extends StatelessWidget {
     ));
 
     return Scaffold(
-      appBar: const ListaMenu(
-        menu: 'Equipe GeoSolos',
-      ),
       backgroundColor: kbackgroundColor,
       body: SingleChildScrollView(
         child: Padding(
@@ -157,10 +153,8 @@ class ContatoMobi extends StatelessWidget {
                     style: Theme.of(context).textTheme.headlineSmall),
               ),
               Container(
-                padding: const EdgeInsets.all(16.0),
+                padding: const EdgeInsets.all(20.0),
                 color: kbackgroundColorSec,
-                height: 300,
-                width: 700,
                 child: ListView.builder(
                   itemCount: equipeTecnica.length,
                   itemBuilder: (context, index) {

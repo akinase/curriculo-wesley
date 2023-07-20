@@ -2,14 +2,20 @@ import 'package:curriculo/homepage.dart';
 import 'package:curriculo/layouts/desktop/mapeamento/mantiqueira.dart';
 import 'package:curriculo/layouts/desktop/mapeamento/tres_pontas.dart';
 import 'package:curriculo/layouts/desktop/mapeamento/sebastiao.dart';
-import 'package:curriculo/layouts/mobile/mapeamentoMob.dart';
+import 'package:curriculo/layouts/mobile/contatoMobi.dart';
+import 'package:curriculo/layouts/mobile/mapeamentoMob/machadoMob.dart';
+import 'package:curriculo/layouts/mobile/mapeamentoMobi.dart';
+import 'package:curriculo/layouts/mobile/projtosMobi.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import 'layouts/desktop/contatoDesk.dart';
 import 'layouts/desktop/mapeamento/machado.dart';
 import 'layouts/desktop/mapeamentoDesk.dart';
 import 'layouts/desktop/protejetosDesk.dart';
-import 'layouts/desktop/publicacoes.dart';
+import 'layouts/mobile/mapeamentoMob/mantiqueiraMob.dart';
+import 'layouts/mobile/mapeamentoMob/sebastiaoMob.dart';
+import 'layouts/mobile/mapeamentoMob/tresPontasMobi.dart';
+import 'publicacoes.dart';
 
 const kDefaultShadown =
     BoxShadow(offset: Offset(0, 4), blurRadius: 4, color: Colors.black26);
@@ -27,16 +33,16 @@ final Map<String, Widget> menuDesk = {
   "Inicio": const HomePage(),
   "Mapeamento de Pesquisas": const MapeamentoDesk(),
   "Projetos": const ProjetosDesk(),
-  "Publicações Cientificas": PublicacoesDesk(),
+  "Publicações Cientificas": Publicacoes(),
   "Equipe GeoSolos": const ContatoDesk()
 };
 
 final Map<String, Widget> menuMobi = {
   "Inicio": const HomePage(),
   "Mapeamento de Pesquisas": const MapeamentoMobi(),
-  "Projetos": const ProjetosDesk(),
-  "Publicações Cientificas": PublicacoesDesk(),
-  "Equipe GeoSolos": const ContatoDesk()
+  "Projetos": const ProjetosMobi(),
+  "Publicações Cientificas": Publicacoes(),
+  "Equipe GeoSolos": const ContatoMobi()
 };
 
 final Map<String, Widget> menumapeamento = {
@@ -45,6 +51,13 @@ final Map<String, Widget> menumapeamento = {
   "Mantiqueira de Minas": const Mantiqueira(),
   "São Sebastião do Paraíso": const Sebastiao(),
   "Três Pontas": const TresPontas(),
+};
+final Map<String, Widget> menumapeamentomobi = {
+  "Página Inicial": const HomePage(),
+  "Machado": const MachadoMobi(),
+  "Mantiqueira de Minas": const MantiqueiraMobi(),
+  "São Sebastião do Paraíso": const SebastiaoMobi(),
+  "Três Pontas": const TresPontasMobi(),
 };
 
 final Map<String, String> equipeTecnica = {

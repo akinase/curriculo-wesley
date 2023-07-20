@@ -1,8 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:curriculo/layouts/mobile/mapeamentoMobi.dart';
 import 'package:flutter/material.dart';
-
 import '../../../constantes.dart';
 
 class MunuMapeamento extends StatefulWidget implements PreferredSizeWidget {
@@ -31,6 +29,11 @@ class _MunuMapeamentoState extends State<MunuMapeamento> {
 
   @override
   Widget build(BuildContext context) {
+    double larguraTela = MediaQuery.of(context).size.width;
+    double limiteLargura = 900;
+    bool telaMenorQueLimite = larguraTela < limiteLargura;
+    Map<String, Widget> menuSelecionado =
+        telaMenorQueLimite ? menumapeamentomobi : menumapeamento;
     return Container(
       height: 60,
       decoration: const BoxDecoration(
@@ -45,7 +48,7 @@ class _MunuMapeamentoState extends State<MunuMapeamento> {
       ),
       child: ListView(
         scrollDirection: Axis.horizontal,
-        children: menumapeamento.keys.map((category) {
+        children: menuSelecionado.keys.map((category) {
           return Padding(
             padding: const EdgeInsets.symmetric(horizontal: 22),
             child: GestureDetector(
@@ -56,7 +59,7 @@ class _MunuMapeamentoState extends State<MunuMapeamento> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => menumapeamento[category]!),
+                      builder: (context) => menuSelecionado[category]!),
                 );
               },
               child: Column(

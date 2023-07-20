@@ -2,13 +2,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:image_network/image_network.dart';
-import '../../constantes.dart';
-import 'layouts/desktop/projetosDesk/caractAgroecossistemas.dart';
-import 'layouts/desktop/projetosDesk/caractAmbiental.dart';
-import 'layouts/desktop/projetosDesk/distriEspacial.dart';
-import 'layouts/desktop/projetosDesk/identiAreas.dart';
-import 'layouts/desktop/projetosDesk/mineracaoPragaDoencas.dart';
-import 'layouts/mobile/projetosMobi/geotecIntegracaoMobi.dart';
+import '../../../../constantes.dart';
+import '../desktop/projetosDesk/caractAgroecossistemas.dart';
+import '../desktop/projetosDesk/caractAmbiental.dart';
+import '../desktop/projetosDesk/distriEspacial.dart';
+import '../desktop/projetosDesk/identiAreas.dart';
+import '../desktop/projetosDesk/mineracaoPragaDoencas.dart';
+import '../mobile/projetosMobi/geotecIntegracaoMobi.dart';
 
 final List<Map<String, String>> materialItens = [
   {

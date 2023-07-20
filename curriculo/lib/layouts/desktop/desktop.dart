@@ -1,7 +1,9 @@
+// ignore_for_file: file_names
+
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import '../../slide_home.dart';
 import 'package:curriculo/constantes.dart';
+import 'package:curriculo/slide_home.dart';
 
 class Desktop extends StatelessWidget {
   const Desktop({Key? key}) : super(key: key);
@@ -13,45 +15,33 @@ class Desktop extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            const SizedBox(
+              width: 20,
+            ),
             AspectRatio(
-              aspectRatio: 4,
+              aspectRatio: 4.2,
               child: Stack(
                 fit: StackFit.expand,
                 children: [
-                  const Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      Carousel(),
-                    ],
+                  const Center(
+                    child: SizedBox(
+                        width: double.infinity,
+                        height: double.infinity,
+                        child: Carousel()),
                   ),
                   Container(color: Colors.black.withOpacity(0.40)),
-                  Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.only(top: 40),
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Expanded(
-                              child: Center(
-                                child: Text(
-                                  "Laboratório de Geoprocessamento GeoSolos",
-                                  style: Theme.of(context)
-                                      .textTheme
-                                      .displaySmall!
-                                      .copyWith(
-                                        fontWeight: FontWeight.bold,
-                                        color: Colors.white,
-                                      ),
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  )
+                  Padding(
+                    padding:
+                        const EdgeInsets.only(left: 200, right: 200, top: 20),
+                    child: Text(
+                      "Laboratório de Geoprocessamento GeoSolos",
+                      style: Theme.of(context).textTheme.displaySmall!.copyWith(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                          ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -60,8 +50,6 @@ class Desktop extends StatelessWidget {
               child: DefaultTextStyle(
                 style: Theme.of(context).textTheme.headlineMedium!,
                 child: AnimatedTextKit(
-                  pause: const Duration(milliseconds: 1500),
-                  repeatForever: true,
                   animatedTexts: [
                     TyperAnimatedText("Café"),
                     TyperAnimatedText("Geoprocessamento"),
@@ -70,11 +58,12 @@ class Desktop extends StatelessWidget {
                 ),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(50),
-              child: SizedBox(
+            Padding(
+              padding: const EdgeInsets.all(80),
+              // ignore: sized_box_for_whitespace
+              child: Container(
                 width: 950,
-                child: Text(
+                child: const Text(
                   textAlign: TextAlign.justify,
                   "Este site tem como objetivo divulgar os resultados de pesquisa do Laboratório de Geoprocessamento - GeoSolos, da Empresa de Pesquisa Agropecuária de Minas Gerais - EPAMIG. O GeoSolos realiza, por meio de geotecnologias, o mapeamento e a caracterização de ambientes cafeeiros nas principais regiões produtoras do estado de Minas Gerais. Estão disponibilizados a metodologia para a caracterização ambiental e o mapeamento da cultura cafeeira, bem como os resultados obtidos nos projetos desenvolvidos pela equipe de pesquisadores. Os mapas gerados estão disponíveis de forma interativa por meio de webmapping. O laboratório é resultado de uma parceria entre a EPAMIG, a Embrapa Café e a Universidade Federal de Lavras - UFLA e tem como principal financiador o Consórcio Pesquisa Café.",
                   style: TextStyle(

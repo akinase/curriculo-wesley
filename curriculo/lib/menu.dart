@@ -56,7 +56,8 @@ class _ListaMenuState extends State<ListaMenu> {
                 });
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => menuDesk[category]!),
+                  MaterialPageRoute(
+                      builder: (context) => menuSelecionado[category]!),
                 );
               },
               child: Column(

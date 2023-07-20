@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import '../../constantes.dart';
 import '../../slide_home.dart';
@@ -8,27 +9,64 @@ class Mobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: kSecundaryColor,
-      body: Column(
-        children: <Widget>[
-          Stack(
-            alignment: Alignment.center,
-            children: <Widget>[
-              ClipPath(
-                clipper: MyClipper(), //parte ovulada azul
-                child: const Carousel(),
+      backgroundColor: kbackgroundColor,
+      body: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
+            AspectRatio(
+              aspectRatio: 1,
+              child: Stack(
+                alignment: Alignment.center,
+                children: <Widget>[
+                  ClipPath(
+                    clipper: MyClipper(), //parte ovulada azul
+                    child: const Carousel(),
+                  ),
+                ],
               ),
-            ],
-          ),
-          Text(
-            "Laboratório de Geoprocessamento GeoSolos",
-            style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                  fontWeight: FontWeight.w500,
-                  color: Colors.black,
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 20),
+              child: Text(
+                "Laboratório de Geoprocessamento GeoSolos",
+                style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.black,
+                    ),
+                textAlign: TextAlign.center,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 30),
+              child: DefaultTextStyle(
+                style: Theme.of(context).textTheme.headlineMedium!,
+                child: AnimatedTextKit(
+                  pause: const Duration(milliseconds: 1500),
+                  repeatForever: true,
+                  animatedTexts: [
+                    TyperAnimatedText("Café"),
+                    TyperAnimatedText("Geoprocessamento"),
+                    TyperAnimatedText("Imagem de Satélite"),
+                  ],
                 ),
-            textAlign: TextAlign.center,
-          ),
-        ],
+              ),
+            ),
+            const Padding(
+              padding: EdgeInsets.all(50),
+              child: SizedBox(
+                width: 950,
+                child: Text(
+                  textAlign: TextAlign.justify,
+                  "Este site tem como objetivo divulgar os resultados de pesquisa do Laboratório de Geoprocessamento - GeoSolos, da Empresa de Pesquisa Agropecuária de Minas Gerais - EPAMIG. O GeoSolos realiza, por meio de geotecnologias, o mapeamento e a caracterização de ambientes cafeeiros nas principais regiões produtoras do estado de Minas Gerais. Estão disponibilizados a metodologia para a caracterização ambiental e o mapeamento da cultura cafeeira, bem como os resultados obtidos nos projetos desenvolvidos pela equipe de pesquisadores. Os mapas gerados estão disponíveis de forma interativa por meio de webmapping. O laboratório é resultado de uma parceria entre a EPAMIG, a Embrapa Café e a Universidade Federal de Lavras - UFLA e tem como principal financiador o Consórcio Pesquisa Café.",
+                  style: TextStyle(
+                    fontWeight: FontWeight.normal,
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

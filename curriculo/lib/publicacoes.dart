@@ -36,8 +36,8 @@ import 'package:curriculo/layouts/desktop/publicacao/2023/artigos2023.dart';
 import 'package:flutter/material.dart';
 import 'homepage.dart';
 
-class PublicacoesDesk extends StatelessWidget {
-  PublicacoesDesk({super.key});
+class Publicacoes extends StatelessWidget {
+  Publicacoes({super.key});
 
   final Map<String, IconData> _mainTabs = {
     '2000': Icons.picture_as_pdf,

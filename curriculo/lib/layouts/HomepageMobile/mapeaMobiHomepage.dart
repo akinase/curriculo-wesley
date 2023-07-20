@@ -2,27 +2,23 @@
 
 import 'package:curriculo/layouts/mobile/mapeamentoMob/machadoMob.dart';
 import 'package:flutter/material.dart';
-import '../../menu.dart';
-import 'mapeamentoMob/mantiqueiraMob.dart';
-import 'mapeamentoMob/sebastiaoMob.dart';
-import 'mapeamentoMob/tresPontasMobi.dart';
+import '../mobile/mapeamentoMob/mantiqueiraMob.dart';
+import '../mobile/mapeamentoMob/sebastiaoMob.dart';
+import '../mobile/mapeamentoMob/tresPontasMobi.dart';
 
-class MapeamentoMobi extends StatefulWidget {
-  const MapeamentoMobi({Key? key}) : super(key: key);
+class MapeaMobiHomepage extends StatefulWidget {
+  const MapeaMobiHomepage({Key? key}) : super(key: key);
 
   @override
-  State<MapeamentoMobi> createState() => _MapeamentoMobiState();
+  State<MapeaMobiHomepage> createState() => _MapeaMobiHomepageState();
 }
 
 // ignore: unused_element
 
-class _MapeamentoMobiState extends State<MapeamentoMobi> {
+class _MapeaMobiHomepageState extends State<MapeaMobiHomepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const ListaMenu(
-        menu: 'Mapeamento de Pesquisas',
-      ),
       body: Column(
         children: <Widget>[
           Expanded(

@@ -1,31 +1,31 @@
 // ignore_for_file: no_logic_in_create_state, sort_child_properties_last, unrelated_type_equality_checks, prefer_typing_uninitialized_variables
 
-import 'package:curriculo/layouts/mobile/contatoMobi.dart';
 import 'package:curriculo/layouts/mobile/mobile.dart';
-import 'package:curriculo/projetoHomePage.dart';
+import 'package:curriculo/layouts/HomepageDesk/projetoHomePage.dart';
+import 'package:curriculo/layouts/HomepageMobile/projetoMobiHomepage.dart';
 import 'package:flutter/material.dart';
-import 'ContatoHomePage.dart';
-import 'desktopHome.dart';
+import 'layouts/HomepageDesk/contatoHomePage.dart';
+import 'layouts/HomepageMobile/contatoMobiHomepage.dart';
+import 'layouts/desktop/desktop.dart';
+import 'layouts/HomepageMobile/mapeaMobiHomepage.dart';
 import 'menu.dart';
-import 'layouts/desktop/publicacoes.dart';
-import 'layouts/mobile/mapeamentoMob.dart';
-import 'layouts/mobile/projtosMobi.dart';
+import 'publicacoes.dart';
 import 'responsividade.dart';
-import 'mapeamentoHomePage.dart';
+import 'layouts/HomepageDesk/mapeamentoHomePage.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key, categories}) : super(key: key);
 
   @override
   State<HomePage> createState() => _HomePageState(
-        desktopApp: const DesktopHome(),
+        desktopApp: const Desktop(),
         mobilebody: const Mobile(),
         mapeamDesk: const MapeamentoHomePage(),
-        mapeamMobi: const MapeamentoMobi(),
+        mapeamMobi: const MapeaMobiHomepage(),
         projetosDesk: const ProjetoHomePage(),
-        projetosMobi: const ProjetosMobi(),
+        projetosMobi: const ProjetosMobiHomepage(),
         contatoDesk: const ContatoHomePage(),
-        contatoMobi: const ContatoMobi(),
+        contatoMobi: const ContatoMobiHomepage(),
       );
 }
 
@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
           Responsividade(mobilebody: mobilebody, desktopApp: desktopApp),
           Responsividade(mobilebody: mapeamMobi, desktopApp: mapeamDesk),
           Responsividade(mobilebody: projetosMobi, desktopApp: projetosDesk),
-          PublicacoesDesk(),
+          Publicacoes(),
           Responsividade(mobilebody: contatoMobi, desktopApp: contatoDesk),
         ],
       ),
