@@ -10,7 +10,7 @@ class Dissertacao2002 extends StatelessWidget {
       'PDF':
           'Caracterização de agroecossistemas cafeeiros da Zona da Mata de Minas Gerias, usando Sensoriamento Remoto e Sistemas de Informações Geográficas.',
       'path':
-          '/assets/publicacoes/2002/dissetacao/Marley dissertação final.pdf',
+          'arquivos/publicacoes/2002/dissetacao/Marley dissertação final.pdf',
       'referencial':
           'RESENDE, R.J.T.P. Caracterização do meio físico de áreas cafeeiras do Sul de Minas por meio do SPRING. 2000. 135f. Tese ( Mestrado em Agronomia) - Universidade Federal de Lavras, Lavras, 2000.',
     },

@@ -10,7 +10,7 @@ class Artigos2000 extends StatelessWidget {
       'PDF':
           'Caracterização de agroecossistemas cafeeiros em regiões produtoras de Minas Gerais por meio do geoprocessamento. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 1.',
       'path':
-          'assets/publicacoes/2000/Caracterização de agroecossistemas cafeeiros em regiões produtoras de Minas Gerais por meio do geoprocessamento.pdf',
+          'arquivos/publicacoes/2000/Caracterização de agroecossistemas cafeeiros em regiões produtoras de Minas Gerais por meio do geoprocessamento.pdf',
       'referencial':
           'ALVES, H.M.R.; LACERDA, M.P.C.; VIEIRA, T.G.C. Caracterização de agroecossistemas cafeeiros em regiões produtoras de Minas Gerais por meio do geoprocessamento. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 1., 2000, Poços de Caldas, MG. Resumos expandidos... Brasília:Embrapa Café, 2000. v.1, p.11-14.',
     },
@@ -18,7 +18,7 @@ class Artigos2000 extends StatelessWidget {
       'PDF':
           'Utilização do Spring para avaliação do uso da terra em agroecossistemas cafeeiros da região de São Sebastião do Paraíso- MG. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 1.',
       'path':
-          'assets/publicacoes/2000/Utilização do Spring para avaliação do uso da terra em agroecossistemas cafeeiros da região de São Sebastião do Paraíso.pdf',
+          'arquivos/publicacoes/2000/Utilização do Spring para avaliação do uso da terra em agroecossistemas cafeeiros da região de São Sebastião do Paraíso.pdf',
       'referencial':
           'ALVES, H.M.R.; RESENDE, R.J.T.P.; ANDRADE, H. Utilização do Spring para avaliação do uso da terra em agroecossistemas cafeeiros da região de São Sebastião do Paraíso- MG. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 1., 2000, Poços de Caldas. Resumos expandidos... Brasília:Embrapa Café, 2000. v.1, p.7-10.',
     },
@@ -26,7 +26,7 @@ class Artigos2000 extends StatelessWidget {
       'PDF':
           'Sistemas de Informação Geográfica na avaliação de impactos ambientais provenientes de atividades agropecuárias.Informe Agropecuário. Agropecuária e Ambiente,Belo Horizonte.',
       'path':
-          'assets/publicacoes/2000/Sistemas de Informação Geográfica na avaliação de impactos ambientais provenientes de atividades agropecuárias.pdf',
+          'arquivos/publicacoes/2000/Sistemas de Informação Geográfica na avaliação de impactos ambientais provenientes de atividades agropecuárias.pdf',
       'referencial':
           'ALVES, H.M.R.; VIEIRA, T.G.C.; ANDRADE, H.  Sistemas de Informação Geográfica na avaliação de impactos ambientais provenientes de atividades agropecuárias.Informe Agropecuário. Agropecuária e Ambiente,Belo Horizonte, v.21,n.202, p.99-109, 2000.',
     },
@@ -34,7 +34,7 @@ class Artigos2000 extends StatelessWidget {
       'PDF':
           'O uso do software SPRING no zoneamento geomorfopedológico da região de Machado, MG, ocupada pela cafeicultura. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 13.',
       'path':
-          'assets/publicacoes/2000/O uso do software SPRING no zoneamento geomorfopedológico da região de Machado MG ocupada pela cafeicultura.pdf',
+          'arquivos/publicacoes/2000/O uso do software SPRING no zoneamento geomorfopedológico da região de Machado MG ocupada pela cafeicultura.pdf',
       'referencial':
           'LACERDA, M.P.C.; VIEIRA, T.G.C.; ALVES, H.M.R.; ANDRADE, H.; MARQUES, H.S.; ROSA, E.R. O uso do software SPRING no zoneamento geomorfopedológico da região de Machado, MG, ocupada pela cafeicultura. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 13., 2000, Ilhéus. Resumos... Viçosa:SBCS, 2000. CD-ROM.',
     },
@@ -42,7 +42,7 @@ class Artigos2000 extends StatelessWidget {
       'PDF':
           'Uso de sistema de informação geográfica na determinação de classes de susceptibilidade erosiva dos solos da região de Lavras, MG. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 13.',
       'path':
-          'assets/publicacoes/2000/Uso de sistema de informação geográfica na determinação de classes de susceptibilidade erosiva dos solos da região de Lavras MG.pdf',
+          'arquivos/publicacoes/2000/Uso de sistema de informação geográfica na determinação de classes de susceptibilidade erosiva dos solos da região de Lavras MG.pdf',
       'referencial':
           'LACERDA, M.P.C.; ANDRADE, H.; ALVES, H.M.R.; VIEIRA, T.G.C.; MARQUES, H.S.; ROSA, E.R.; ESTEVES, D.R. Uso de sistema de informação geográfica na determinação de classes de susceptibilidade erosiva dos solos da região de Lavras, MG. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 13., 2000, Ilhéus. Resumos... Viçosa:SBCS, 2000. CD-ROM.',
     },
@@ -50,7 +50,7 @@ class Artigos2000 extends StatelessWidget {
       'PDF':
           'Estimativa de áreas ocupadas pela cafeicultura em regiões produtoras de Minas Gerais por meio de geoprocessamento. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 1.',
       'path':
-          'assets/publicacoes/2000/Estimativa de áreas ocupadas pela cafeicultura em regiões produtoras de Minas Gerais por meio de geoprocessamento.pdf',
+          'arquivos/publicacoes/2000/Estimativa de áreas ocupadas pela cafeicultura em regiões produtoras de Minas Gerais por meio de geoprocessamento.pdf',
       'referencial':
           'LACERDA, M.P.C.; VIEIRA, T.G.C.; ALVES, H.M.R. Estimativa de áreas ocupadas pela cafeicultura em regiões produtoras de Minas Gerais por meio de geoprocessamento. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 1., 2000, Poços de Caldas. Resumos expandidos... Brasília:Embrapa Café, 2000.',
     },
@@ -58,7 +58,7 @@ class Artigos2000 extends StatelessWidget {
       'PDF':
           'Utilização do Spring para avaliação do uso da terra em agroecossistemas cafeeiros da região de Lavras- MG. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 1.',
       'path':
-          'assets/publicacoes/2000/Utilização do Spring para avaliação do uso da terra em agroecossistemas cafeeiros da região de Lavras- MG.pdf',
+          'arquivos/publicacoes/2000/Utilização do Spring para avaliação do uso da terra em agroecossistemas cafeeiros da região de Lavras- MG.pdf',
       'referencial':
           'RESENDE, R.J.T.P.; ALVES, H.M.R.; ANDRADE, H. Utilização do Spring para avaliação do uso da terra em agroecossistemas cafeeiros da região de Lavras- MG. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 1., 2000, Poços de Caldas. Resumos expandidos... Brasília:Embrapa Café, 2000.',
     },
@@ -66,7 +66,7 @@ class Artigos2000 extends StatelessWidget {
       'PDF':
           'Caracterização ambiental e evolução da área ocupada pela cafeicultura na microbacia do Ribeirão Vermelho em Lavras-MG. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS, 26.',
       'path':
-          'assets/publicacoes/2000/Caracterização ambiental e evolução da área ocupada pela cafeicultura na microbacia do Ribeirão Vermelho em Lavras-MG.pdf',
+          'arquivos/publicacoes/2000/Caracterização ambiental e evolução da área ocupada pela cafeicultura na microbacia do Ribeirão Vermelho em Lavras-MG.pdf',
       'referencial':
           'RESENDE, R.J.T.P.; ALVES, H.M.R.; ANDRADE, H.; VIEIRA, T.G.C.; LACERDA, M.P.C. Caracterização ambiental e evolução da área ocupada pela cafeicultura na microbacia do Ribeirão Vermelho em Lavras-MG. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS, 26., 2000, Marília. Trabalhos apresentados... Varginha:FundaçãoProcafé, 2000.',
     },
@@ -74,7 +74,7 @@ class Artigos2000 extends StatelessWidget {
       'PDF':
           'Uso de Sistema de Informação Geográfica na caracterização da microbacia do Ribeirão Fundo, município de São Sebastião do Paraíso, MG. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 13.',
       'path':
-          'assets/publicacoes/2000/Uso de Sistema de Informação Geográfica na caracterização da microbacia do Ribeirão Fundo município de São Sebastião do Paraíso MG.pdf',
+          'arquivos/publicacoes/2000/Uso de Sistema de Informação Geográfica na caracterização da microbacia do Ribeirão Fundo município de São Sebastião do Paraíso MG.pdf',
       'referencial':
           'RESENDE, R.J.T.P.; ANDRADE, H.; ALVES, H.M.R.; ESTEVES, D.R.; BRASIL, J.P.K.; VIEIRA, T.G.C.; LACERDA, M.P.C. Uso de Sistema de Informação Geográfica na caracterização da microbacia do Ribeirão Fundo, município de São Sebastião do Paraíso, MG. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 13., 2000, Ilhéus. Resumos... Viçosa:SBCS, 2000. CD-ROM.',
     },
@@ -82,7 +82,7 @@ class Artigos2000 extends StatelessWidget {
       'PDF':
           'Imagens orbitais aplicadas ao levantamento da cultura do café em Minas Gerais. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 1.',
       'path':
-          'assets/publicacoes/2000/Imagens orbitais aplicadas ao levantamento da cultura do café em Minas Gerais.pdf',
+          'arquivos/publicacoes/2000/Imagens orbitais aplicadas ao levantamento da cultura do café em Minas Gerais.pdf',
       'referencial':
           'VIEIRA, T.G.C.; LACERDA, M.P.C.; ALVES, H.M.R. Imagens orbitais aplicadas ao levantamento da cultura do café em Minas Gerais. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 1., 2000, Poços de Caldas. Resumos expandidos...Brasília:Embrapa Café, 2000.',
     },
@@ -90,7 +90,7 @@ class Artigos2000 extends StatelessWidget {
       'PDF':
           'Uso do sensoriamento remoto na análise temporal da ocupação do solo pela cafeicultura em São Sebastião do Paraíso, MG. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 13.',
       'path':
-          'assets/publicacoes/2000/Uso do sensoriamento remoto na análise temporal da ocupação do solo pela cafeicultura em São Sebastião do Paraíso MG.pdf',
+          'arquivos/publicacoes/2000/Uso do sensoriamento remoto na análise temporal da ocupação do solo pela cafeicultura em São Sebastião do Paraíso MG.pdf',
       'referencial':
           'VIEIRA, T.G.C.; MARQUES, H.S.; LACERDA, M.P.C.; ALVES, H.M.R.; ANDRADE, H.; ROSA, E.R.; BRASIL, J.P.K.; ESTEVES, D.R. Uso do sensoriamento remoto na análise temporal da ocupação do solo pela cafeicultura em São Sebastião do Paraíso, MG. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 13., 2000, Ilhéus. Resumos... Viçosa:SBCS, 2000. CD-ROM.',
     },

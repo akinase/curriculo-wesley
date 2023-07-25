@@ -9,8 +9,7 @@ class Dissertacao2006 extends StatelessWidget {
     {
       'PDF':
           'Caracterização do ambiente agrícola do complexo Serra Negra por meio de Sensoriamento e Sistemas de Informação Geográfica.',
-      'path':
-          'curriculo-wesley/curriculo/assets/publicacoes/2006/dissertacao/Tiagodissertacao.pdf',
+      'path': 'arquivos/publicacoes/2006/dissertacao/Tiagodissertacao.pdf',
       'referencial':
           'BERNARDES, T. Caracterização do ambiente agrícola do complexo Serra Negra por meio de Sensoriamento e Sistemas de Informação Geográfica. 2006. 119f. Tese ( Mestrado em Agronomia) - Universidade Federal de Lavras, Lavras, 2006.',
     },

@@ -9,14 +9,14 @@ class Dissertacao2011 extends StatelessWidget {
     {
       'PDF':
           'Redes neurais artificiais aplicadas na identificação automática de áreas cafeeiras em imagens de satélite.',
-      'path': '/assets/publicacoes/2011/dissertacao/LiviaNAndrade_dissert.pdf',
+      'path': 'arquivos/publicacoes/2011/dissertacao/LiviaNAndrade_dissert.pdf',
       'referencial':
           'ANDRADE, L.N. Redes neurais artificiais aplicadas na identificação automática de áreas cafeeiras em imagens de satélite. 2011. 87f. Tese ( Mestrado em Ciência da Computação) - Universidade Federal de Minas Gerais, Belo Horizonte, 2011.',
     },
     {
       'PDF':
           'Classificação automática de áreas cafeeiras em imagens de satélite, utilizando Redes Neurais Artificiais',
-      'path': '/assets/publicacoes/2011/dissertacao/Monografia_Liliany.pdf',
+      'path': 'arquivos/publicacoes/2011/dissertacao/Monografia_Liliany.pdf',
       'referencial':
           'PEREIRA, L.A.A. Classificação automática de áreas cafeeiras em imagens de satélite, utilizando Redes Neurais Artificiais. 2011. 50f. Monografia ( Bacharel em Ciência da Computação) - Universidade Federal de Lavras, Lavras, 2011.',
     },

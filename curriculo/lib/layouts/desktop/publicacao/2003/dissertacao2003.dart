@@ -9,7 +9,7 @@ class Dissertacao2003 extends StatelessWidget {
     {
       'PDF':
           'Uso de geotecnologias no estudo das relações entre solos, orientação de vertentes e o comportamento espectral de áreas cafeeiras em Machado, Minas Gerais.',
-      'path': '/assets/publicacoes/2003/dissertacao/TESE Hudson PRONTA.pdf',
+      'path': 'arquivos/publicacoes/2003/dissertacao/TESE Hudson PRONTA.pdf',
       'referencial':
           'MARQUES, H.S. Uso de geotecnologias no estudo das relações entre solos, orientação de vertentes e o comportamento espectral de áreas cafeeiras em Machado, Minas Gerais. 2003. 82f. Tese ( Mestrado em Agronomia) - Universidade Federal de Lavras, Lavras, 2003.',
     },

@@ -16,10 +16,10 @@ class MapeamentoHomePage extends StatefulWidget {
 
 class _MapeamentoHomePageState extends State<MapeamentoHomePage> {
   bool _isHovering = false;
-  String machado = 'assets/machado/machado.jpg';
-  String mantiqueira = 'assets/mantiqueira/mantiqueira.jpg';
-  String sebastiao = 'assets/sebastiao/sebastiao.jpg';
-  String tresPontas = 'assets/tres_pontas/tres_pontas.jpg';
+  String machado = 'arquivos/machado/machado.jpg';
+  String mantiqueira = 'arquivos/mantiqueira/mantiqueira.jpg';
+  String sebastiao = 'arquivos/sebastiao/sebastiao.jpg';
+  String tresPontas = 'arquivos/tres_pontas/tres_pontas.jpg';
 
   @override
   Widget build(BuildContext context) {

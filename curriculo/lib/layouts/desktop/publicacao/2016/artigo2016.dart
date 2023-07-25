@@ -10,7 +10,7 @@ class Artigos2016 extends StatelessWidget {
       'PDF':
           'Geotechnologies for the characterization of specialty coffee environments of Mantiqueira de Minas in Brazil .In: The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2016',
       'path':
-          '/assets/publicacoes/2016/Geotechnologies for the characterization of specialty coffee environments of Mantiqueira de Minas in Brazil.pdf',
+          'arquivos/publicacoes/2016/Geotechnologies for the characterization of specialty coffee environments of Mantiqueira de Minas in Brazil.pdf',
       'referencial':
           'ALVES, H.M.R.; VIEIRA, T.G.C.; VOLPATO, M.M.L.; LACERDA, M.P.C.; BORÉM, F.M. Geotechnologies for the characterization of specialty coffee environments of Mantiqueira de Minas in Brazil. In: The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLI-B8, 2016 XXIII ISPRS Congress, 12–19 July 2016, Prague, Czech Republic',
     },
@@ -18,7 +18,7 @@ class Artigos2016 extends StatelessWidget {
       'PDF':
           'Characterization and spectral monitoring of coffee lands in Brazil. In: The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2016',
       'path':
-          '/assets/publicacoes/2016/Characterization and spectral monitoring of coffee lands in Brazil.pdf',
+          'arquivos/publicacoes/2016/Characterization and spectral monitoring of coffee lands in Brazil.pdf',
       'referencial':
           'ALVES, H. M. R.; VOLPATO, M. M. L.; VIEIRA, T. G. C.; MACIEL, D. A.; GONÇALVES, T. G.; DANTAS, M. F. Characterization and spectral monitoring of coffee lands in Brazil. In: The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLI-B8, 2016 XXIII ISPRS Congress, 12–19 July 2016, Prague, Czech Republic'
     },
@@ -26,7 +26,7 @@ class Artigos2016 extends StatelessWidget {
       'PDF':
           'Impactos da deficiência hídrica nas respostaas ecofisiológicas e espectrais do cafeeiro consorciado com espécies madeireiras',
       'path':
-          '/assets/publicacoes/2016/Impactos da deficiência hídrica nas respostaas ecofisiológicas e espectrais do cafeeiro consorciado com espécies madeireiras.pdf',
+          'arquivos/publicacoes/2016/Impactos da deficiência hídrica nas respostaas ecofisiológicas e espectrais do cafeeiro consorciado com espécies madeireiras.pdf',
       'referencial':
           'SILVEIRA, H.R.O.; SANTOS, M.O.; SILVA, V.A.; VENTURIN; R.P.; VOLPATO, M.M.L.; DANTAS, M.F.; CARVALHO, G.R.; SETOTAW, T.A.; MOREIRA, F.C.; BARBOSA, J.P.R.A.D.; RESENDE, M.L.V.'
     },

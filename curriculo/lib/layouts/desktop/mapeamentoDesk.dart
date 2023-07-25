@@ -43,7 +43,7 @@ class _MapeamentoDeskState extends State<MapeamentoDesk> {
                               height: _isHovering ? 1000 : 700,
                               width: _isHovering ? 700 : 400,
                               child: Image.network(
-                                'assets/machado/machado.jpg',
+                                'arquivos/machado/machado.jpg',
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -87,7 +87,7 @@ class _MapeamentoDeskState extends State<MapeamentoDesk> {
                               height: _isHovering ? 1000 : 700,
                               width: _isHovering ? 700 : 400,
                               child: Image.network(
-                                'assets/mantiqueira/mantiqueira.jpg',
+                                'arquivos/mantiqueira/mantiqueira.jpg',
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -131,7 +131,7 @@ class _MapeamentoDeskState extends State<MapeamentoDesk> {
                               height: _isHovering ? 1000 : 700,
                               width: _isHovering ? 700 : 400,
                               child: Image.network(
-                                'assets/sebastiao/sebastiao.jpg',
+                                'arquivos/sebastiao/sebastiao.jpg',
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -175,7 +175,7 @@ class _MapeamentoDeskState extends State<MapeamentoDesk> {
                               height: _isHovering ? 1000 : 700,
                               width: _isHovering ? 700 : 400,
                               child: Image.network(
-                                'assets/tres_pontas/tres_pontas.jpg',
+                                'arquivos/tres_pontas/tres_pontas.jpg',
                                 fit: BoxFit.cover,
                               ),
                             ),

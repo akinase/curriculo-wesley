@@ -24,7 +24,7 @@ class Artigos2008 extends StatelessWidget {
       'PDF':
           'Redes Neurais Artificiais na classificação de imagens multitemporais da região cafeeira de Três Pontas/MG. In: CONGRESSO  BRASILEIRO DE PESQUISAS CAFEEIRAS, 34.',
       'path':
-          '/assets/publicacoes/2008/Redes Neurais Artificiais na classificação de imagens multitemporais da região cafeeira de Três Pontas-MG.pdf',
+          'arquivos/publicacoes/2008/Redes Neurais Artificiais na classificação de imagens multitemporais da região cafeeira de Três Pontas-MG.pdf',
       'referencial':
           'BOTELHO, T.G.; NAVARES, J.F.; VIEIRA, T.G.C.; ALVES, H.M.R. Redes Neurais Artificiais na classificação de imagens multitemporais da região cafeeira de Três Pontas/MG. In: CONGRESSO  BRASILEIRO DE PESQUISAS CAFEEIRAS, 34, 2008, Caxambú. Anais... Varginha: Fundação Procafé, 2008.',
     },
@@ -32,7 +32,7 @@ class Artigos2008 extends StatelessWidget {
       'PDF':
           'Estudo da relação pedomorfológica na distribuição de solos com horizontes B textural e B nítico na paisagem de Lavras, Minas Gerais. Revista Brasileira de Ciência do Solo, Viçosa.',
       'path':
-          '/assets/publicacoes/2008/Estudo da relação pedomorfológica na distribuição de solos com horizontes B textural e B nítico na paisagem de Lavras.pdf',
+          'arquivos/publicacoes/2008/Estudo da relação pedomorfológica na distribuição de solos com horizontes B textural e B nítico na paisagem de Lavras.pdf',
       'referencial':
           'LACERDA, M.P.C.; QUEMENEUR, J.J.G.; ANDRADE, H.; ALVES, H.M.R.; VIEIRA, T.G.C. Estudo da relação pedomorfológica na distribuição de solos com horizontes B textural e B nítico na paisagem de Lavras, Minas Gerais. Revista Brasileira de Ciência do Solo, Viçosa, v.32, p.271-284. 2008.',
     },
@@ -40,7 +40,7 @@ class Artigos2008 extends StatelessWidget {
       'PDF':
           'Mapeamento e distribuição por classe de relevo da cultura cafeeira em uma área piloto no município de Três Pontas MG..In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS, 34.',
       'path':
-          '/assets/publicacoes/2008/Mapeamento e distribuição por classe de relevo da cultura cafeeira em uma área piloto no município de Três Pontas MG.pdf',
+          'arquivos/publicacoes/2008/Mapeamento e distribuição por classe de relevo da cultura cafeeira em uma área piloto no município de Três Pontas MG.pdf',
       'referencial':
           'SANTOS, W.J.R.; ALVES, H.M.H.R.; VIEIRA, T.G.C.; SOUSA, R.B.; SILVA, E.; BRAGA, R.C.A.; VOLPATO, M.M.L. Mapeamento e distribuição por classe de relevo da cultura cafeeira em uma área piloto no município de Três Pontas MG..In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS, 34., 2008, Caxambú. Anais... Varginha:FundaçãoProcafé, 2008.',
     },
@@ -55,7 +55,7 @@ class Artigos2008 extends StatelessWidget {
       'PDF':
           'Monitoramento de cafeeiros utilizando imagens do satélite TERRA/MODIS: distinção das culturas em produção e em formação .In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS, 34.',
       'path':
-          '/assets/publicacoes/2008/Monitoramento de cafeeiros utilizando imagens do satélite TERRA-MODIS _distinção das culturas em produção e em formação.pdf',
+          'arquivos/publicacoes/2008/Monitoramento de cafeeiros utilizando imagens do satélite TERRA-MODIS _distinção das culturas em produção e em formação.pdf',
       'referencial':
           'VOLPATO, M.M.L.;  VIEIRA, T.G.C.; ALVES, H.M.R.; SANTOS, W.J.R.; BERNARDES, T.; OLIVEIRA, V.C.S. Monitoramento de cafeeiros utilizando imagens do satélite TERRA/MODIS: distinção das culturas em produção e em formação .In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS, 34., 2008, Caxambú. Anais... Varginha:Fundação Procafé, 2008.',
     },

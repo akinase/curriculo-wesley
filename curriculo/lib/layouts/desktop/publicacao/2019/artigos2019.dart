@@ -10,7 +10,7 @@ class Artigos2019 extends StatelessWidget {
       'PDF':
           'Meteorological variables and sensorial quality of coffee in the mantiqueira region of minas gerais',
       'path':
-          '/assets/publicacoes/2019/Meteorological variables and sensorial quality of coffee in the mantiqueira region of minas gerais.pdf',
+          'arquivos/publicacoes/2019/Meteorological variables and sensorial quality of coffee in the mantiqueira region of minas gerais.pdf',
       'referencial':
           'BOREM, F.M.; LUZ, M.P.S.; SÁFADI, T.; VOLPATO, M.M.L.; ALVES, H.M.R.; BORÉM, R.A.T., MACIEL, D.A.'
     },
@@ -18,7 +18,7 @@ class Artigos2019 extends StatelessWidget {
       'PDF':
           'Selection of conilon coffee clones tolerant to pests and diseases in Minas Gerais',
       'path':
-          '/assets/publicacoes/2019/Selection of conilon coffee clones tolerant to pests and diseases in Minas Gerais.pdf',
+          'arquivos/publicacoes/2019/Selection of conilon coffee clones tolerant to pests and diseases in Minas Gerais.pdf',
       'referencial':
           'SILVA, V.A.; ABRAHÃO, J.C.R.; LIMA, L.A.; CARVALHO, G.R.; FERRÃO, A.G.; SALGADO, S.M.L.; VOLPATO, M.M.L.; BOTELHO, C.E.'
     },

@@ -48,7 +48,7 @@ class TresPontasMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/tres_pontas/1.png',
+                        'arquivos/tres_pontas/1.png',
                       ),
                     ),
                     const Padding(
@@ -66,7 +66,7 @@ class TresPontasMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/tres_pontas/2.jpg',
+                        'arquivos/tres_pontas/2.jpg',
                       ),
                     ),
                     const Padding(
@@ -84,7 +84,7 @@ class TresPontasMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/tres_pontas/3.jpg',
+                        'arquivos/tres_pontas/3.jpg',
                       ),
                     ),
                     // ignore: prefer_const_constructors
@@ -103,7 +103,7 @@ class TresPontasMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/tres_pontas/4.jpg',
+                        'arquivos/tres_pontas/4.jpg',
                       ),
                     ),
                     const Padding(
@@ -121,7 +121,7 @@ class TresPontasMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/tres_pontas/5.jpg',
+                        'arquivos/tres_pontas/5.jpg',
                       ),
                     ),
                     const Padding(
@@ -139,7 +139,7 @@ class TresPontasMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/tres_pontas/6.jpg',
+                        'arquivos/tres_pontas/6.jpg',
                       ),
                     ),
                     const Padding(

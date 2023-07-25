@@ -54,7 +54,7 @@ class Machado extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/machado/1.png',
+                      'arquivos/machado/1.png',
                       height: 500.0,
                       width: 700.0,
                     ),
@@ -74,7 +74,7 @@ class Machado extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/machado/2.jpg',
+                      'arquivos/machado/2.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -93,7 +93,7 @@ class Machado extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/machado/3.jpg',
+                      'arquivos/machado/3.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -112,7 +112,7 @@ class Machado extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/machado/4.jpg',
+                      'arquivos/machado/4.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -131,7 +131,7 @@ class Machado extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/machado/5.jpg',
+                      'arquivos/machado/5.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),

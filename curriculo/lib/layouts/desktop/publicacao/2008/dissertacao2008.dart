@@ -9,7 +9,7 @@ class Dissertacao2008 extends StatelessWidget {
     {
       'PDF':
           'Determinação das áreas cafeeiras mecanizáveis no Sul de Minas Gerais com cenários para a colheita.',
-      'path': '/assets/publicacoes/2008/disssertacao/Dissertacao_Fabiano.pdf',
+      'path': 'arquivos/publicacoes/2008/disssertacao/Dissertacao_Fabiano.pdf',
       'referencial':
           'REZENDE, F.A. Determinação das áreas cafeeiras mecanizáveis no Sul de Minas Gerais com cenários para a colheita. 2008. 94f. Tese ( Mestrado em Engenharia Agrícola) - Universidade Federal de Lavras, Lavras, 2008.',
     },

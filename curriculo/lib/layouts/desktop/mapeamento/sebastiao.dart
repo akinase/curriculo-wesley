@@ -50,7 +50,7 @@ class Sebastiao extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/sebastiao/1.png',
+                      'arquivos/sebastiao/1.png',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -69,7 +69,7 @@ class Sebastiao extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/sebastiao/2.jpg',
+                      'arquivos/sebastiao/2.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -88,7 +88,7 @@ class Sebastiao extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/sebastiao/3.jpg',
+                      'arquivos/sebastiao/3.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -108,7 +108,7 @@ class Sebastiao extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/sebastiao/4.jpg',
+                      'arquivos/sebastiao/4.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -127,7 +127,7 @@ class Sebastiao extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/sebastiao/5.jpg',
+                      'arquivos/sebastiao/5.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),

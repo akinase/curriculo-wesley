@@ -9,7 +9,7 @@ class Artigos2020 extends StatelessWidget {
     {
       'PDF': 'Leaf water potential of coffee estimated by landsat-8 images',
       'path':
-          '/assets/publicacoes/2020/Leaf water potential of coffee estimated by landsat-8 images.pdf',
+          'arquivos/publicacoes/2020/Leaf water potential of coffee estimated by landsat-8 images.pdf',
       'referencial':
           'MACIEL, D.A.; SILVA, V.A.; ALVES, H.M.R.; VOLPATO, M.M.L.; BARBOSA, J.P.R.A.; SOUZA, V.C.O.; SANTOS, M.O.; SILVEIRA, H.R.O.; DANTAS, M.F.; FREITAS, A.F.; CARVALHO, G.R., SANTOS, J.O.'
     },
@@ -17,7 +17,7 @@ class Artigos2020 extends StatelessWidget {
       'PDF':
           'Temporal and spatial variability of the diameter distribution in a secondary brazilian atlantic forest suggests site-specific management practices',
       'path':
-          '/assets/publicacoes/2020/Temporal and spatial variability of the diameter distribution in a secondary brazilian atlantic forest suggests site-specific management practices.pdf',
+          'arquivos/publicacoes/2020/Temporal and spatial variability of the diameter distribution in a secondary brazilian atlantic forest suggests site-specific management practices.pdf',
       'referencial':
           'CALIMAN, J.P.; REIS, G.G.; REIS, M.G.F.; LEITE, H.G.; TORRES, C.M.M.E.; VOLPATO, M.M.L.; RESENDE, R.T.; MONTE, M.A.'
     }

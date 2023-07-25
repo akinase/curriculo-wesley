@@ -48,7 +48,7 @@ class ContatoMobiHomepage extends StatelessWidget {
                           child: CircleAvatar(
                             radius: 80.0,
                             backgroundImage: NetworkImage(
-                                'assets/contato/pesquisadoras/helena.jpg'),
+                                'arquivos/contato/pesquisadoras/helena.jpg'),
                           ),
                         ),
                         const Text(
@@ -97,7 +97,7 @@ class ContatoMobiHomepage extends StatelessWidget {
                           child: CircleAvatar(
                             radius: 80.0,
                             backgroundImage: NetworkImage(
-                                'assets/contato/pesquisadoras/margarete.jpg'),
+                                'arquivos/contato/pesquisadoras/margarete.jpg'),
                           ),
                         ),
                         const Text(
@@ -153,8 +153,10 @@ class ContatoMobiHomepage extends StatelessWidget {
                     style: Theme.of(context).textTheme.headlineSmall),
               ),
               Container(
-                padding: const EdgeInsets.all(20.0),
+                padding: const EdgeInsets.all(16.0),
                 color: kbackgroundColorSec,
+                height: 300,
+                width: 700,
                 child: ListView.builder(
                   itemCount: equipeTecnica.length,
                   itemBuilder: (context, index) {

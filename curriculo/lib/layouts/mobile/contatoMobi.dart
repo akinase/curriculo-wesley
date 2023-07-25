@@ -52,7 +52,7 @@ class ContatoMobi extends StatelessWidget {
                           child: CircleAvatar(
                             radius: 80.0,
                             backgroundImage: NetworkImage(
-                                'assets/contato/pesquisadoras/helena.jpg'),
+                                'arquivos/contato/pesquisadoras/helena.jpg'),
                           ),
                         ),
                         const Text(
@@ -101,7 +101,7 @@ class ContatoMobi extends StatelessWidget {
                           child: CircleAvatar(
                             radius: 80.0,
                             backgroundImage: NetworkImage(
-                                'assets/contato/pesquisadoras/margarete.jpg'),
+                                'arquivos/contato/pesquisadoras/margarete.jpg'),
                           ),
                         ),
                         const Text(

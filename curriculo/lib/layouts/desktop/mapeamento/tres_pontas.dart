@@ -51,7 +51,7 @@ class TresPontas extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/tres_pontas/1.png',
+                      'arquivos/tres_pontas/1.png',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -70,7 +70,7 @@ class TresPontas extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/tres_pontas/2.jpg',
+                      'arquivos/tres_pontas/2.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -89,7 +89,7 @@ class TresPontas extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/tres_pontas/3.jpg',
+                      'arquivos/tres_pontas/3.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -109,7 +109,7 @@ class TresPontas extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/tres_pontas/4.jpg',
+                      'arquivos/tres_pontas/4.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -128,7 +128,7 @@ class TresPontas extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/tres_pontas/5.jpg',
+                      'arquivos/tres_pontas/5.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -147,7 +147,7 @@ class TresPontas extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/tres_pontas/6.jpg',
+                      'arquivos/tres_pontas/6.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),

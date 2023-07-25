@@ -10,7 +10,7 @@ class Artigos2001 extends StatelessWidget {
       'PDF':
           'Caracterização de agroecossistemas cafeeiros de Minas Gerais por meio do SPRING. Parte I: Agroecossistema de São Sebastião do Paraíso. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 2.',
       'path':
-          'assets/publicacoes/2001/Caracterização de agroecossistemas cafeeiros de Minas Gerais por meio do SPRING- Parte 1.PDF',
+          'arquivos/publicacoes/2001/Caracterização de agroecossistemas cafeeiros de Minas Gerais por meio do SPRING- Parte 1.PDF',
       'referencial':
           'ALVES, H.M.R.; LACERDA, M.P.C.; VIEIRA, T.G.C.; RESENDE, R.J.T.P.; ANDRADE, H.; MACHADO, M.L.; CEREDA, G.J.  Caracterização de agroecossistemas cafeeiros de Minas Gerais por meio do SPRING. Parte I: Agroecossistema de São Sebastião do Paraíso. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 2., 2001, Vitória. Anais... Brasília:Embrapa Café, 2001. p.2367-2376. ',
     },
@@ -18,7 +18,7 @@ class Artigos2001 extends StatelessWidget {
       'PDF':
           'Caracterização de agroecossistemas cafeeiros de Minas Gerais por meio do SPRING. Parte II: Agroecossistema de Machado. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 2.',
       'path':
-          'assets/publicacoes/2001/Caracterização de agroecossistemas cafeeiros de Minas Gerais por meio do SPRING- Parte 1.PDF',
+          'arquivos/publicacoes/2001/Caracterização de agroecossistemas cafeeiros de Minas Gerais por meio do SPRING- Parte 1.PDF',
       'referencial':
           'LACERDA, M.P.C.; ALVES, H.M.R.; VIEIRA, T.G.C.; RESENDE, R.J.T.P.; ANDRADE, H.; MACHADO, M.L.; CEREDA, G.J.  Caracterização de agroecossistemas cafeeiros de Minas Gerais por meio do SPRING. Parte II: Agroecossistema de Machado. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 2., 2001, Vitória. Anais... Brasília:Embrapa Café, 2001. p.2377-2385.',
     },
@@ -26,7 +26,7 @@ class Artigos2001 extends StatelessWidget {
       'PDF':
           ' Caracterização de agroecossistemas cafeeiros de Minas Gerais por meio do SPRING. Parte III: Agroecossistema de Patrocíno. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 2.',
       'path':
-          'assets/publicacoes/2001/Caracterização de agroecossistemas cafeeiros de Minas Gerais por meio do SPRING Parte III- Agroecossistema de Patrocíno.PDF',
+          'arquivos/publicacoes/2001/Caracterização de agroecossistemas cafeeiros de Minas Gerais por meio do SPRING Parte III- Agroecossistema de Patrocíno.PDF',
       'referencial':
           'LACERDA, M.P.C.; ALVES, H.M.R.; VIEIRA, T.G.C.; MACHADO, M.L.; RESENDE, R.J.T.P.; ANDRADE, H.; CEREDA, G.J.  Caracterização de agroecossistemas cafeeiros de Minas Gerais por meio do SPRING. Parte III: Agroecossistema de Patrocíno. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 2., 2001, Vitória. Anais... Brasília:Embrapa Café, 2001. p.2386-2393.',
     },
@@ -34,7 +34,7 @@ class Artigos2001 extends StatelessWidget {
       'PDF':
           'Caracterização do meio físico de agroecossistemas cafeeiros da Zona da Mata de Minas Gerais usando técnicas de Sensoriamento Remoto e Sistemas de Informações Geográficas e fotografias aéreas não convencionais. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 2.',
       'path':
-          'assets/publicacoes/2001/Caracterização do meio físico de agroecossistemas cafeeiros da Zona da Mata de Minas Gerais.PDF',
+          'arquivos/publicacoes/2001/Caracterização do meio físico de agroecossistemas cafeeiros da Zona da Mata de Minas Gerais.PDF',
       'referencial':
           'MACHADO, M.L.; ALVES, H.M.R.; VIEIRA, T.G.C.; LACERDA, M.P.C.; ANDRADE, H.; FERNANDES FILHO, E.I.; SCHAEFER, C.E.R.; CEREDA, G.J. Caracterização do meio físico de agroecossistemas cafeeiros da Zona da Mata de Minas Gerais usando técnicas de Sensoriamento Remoto e Sistemas de Informações Geográficas e fotografias aéreas não convencionais. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 2., 2001, Vitória. Anais... Brasília:Embrapa Café, 2001. p.2399-2409.',
     },
@@ -42,7 +42,7 @@ class Artigos2001 extends StatelessWidget {
       'PDF':
           'Imagens orbitais aplicadas ao levantamento da cultura do café em Minas Gerais. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 2.',
       'path':
-          'assets/publicacoes/2001/Imagens orbitais aplicadas ao levantamento da cultura do café em Minas Gerais.PDF',
+          'arquivos/publicacoes/2001/Imagens orbitais aplicadas ao levantamento da cultura do café em Minas Gerais.PDF',
       'referencial':
           'VIEIRA, T.G.C.; LACERDA, M.P.C.; ALVES, H.M.R.; VEIGA, R.D.; VILELA, A.V.; CEREDA, G.J.; ANDRADE, H.; MACHADO, M.L.  Imagens orbitais aplicadas ao levantamento da cultura do café em Minas Gerais. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 2., 2001, Vitória. Anais... Brasília:Embrapa Café, 2001. p.144-152.',
     },

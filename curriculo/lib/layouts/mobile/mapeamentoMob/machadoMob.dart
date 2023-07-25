@@ -44,7 +44,7 @@ class MachadoMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/machado/1.png',
+                        'arquivos/machado/1.png',
                       ),
                     ),
                     // ignore: prefer_const_constructors
@@ -63,7 +63,7 @@ class MachadoMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/machado/2.jpg',
+                        'arquivos/machado/2.jpg',
                       ),
                     ),
                     const Padding(
@@ -81,7 +81,7 @@ class MachadoMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/machado/3.jpg',
+                        'arquivos/machado/3.jpg',
                       ),
                     ),
                     const Padding(
@@ -99,7 +99,7 @@ class MachadoMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/machado/4.jpg',
+                        'arquivos/machado/4.jpg',
                       ),
                     ),
                     const Padding(
@@ -118,7 +118,7 @@ class MachadoMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/machado/5.jpg',
+                        'arquivos/machado/5.jpg',
                       ),
                     ),
                     const Padding(

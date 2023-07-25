@@ -25,7 +25,7 @@ class _MapeaMobiHomepageState extends State<MapeaMobiHomepage> {
             child: Container(
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/machado/machado.jpg'),
+                  image: AssetImage('arquivos/machado/machado.jpg'),
                   fit: BoxFit.cover, // Para cobrir todo o espaço do container
                 ),
               ),
@@ -57,7 +57,7 @@ class _MapeaMobiHomepageState extends State<MapeaMobiHomepage> {
             child: Container(
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/mantiqueira/mantiqueira.jpg'),
+                  image: AssetImage('arquivos/mantiqueira/mantiqueira.jpg'),
                   fit: BoxFit.cover, // Para cobrir todo o espaço do container
                 ),
               ),
@@ -89,7 +89,7 @@ class _MapeaMobiHomepageState extends State<MapeaMobiHomepage> {
             child: Container(
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/sebastiao/sebastiao.jpg'),
+                  image: AssetImage('arquivos/sebastiao/sebastiao.jpg'),
                   fit: BoxFit.cover, // Para cobrir todo o espaço do container
                 ),
               ),
@@ -121,7 +121,7 @@ class _MapeaMobiHomepageState extends State<MapeaMobiHomepage> {
             child: Container(
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/tres_pontas/tres_pontas.jpg'),
+                  image: AssetImage('arquivos/tres_pontas/tres_pontas.jpg'),
                   fit: BoxFit.cover, // Para cobrir todo o espaço do container
                 ),
               ),

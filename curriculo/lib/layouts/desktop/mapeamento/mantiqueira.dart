@@ -83,7 +83,7 @@ class Mantiqueira extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/mantiqueira/1.png',
+                      'arquivos/mantiqueira/1.png',
                       height: 500.0,
                       width: 500.0,
                     ),
@@ -102,7 +102,7 @@ class Mantiqueira extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/mantiqueira/2.png',
+                      'arquivos/mantiqueira/2.png',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -132,7 +132,7 @@ class Mantiqueira extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/mantiqueira/3.jpg',
+                      'arquivos/mantiqueira/3.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -164,7 +164,7 @@ class Mantiqueira extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/mantiqueira/4.jpg',
+                      'arquivos/mantiqueira/4.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -183,7 +183,7 @@ class Mantiqueira extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/mantiqueira/5.png',
+                      'arquivos/mantiqueira/5.png',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -202,7 +202,7 @@ class Mantiqueira extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/mantiqueira/6.jpg',
+                      'arquivos/mantiqueira/6.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -221,7 +221,7 @@ class Mantiqueira extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/mantiqueira/7.png',
+                      'arquivos/mantiqueira/7.png',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -240,12 +240,12 @@ class Mantiqueira extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/mantiqueira/8.jpg',
+                      'arquivos/mantiqueira/8.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
                     Image.asset(
-                      'assets/mantiqueira/9.png',
+                      'arquivos/mantiqueira/9.png',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -264,7 +264,7 @@ class Mantiqueira extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/mantiqueira/10.jpg',
+                      'arquivos/mantiqueira/10.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -283,7 +283,7 @@ class Mantiqueira extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/mantiqueira/11.png',
+                      'arquivos/mantiqueira/11.png',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -302,12 +302,12 @@ class Mantiqueira extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/mantiqueira/12.jpg',
+                      'arquivos/mantiqueira/12.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
                     Image.asset(
-                      'assets/mantiqueira/13.png',
+                      'arquivos/mantiqueira/13.png',
                       height: 700.0,
                       width: 700.0,
                     ),
@@ -326,12 +326,12 @@ class Mantiqueira extends StatelessWidget {
                       ),
                     ),
                     Image.asset(
-                      'assets/mantiqueira/14.jpg',
+                      'arquivos/mantiqueira/14.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),
                     Image.asset(
-                      'assets/mantiqueira/15.jpg',
+                      'arquivos/mantiqueira/15.jpg',
                       height: 700.0,
                       width: 700.0,
                     ),

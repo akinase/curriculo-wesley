@@ -49,7 +49,7 @@ class SebastiaoMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/sebastiao/1.png',
+                        'arquivos/sebastiao/1.png',
                       ),
                     ),
                     const Padding(
@@ -65,7 +65,7 @@ class SebastiaoMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/sebastiao/2.jpg',
+                        'arquivos/sebastiao/2.jpg',
                       ),
                     ),
                     const Padding(
@@ -81,7 +81,7 @@ class SebastiaoMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/sebastiao/3.jpg',
+                        'arquivos/sebastiao/3.jpg',
                       ),
                     ),
                     // ignore: prefer_const_constructors
@@ -100,7 +100,7 @@ class SebastiaoMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/sebastiao/4.jpg',
+                        'arquivos/sebastiao/4.jpg',
                       ),
                     ),
                     const Padding(
@@ -118,7 +118,7 @@ class SebastiaoMobi extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset(
-                        'assets/sebastiao/5.jpg',
+                        'arquivos/sebastiao/5.jpg',
                       ),
                     ),
                     const Padding(

@@ -10,7 +10,7 @@ class Artigos2017 extends StatelessWidget {
       'PDF':
           'Mapeamento da cultura cafeeira por meio de classificação automática utilizando atributos espectrais, texturais e fator de iluminação',
       'path':
-          '/assets/publicacoes/2017/Mapeamento da cultura cafeeira por meio de classificação automática utilizando atributos espectrais, texturais e fator de iluminação.pdf',
+          'arquivos/publicacoes/2017/Mapeamento da cultura cafeeira por meio de classificação automática utilizando atributos espectrais, texturais e fator de iluminação.pdf',
       'referencial':
           'MARUJO, R.F.B.; MOREIRA, M.A.; VOLPATO, M.M.L.; ALVES, H.M.R. .Mapeamento da cultura cafeeira por meio de classificação automática utilizando atributos espectrais, texturais e fator de iluminação. COFFEE SCIENCE, v. 12, p. 164, 2017.',
     },
