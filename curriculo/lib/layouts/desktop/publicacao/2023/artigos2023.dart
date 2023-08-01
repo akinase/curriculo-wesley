@@ -10,7 +10,7 @@ class Artigos2023 extends StatelessWidget {
       'PDF':
           'Evaluation of the Water Conditions in Coffee Plantations Using RPA',
       'path':
-          'arquivos/publicacoes/2023/Evaluation of the Water Conditions in Coffee Plantations.pdf',
+          'arquivos/publicacoes/2023/Evaluation_of_the_Water_Conditions_in_Coffee_Plantations.pdf',
       'referencial':
           'SANTOS, S.A.; FERRAZ, G.A.S. ; FIGUEIREDO, V.C. ; VOLPATO, M.M.L. ; MACHADO, M.L. ; SILVA, V.A. . Evaluation of the Water Conditions in Coffee Plantations Using RPA. Agriengineering, v. 5, p. 65-84, 2023.'
     },
@@ -18,7 +18,7 @@ class Artigos2023 extends StatelessWidget {
       'PDF':
           'Agronomic performance and productivity of Arabica coffee intercropped with timber species',
       'path':
-          'arquivos/publicacoes/2023/Agronomic performance and productivity of Arabica coffee intercropped with timber species.pdf',
+          'arquivos/publicacoes/2023/Agronomic_performance_and_productivity_of_Arabica_coffee_intercropped_with_timber_species.pdf',
       'referencial':
           'FREITAS, A.F.; FONSECA, A.J.; VOLPATO, M.M.L.; CARVALHO, G.R.; VENTURIN, R.P.; SILVA, V.A. . Agronomic performance and productivity of Arabica coffee intercropped with timber species. REVISTA CERES, v. 70, p. 73-80, 2023.'
     },
@@ -26,7 +26,7 @@ class Artigos2023 extends StatelessWidget {
       'PDF':
           'Predicting coffee water potential from spectral reflectance indices with neural networks',
       'path':
-          'arquivos/publicacoes/2023/Predicting coffee water potential from spectral reflectance indices with neural networks.pdf',
+          'arquivos/publicacoes/2023/Predicting_coffee_water_potential_from_spectral_reflectance_indices_with_neural_networks.pdf',
       'referencial':
           'NUNES, P.H.; PIERANGELI, E.V.; SANTOS, M.O.; SILVEIRA, H.R.O.; MATOS, C.S.M.; PEREIRA, A.B.; ALVES, H.M.R.; VOLPATO, M.M.L.; SILVA, V.A.; FERREIRA, D.D. . Predicting coffee water potential from spectral reflectance indices with neural networks. Smart Agricultural Technology, v. 4, p. 100213, 2023.'
     }

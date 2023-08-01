@@ -1,4 +1,4 @@
-// ignore_for_file: deprecated_member_use
+// ignore_for_file: deprecated_member_use, use_build_context_synchronously
 
 import 'package:curriculo/homepage.dart';
 import 'package:curriculo/layouts/desktop/mapeamento/mantiqueira.dart';
@@ -82,30 +82,47 @@ class PdfViewerPage extends StatelessWidget {
 
   const PdfViewerPage({Key? key, required this.pdfPath}) : super(key: key);
 
+  Future<void> _openPdf(BuildContext context) async {
+    if (await canLaunch(pdfPath)) {
+      await launch(pdfPath);
+    } else {
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text('Erro'),
+          content: const Text('Não foi possível abrir o PDF.'),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('OK'),
+            ),
+          ],
+        ),
+      );
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Visualizador de PDF',
-            style: TextStyle(
-              fontSize: 30,
-              fontWeight: FontWeight.w300,
-              color: Color.fromARGB(255, 112, 90, 49),
-            )),
+        title: const Text(
+          'Visualizador de PDF',
+          style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.w300,
+            color: Color.fromARGB(255, 112, 90, 49),
+          ),
+        ),
         backgroundColor: kbackgroundColor,
         centerTitle: true,
         actions: [
           IconButton(
             icon: const Icon(
-              (Icons.download),
+              Icons.download,
             ),
-            onPressed: () async {
-              if (await canLaunch(pdfPath)) {
-                await launch(pdfPath);
-              } else {
-                throw 'Could not launch $pdfPath';
-              }
-            },
+            onPressed: () =>
+                _openPdf(context), // Passa o contexto para o método
           ),
         ],
       ),

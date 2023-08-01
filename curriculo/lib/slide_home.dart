@@ -11,16 +11,16 @@ class Carousel extends StatefulWidget {
 
 class _CarouselState extends State<Carousel> {
   final List<String> images = [
-    'assets/slide/1.jpg',
-    'assets/slide/2.jpg',
-    'assets/slide/3.jpg',
-    'assets/slide/4.jpg',
-    'assets/slide/5.jpg',
-    'assets/slide/6.jpg',
-    'assets/slide/7.jpg',
-    'assets/slide/8.jpg',
-    'assets/slide/9.jpg',
-    'assets/slide/10.jpg',
+    'arquivos/slide/1.jpg',
+    'arquivos/slide/2.jpg',
+    'arquivos/slide/3.jpg',
+    'arquivos/slide/4.jpg',
+    'arquivos/slide/5.jpg',
+    'arquivos/slide/6.jpg',
+    'arquivos/slide/7.jpg',
+    'arquivos/slide/8.jpg',
+    'arquivos/slide/9.jpg',
+    'arquivos/slide/10.jpg',
   ];
 
   List<Widget> generateImages() {

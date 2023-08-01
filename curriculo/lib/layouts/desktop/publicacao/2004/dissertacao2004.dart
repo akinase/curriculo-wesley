@@ -9,7 +9,7 @@ class Dissertacao2004 extends StatelessWidget {
     {
       'PDF':
           'Portal Vertical do GeoSolos: Geoprocessamento e Caracterização de Agroecossistemas Cafeeiros.',
-      'path': 'arquivos/publicacoes/2004/dissetacao/monografia_Vanessa.pdf',
+      'path': 'arquivos/publicacoes/2004/dissetacao/monografia_vanessa.pdf',
       'referencial':
           'SOUZA, V.C.O. Portal Vertical do GeoSolos: Geoprocessamento e Caracterização de Agroecossistemas Cafeeiros. 2004. 53f. Monografia ( Bacharel em Ciência da Computação) - Universidade Federal de Lavras, Lavras, 2004.',
     },

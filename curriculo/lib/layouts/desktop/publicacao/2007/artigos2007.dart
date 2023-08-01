@@ -10,7 +10,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Delimitação de um território potencial para a produção de cafés de qualidade diferenciada nos municípios de Campestre, Machado, e Poço Fundo. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5.',
       'path':
-          'arquivos/publicacoes/2007/Delimitação de um território potencial para a produção de cafés de qualidade diferenciada nos municípios de Campestre, Machado, e Poço Fundo.pdf',
+          'arquivos/publicacoes/2007/delimitacao_de_um_territorio_potencial_para_a_producao_de_cafes_de_qualidade_diferenciada_nos_municipios_de_campestre_machado_e_poco_fundo.pdf',
       'referencial':
           'ALVES, H.M.R.; BERNARDES, T.; SILVEIRA, M.A.; NICOLELLA, G.; VIEIRA, T.G.C. Delimitação de um território potencial para a produção de cafés de qualidade diferenciada nos municípios de Campestre, Machado, e Poço Fundo. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5., 2007, Águas de Lindóia. Anais... Brasília:Embrapa Café, 2007. CD ROM.',
     },
@@ -18,7 +18,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Dinâmica espaço-temporal de ambientes cafeeiros de Minas Gerais. Informe Agropecuário. Geotecnologias, Belo Horizonte, v.28',
       'path':
-          'arquivos/publicacoes/2007/Dinâmica espaço-temporal de ambientes cafeeiros de Minas Gerais.pdf',
+          'arquivos/publicacoes/2007/dinamica_espaco-temporal_de_ambientes_cafeeiros_de_minas_gerais.pdf',
       'referencial':
           'ALVES, H.M.R.; VIEIRA, T.G.C.; BERNARDES, T.; LACERDA, M.P.C.; VOLPATO, M.M.L. Dinâmica espaço-temporal de ambientes cafeeiros de Minas Gerais. Informe Agropecuário. Geotecnologias, Belo Horizonte, v.28 n. 241, p.38-49,. 2007. ',
     },
@@ -26,7 +26,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Classificação automática de imagens de satélites no mapeamento da região cafeeira de Patrocínio, MG. In:SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5.',
       'path':
-          'arquivos/publicacoes/2007/Classificação automática de imagens de satélites no mapeamento da região cafeeira de Patrocínio, MG.pdf',
+          'arquivos/publicacoes/2007/classificacao_automatica_de_imagens_de_satelites_no_mapeamento_da_regiao_cafeeira_de_patrocinio_mg.pdf',
       'referencial':
           'BERNARDES, T.; ALVES, H. M. R.; VIEIRA, T. G. C. Classificação automática de imagens de satélites no mapeamento da região cafeeira de Patrocínio, MG. In:SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5., 2007, Águas de Lindóia. Anais... Brasília:Embrapa Café, 2007. CD ROM.',
     },
@@ -34,7 +34,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Interações entre variáveis ambientais e o comportamento espectral do cafeeiro em imagens orbitais. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5.',
       'path':
-          'arquivos/publicacoes/2007/Interações entre variáveis ambientais e o comportamento espectral do cafeeiro em imagens orbitais.pdf',
+          'arquivos/publicacoes/2007/interacoes_entre_variaveis_ambientais_e_o_comportamento_espectral_do_cafeeiro_em_imagens_orbitais.pdf',
       'referencial':
           'BERNARDES, T.; ALVES, H.M.R.; VIEIRA, T.G.C.; ANDRADE, H.; MOURA, L.C. Interações entre variáveis ambientais e o comportamento espectral do cafeeiro em imagens orbitais. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5., 2007, Águas de Lindóia. Anais... Brasília:Embrapa Café, 2007. CD ROM.',
     },
@@ -42,7 +42,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Avaliação da acurácia do mapeamento do uso da terra no complexo Serra Negra, Patrocínio, MG, por interpretação visual e classificação automática de imagens Landsat. In: SIMPÓSIO BRASILEIRO DE SENSORIAMENTO REMOTO, 13.',
       'path':
-          'arquivos/publicacoes/2007/Avaliacao da acuracia do mapeamento do uso da terra no complexo Serra Negra Patrocinio MG por interpretação visual e classificacao automatica de imagens Landsat.pdf',
+          'arquivos/publicacoes/2007/avaliacao_da_acuracia_do_mapeamento_do_uso_da_terra_no_complexo_serra_negra_patrocinio-mg_por_interpretacao_visual_e_classificacao_automatica_de_imagens_landsat.pdf',
       'referencial':
           'BERNARDES, T.; ALVES, H.M.R.; VIEIRA, T.G.C.; ANDRADE, H. Avaliação da acurácia do mapeamento do uso da terra no complexo Serra Negra, Patrocínio, MG, por interpretação visual e classificação automática de imagens Landsat. In: SIMPÓSIO BRASILEIRO DE SENSORIAMENTO REMOTO, 13., 2007, Florianópolis. Anais... São José dos Campos:INPE, 2007. p.5587-5594.',
     },
@@ -50,7 +50,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Mapeamento de áreas cafeeiras na região de Guaxupé: uma abordagem automatizada. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS,33.',
       'path':
-          'arquivos/publicacoes/2007/Mapeamento e distribuição por classe de relevo da cultura cafeeira em uma área piloto no município de Três Pontas MG.pdf',
+          'arquivos/publicacoes/2007/mapeamento_e_distribuicao_por_classe_de_relevo_da_cultura_cafeeira_em_uma_area_piloto_no_municipio_de_tres_pontas-mg.pdf',
       'referencial':
           'BERNARDES, T.;ALVES, H.M.R.; VIEIRA, T.G.C.;VOLPATO, M.M.L.; ZACARIAS, M.S.; REZENDE, F.A.; BOTELHO, T.G.; SANTOS, W.J.R. Mapeamento de áreas cafeeiras na região de Guaxupé: uma abordagem automatizada. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS,33.,2007, Lavras. Anais... Varginha:Fundação Procafé, 2007.',
     },
@@ -58,7 +58,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Mapeamento do uso da terra em área piloto no município de Três Pontas, MG.In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS,33.',
       'path':
-          'arquivos/publicacoes/2007/Mapeamento e distribuição por classe de relevo da cultura cafeeira em uma área piloto no município de Três Pontas MG.pdf',
+          'arquivos/publicacoes/2007/mapeamento_do_uso_da_terra_em_area_piloto_no_municipio_de_tres_pontas-mg.pdf',
       'referencial':
           'REZENDE, F.A.; ALVES, H.M.R.;VIEIRA, T.G.C.; VOLPATO, M.M.L.; BERNARDES, T.; BOTELHO, T.G.; SANTOS, W.J.R. . Mapeamento do uso da terra em área piloto no município de Três Pontas, MG.In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS,33.,2007, Lavras. Anais... Varginha:Fundação Procafé, 2007.',
     },
@@ -66,7 +66,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Sistema de Informação Geográfica para realização de consultas a dados relacionados a cafeicultura de Minas Gerais. . In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS,33.',
       'path':
-          'arquivos/publicacoes/2007/Sistema de Informação Geográfica para realização de consultas a dados relacionados a cafeicultura de Minas Gerais.pdf',
+          'arquivos/publicacoes/2007/sistema_de_informacao_geografica_para_realizacao_de_consultas_a_dados_relacionados_a_cafeicultura_de_minas_gerais.pdf',
       'referencial':
           'BOTELHO, T.G.;VIEIRA, T.G.C.;ALVES, H.M.R.; ZACARIAS, M.S.;VOLPATO, M.M.L.;BERNARDES, T.; REZENDE, F.A.; SANTOS, W.J.R. Sistema de Informação Geográfica para realização de consultas a dados relacionados a cafeicultura de Minas Gerais. . In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS,33.,2007, Lavras. Anais... VarginhaFundação Procafé, 2007.',
     },
@@ -74,7 +74,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Modelagem pedomorfogeológica para o mapeamento de solos. Informe Agropecuário. Geotecnologias.',
       'path':
-          'arquivos/publicacoes/2007/Modelagem pedomorfogeológica para o mapeamento de solos. Informe Agropecuário. Geotecnologias.pdf',
+          'arquivos/publicacoes/2007/modelagem_pedomorfogeologica_para_o_mapeamento_de_solos-informe_agropecuario-geotecnologias.pdf',
       'referencial':
           'LACERDA, M.P.C.; BARBOSA, I.O.; ALVES, H.M.R.; VIEIRA, T.G.C. Modelagem pedomorfogeológica para o mapeamento de solos. Informe Agropecuário. Geotecnologias, Belo Horizonte, v.28 n. 241, p.108-119, nov./dez. 2007.',
     },
@@ -89,7 +89,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Zoneamento agroclimático: um estudo de caso para o café. Informe Agropecuário. Geotecnologias.',
       'path':
-          'arquivos/publicacoes/2007/Zoneamento agroclimático - um estudo de caso para o café. Informe Agropecuário. Geotecnologias.pdf',
+          'arquivos/publicacoes/2007/zoneamento_agroclimatico-um_estudo_de_caso_para_o_cafe-informe_agropecuario-geotecnologias.pdf',
       'referencial':
           'MEIRELES E.J.L.; VOLPATO, M.M.L.; ALVES, H.M.R.; VIEIRA, T.G.C. Zoneamento agroclimático: um estudo de caso para o café. Informe Agropecuário. Geotecnologias, Belo Horizonte, v.28 n. 241, p.50-57, 2007.',
     },
@@ -97,7 +97,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Levantamento e mapeamento espaço-temporal dos cafezais no município mineiro de Machado. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5.',
       'path':
-          'arquivos/publicacoes/2007/Levantamento e mapeamento espaço-temporal dos cafezais no município mineiro de Machado.pdf',
+          'arquivos/publicacoes/2007/levantamento_e_mapeamento_espaco-temporal_dos_cafezais_no_municipio_mineiro_de_machado.pdf',
       'referencial':
           'MOURA, L.C.; ALVES, H.M.R. ; ANDRADE, H. ; VIEIRA, T.G.C.; BERNARDES, T. Levantamento e mapeamento espaço-temporal dos cafezais no município mineiro de Machado. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5., 2007, Águas de Lindóia. Anais... Brasília:Embrapa Café, 2007. CD ROM.',
     },
@@ -105,7 +105,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Sistema de Informação Geográfica para a Cafeicultura do Sul de Minas. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS,33.',
       'path':
-          'arquivos/publicacoes/2007/Sistema de Informação Geográfica para a Cafeicultura do Sul de Minas.pdf',
+          'arquivos/publicacoes/2007/sistema_de_informacao_geografica_para_a_cafeicultura_do_sul_de_minas.pdf',
       'referencial':
           'VIEIRA, T.G.C.;ALVES, H.M.R.;VOLPATO, M.M.L.;SOUZA, V.C.O.;BOTELHO, T.G. Sistema de Informação Geográfica para a Cafeicultura do Sul de Minas. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS,33., 2007, Lavras. Anais... Varginha:Fundação Procafé, 2007.',
     },
@@ -113,7 +113,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Sensoriamento remoto para a caracterização do ambiente cafeeiro das cidades: Arceburgo, Monte Santo de Minas, Guaxupé e Guaranésia, MG. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS,33.',
       'path':
-          'arquivos/publicacoes/2007/Sensoriamento remoto para a caracterização do ambiente cafeeiro das cidades - Arceburgo, Monte Santo de Minas, Guaxupé e Guaranésia, MG.pdf',
+          'arquivos/publicacoes/2007/sensoriamento_remoto_para_a_caracterizacao_do_ambiente_cafeeiro_das_cidades-arceburgo_monte_santo_de_minas_guaxupe_e_guaranesia-mg.pdf',
       'referencial':
           'SANTOS, W.J.R.;ALVES, H.M.R.;VIEIRA, T.G.C.;VOLPATO, M.M.L.;BERNARDES, T.; REZENDE, F.A.;BOTELHO, T.G. Sensoriamento remoto para a caracterização do ambiente cafeeiro das cidades: Arceburgo, Monte Santo de Minas, Guaxupé e Guaranésia, MG. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS,33., 2007, Lavras. Anais... Varginha:Fundação Procafé, 2007',
     },
@@ -121,7 +121,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Avaliação  da acuracia dos classificadores Bathacahrya e Isoseg para o mapeamento de café. . In: CONGRESSO DE INICIAÇÃO CIENTÍFICA DA UFLA, 20.',
       'path':
-          'arquivos/publicacoes/2007/Avaliação  da acuracia dos classificadores Bathacahrya e Isoseg para o mapeamento de café.pdf',
+          'arquivos/publicacoes/2007/avaliacao_da_acuracia_dos_classificadores_bathacahrya_e_isoseg_para_o_mapeamento_de_cafe.pdf',
       'referencial':
           'SANTOS, W.J.R.; ALVES, H.M.R.; VIEIRA, T.G.C.; VOLPATO, M.M.L.; BERNARDES, T.; REZENDE, F.A. Avaliação  da acuracia dos classificadores Bathacahrya e Isoseg para o mapeamento de café. . In: CONGRESSO DE INICIAÇÃO CIENTÍFICA DA UFLA, 20., 2007, Lavras. Anais... Lavras:PRP-UFLA, 2007.',
     },
@@ -129,7 +129,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Utilização do sensoriamento remoto para a caracterização do ambiente cafeeiro da região de Guaxupé, MG. In: CONGRESSO DE INICIAÇÃO CIENTÍFICA DA UFLA, 20.',
       'path':
-          'arquivos/publicacoes/2007/Utilização do sensoriamento remoto para a caracterização do ambiente cafeeiro da região de Guaxupé, MG.pdf',
+          'arquivos/publicacoes/2007/utilizacao_do_sensoriamento_remoto_para_a_caracterizacao_do_ambiente_cafeeiro_da_regiao_de_guaxupe-MG.pdf',
       'referencial':
           'SANTOS, W.J.R.; ALVES, H.M.R.; VIEIRA, T.G.C.; VOLPATO, M.M.L.; BERNARDES, T.; REZENDE, F.A. Utilização do sensoriamento remoto para a caracterização do ambiente cafeeiro da região de Guaxupé, MG. In: CONGRESSO DE INICIAÇÃO CIENTÍFICA DA UFLA, 20., 2007, Lavras. Anais... Lavras:PRP-UFLA, 2007.',
     },
@@ -137,7 +137,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Exatidão de classificações automáticas de uma imagem Landsat 5 TM para a região cafeeira de Machado, MG. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5.',
       'path':
-          'arquivos/publicacoes/2007/Exatidão de classificações automáticas de uma imagem Landsat 5 TM para a região cafeeira de Machado, MG.pdf',
+          'arquivos/publicacoes/2007/exatidao_de_classificacoes_automaticas_de_uma_imagem_landsat_5_tm_para_a_regiao_cafeeira_de_machado-mg.pdf',
       'referencial':
           'SANTOS, W.J.R.;VIEIRA, T.G.C.;BERNARDES, T.;ALVES, H.M.R.; SILVEIRA, S.P.S. Exatidão de classificações automáticas de uma imagem Landsat 5 TM para a região cafeeira de Machado, MG. In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5., 2007, Águas de Lindóia. Anais... Brasília:Embrapa Café, 2007. CD ROM.',
     },
@@ -145,7 +145,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Identificação e avaliação de estratégias de desenvolvimento territorial em áreas de cafeicultura familiar do sul de Minas Gerais. In:SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5.',
       'path':
-          'arquivos/publicacoes/2007/Identificação e avaliação de estratégias de desenvolvimento territorial em áreas de cafeicultura familiar do sul de Minas Gerais.pdf',
+          'arquivos/publicacoes/2007/identificacao_e_avaliacao_de_estrategias_de_desenvolvimento_territorial_em_areas_de_cafeicultura_familiar_do_sul_de_minas_gerais.pdf',
       'referencial':
           'SILVEIRA, M.A.; BONNAL, P. ; NICOLELLA, G. ;BERNARDES, T.;ALVES, H.M.R. Identificação e avaliação de estratégias de desenvolvimento territorial em áreas de cafeicultura familiar do sul de Minas Gerais. In:SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5., 2007, Águas de Lindóia. Anais... Brasília:Embrapa Café, 2007. CD ROM.',
     },
@@ -153,7 +153,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Informações e dados geográficos: compartilhamento e disponibilização. Informe Agropecuário. Geotecnologias.',
       'path':
-          'arquivos/publicacoes/2007/Informações e dados geográficos - compartilhamento e disponibilização. Informe Agropecuário. Geotecnologias.pdf',
+          'arquivos/publicacoes/2007/informacoes_e_dados_geograficos-compartilhamento_e_disponibilizacao-Informe_agropecuario-geotecnologias.pdf',
       'referencial':
           'SOUZA, V.C.O.; VIEIRA, T.G.C.; ALVES, H.M.R.; BOTELHO, T.G. Informações e dados geográficos: compartilhamento e disponibilização. Informe Agropecuário. Geotecnologias, Belo Horizonte, v.28 n. 241, p.7-15, 2007.',
     },
@@ -161,7 +161,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Portal GEOSOLOS: web na divulgação mapas de caracterização ambiental em lavouras cafeeiras de Minas Gerais.. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS,33.',
       'path':
-          'arquivos/publicacoes/2007/Portal GEOSOLOS - web na divulgação mapas de caracterização ambiental em lavouras cafeeiras de Minas Gerais.pdf',
+          'arquivos/publicacoes/2007/portal-geosolos-web_na_divulgacao_mapas_de_caracterizacao_ambiental_em_lavouras_cafeeiras_de_minas_gerais.pdf',
       'referencial':
           'SOUZA, V.C.O.;VIEIRA, T.G.C.;ALVES, H.M.R.;VOLPATO, M.ML.; BOTELHO, T.G. Portal GEOSOLOS: web na divulgação mapas de caracterização ambiental em lavouras cafeeiras de Minas Gerais.. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS,33.,2007, Lavras. Anais... Varginha:Fundação Procafé, 2007.',
     },
@@ -169,7 +169,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Geothecnologies in the assessment of land use changes in coffee regions of the state of Minas Gerais in Brasil. Coffee Science.',
       'path':
-          'arquivos/publicacoes/2007/Geothecnologies in the assessment of land use changes in coffee regions of the state of Minas Gerais in Brasil. Coffee Science,.pdf',
+          'arquivos/publicacoes/2007/geothecnologies_in_the_assessment_of_land_use_changes_in_coffee_regions_of_the_state_of_minas_gerais_in_brasil-coffee_science.pdf',
       'referencial':
           'VIEIRA, T.G.C.; ALVES, H.M.R.; BERTOLDO, M.; SOUZA, V.C.O. Geothecnologies in the assessment of land use changes in coffee regions of the state of Minas Gerais in Brasil. Coffee Science, Lavras, v.2, p.142-149, 2007.',
     },
@@ -177,7 +177,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Estruturação, modelagem e implantação do banco de dados geográfico para cafeicultura do Sul de Minas, utilizando o modelo de dados OMT-G (Object Modelling Technique - Geographic ). In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5.',
       'path':
-          'arquivos/publicacoes/2007/Estruturação, modelagem e implantação do banco de dados geográfico para cafeicultura do Sul de Minas.pdf',
+          'arquivos/publicacoes/2007/estruturacao_modelagem_e_implantacao_do_banco_de_dados_geografico_para_cafeicultura_do_sul_de_minas.pdf',
       'referencial':
           'VIEIRA, T.G.C.; ALVES, H.M.R.; SILVEIRA, S.P.S.; BERNARDES, T.; SOUZA, V.C.O. Estruturação, modelagem e implantação do banco de dados geográfico para cafeicultura do Sul de Minas, utilizando o modelo de dados OMT-G (Object Modelling Technique - Geographic ). In: SIMPÓSIO DE PESQUISA DOS CAFÉS DO BRASIL, 5., 2007, Águas de Lindóia. Anais... Brasília:Embrapa Café, 2007. CD-ROM.',
     },
@@ -185,7 +185,7 @@ class Artigos2007 extends StatelessWidget {
       'PDF':
           'Sistema de geoinformação para a cafeicultura do Sul de Minas. Informe Agropecuário. Geotecnologias.',
       'path':
-          'arquivos/publicacoes/2007/Sistema de geoinformação para a cafeicultura do Sul de Minas. Informe Agropecuário. Geotecnologias.pdf',
+          'arquivos/publicacoes/2007/sistema_de_geoinformacao_para_a_cafeicultura_do_sul_de_minas_informe_agropecuario-geotecnologias.pdf',
       'referencial':
           'VIEIRA, T.G.C.; ALVES, H.M.R.; VOLPATO, M.M.L.; SOUZA, V.C.O. Sistema de geoinformação para a cafeicultura do Sul de Minas. Informe Agropecuário. Geotecnologias, Belo Horizonte, v.28 n.241, p.16-26, 2007.',
     },

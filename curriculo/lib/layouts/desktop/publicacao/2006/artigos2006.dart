@@ -9,7 +9,8 @@ class Artigos2006 extends StatelessWidget {
     {
       'PDF':
           'Geotechnologies Applied to the Evaluation of Coffee Environments of the State of Minas Gerais, Brazil. In: INTERNATIONAL CONFERENCEOF THE GLOBAL SPATIAL DATA INFRASTRUCTURE, 9.',
-      'path': '',
+      'path':
+          'arquivos/publicacoes/2006/geotecnologias_aplicadas_na_avaliacao_da_dinamica_da_cafeicultura_no_complexo_serra_negra_em_patrocinio_minas_gerais.pdf',
       'referencial':
           'ALVES, H.M.R. ;VIEIRA, T.G.C.; BERNARDES, T.; LACERDA, P.C.; SANTOS, N.B.  Geotechnologies Applied to the Evaluation of Coffee Environments of the State of Minas Gerais, Brazil. In: INTERNATIONAL CONFERENCEOF THE GLOBAL SPATIAL DATA INFRASTRUCTURE, 9, 2006, Santiago. Proceedings...:GSDI, 2006. v. CD-ROM. p.',
     },
@@ -32,7 +33,7 @@ class Artigos2006 extends StatelessWidget {
       'PDF':
           'Geotecnologias aplicadas na avaliação da dinâmica da cafeicultura no Complexo Serra Negra, em Patrocínio, Minas Gerais. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS, 32.',
       'path':
-          'arquivos/publicacoes/2006/Geotecnologias aplicadas na avaliação da dinâmica da cafeicultura no Complexo Serra Negra, em Patrocínio, Minas Gerais.pdf',
+          'arquivos/publicacoes/2006/geotecnologias_aplicadas_na_avaliacao_da_dinamica_da_cafeicultura_no_complexo_serra_negra_em_patrocinio_minas_gerais.pdf',
       'referencial':
           'BERNARDES, T.; VIEIRA, T.G.C.; ALVES, H.M.R.; RIBEIRO, F.P.; Geotecnologias aplicadas na avaliação da dinâmica da cafeicultura no Complexo Serra Negra, em Patrocínio, Minas Gerais. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS, 32., 2006, Poços de Caldas. Anais... Varginha:Fundação Procafé, 2006.',
     },
@@ -40,7 +41,7 @@ class Artigos2006 extends StatelessWidget {
       'PDF':
           'The use of soil-landscape relationships modelling and geotechnologies for detailing the soil map of Distrito Federal in Brazil. In: INTERNATIONAL SYMPOSIUM ON SPATIAL DATA HANDLING, 12.',
       'path':
-          'arquivos/publicacoes/2006/The use of soil-landscape relationships modelling and geotechnologies for detailing the soil map of Distrito Federal in Brazil.pdf',
+          'arquivos/publicacoes/2006/the_use_of_soil-landscape_relationships_modelling_and_geotechnologies_for_detailing_the_soil_map_of_distrito_federal_in_brazil.pdf',
       'referencial':
           'LACERDA, M.P.C.; BARBOSA, I.O. ; ALVES, H.M.R.; VIEIRA, T.G.C.; MENEZES, P.R. The use of soil-landscape relationships modelling and geotechnologies for detailing the soil map of Distrito Federal in Brazil. In: INTERNATIONAL SYMPOSIUM ON SPATIAL DATA HANDLING, 12., 2006, Vienna. Proceedings... Vienna:ISPRS, 2006. v.36, p.13-18.',
     },
@@ -48,7 +49,7 @@ class Artigos2006 extends StatelessWidget {
       'PDF':
           'Use of Digital Terrain Model (DTM) for generation of Pedoforms Map in Distrito Federal, Brazil.. In: INTERNATIONAL CONFERENCEOF THE GLOBAL SPATIAL DATA INFRASTRUCTURE, 9.',
       'path':
-          'arquivos/publicacoes/2006/Use of Digital Terrain Model (DTM) for generation of Pedoforms Map in Distrito Federal, Brazil.pdf',
+          'arquivos/publicacoes/2006/use_of_digital_terrain_model_for_generation_of_pedoforms_map_in_distrito_federal_brazil.pdf',
       'referencial':
           'LACERDA, M.P.C.; BARBOSA, I.O.; ALVES, H.M.R.; VIEIRA, T.G.C. Use of Digital Terrain Model (DTM) for generation of Pedoforms Map in Distrito Federal, Brazil.. In: INTERNATIONAL CONFERENCEOF THE GLOBAL SPATIAL DATA INFRASTRUCTURE, 9, 2006, Santiago. Proceedings... :GSDI, 2006. v. CD-ROM. p.1-4.',
     },
@@ -70,7 +71,7 @@ class Artigos2006 extends StatelessWidget {
       'PDF':
           'Mapeamento do uso da terra na Região de Patrocínio/MG utilizando o Sistema de Informação Geográfica SPRING. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS, 32.',
       'path':
-          'arquivos/publicacoes/2006/Mapeamento do uso da terra na Região de Patrocínio-MG utilizando o Sistema de Informação Geográfica SPRING.pdf',
+          'arquivos/publicacoes/2006/mapeamento_do_uso_da_terra_na_regiao_de_patrocinio-mg_utilizando_o_sistema_de_informacao_geografica_spring.pdf',
       'referencial':
           'VIEIRA, T.G.C.; ALVES, H.M.R.; RIBEIRO, F.P.; BERNARDES, T.; Mapeamento do uso da terra na Região de Patrocínio/MG utilizando o Sistema de Informação Geográfica SPRING. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS, 32., 2006, Poços de Caldas. Anais... Varginha:FundaçãoProcafé, 2006.',
     },
@@ -78,7 +79,7 @@ class Artigos2006 extends StatelessWidget {
       'PDF':
           'Assessing and mapping changes, in space and time, of coffee lands of the state of Minas Gerais in Brazil. In: INTERNATIONAL SYMPOSIUM ON SPATIAL DATA HANDLING, 12.',
       'path':
-          'arquivos/publicacoes/2006/Assessing and mapping changes, in space and time, of coffee lands of the state of Minas Gerais in Brazil.pdf',
+          'arquivos/publicacoes/2006/assessing_and_mapping_changes_in_space_and_time_of_coffee_lands_of_the_state_of_minas_gerais_in_brazil.pdf',
       'referencial':
           'VIEIRA, T.G.C.; ALVES, H.M.R.; SOUZA, V.C.O.; BERNARDES, T.; LACERDA, M.P.C. Assessing and mapping changes, in space and time, of coffee lands of the state of Minas Gerais in Brazil. In: INTERNATIONAL SYMPOSIUM ON SPATIAL DATA HANDLING, 12., 2006, Viena. Proceedings... Vienna:ISPRS, 2006. v.36, p.31-35.',
     },
@@ -86,7 +87,7 @@ class Artigos2006 extends StatelessWidget {
       'PDF':
           'Assessing and mapping changes, in space and time, of coffee lands of the state of Minas Gerais in Brazil. In: INTERNATIONAL GEOGRAPHICAL UNION COMMISSIONON GEOGRAPHICAL INFORMATION SYSTEMS.',
       'path':
-          'arquivos/publicacoes/2006/Assessing and mapping changes, in space and time, of coffee lands of the state of Minas Gerais in Brazil.pdf',
+          'arquivos/publicacoes/2006/assessing_and_mapping_changes_in_space_and_time_of_coffee_lands_of_the_state_of_minas_gerais_in_brazil.pdf',
       'referencial':
           'VIEIRA, T.G.C.; ALVES, H.M.R.; SOUZA, V.C.O.; BERNARDES, T.; LACERDA, M.P.C. Assessing and mapping changes, in space and time, of coffee lands of the state of Minas Gerais in Brazil. InINTERNATIONAL GEOGRAPHICAL UNION COMMISSIONON GEOGRAPHICAL INFORMATION SYSTEMS, 2006, Vienna, Austria. Proceedings... Vienna:ISPRS, 2006. v.2. p.31-35.',
     },

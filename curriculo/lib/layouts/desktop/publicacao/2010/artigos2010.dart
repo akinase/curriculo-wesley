@@ -10,7 +10,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Aplicação de Redes Neurais Artificiais (RNA) na análise e classificação de áreas cafeeiras da região de Machado-MG. In: CONGRESO LATINOAMERICANOYDEL CARIBEDE INGENIERÍAAGRÍCOLA, 9.',
       'path':
-          'arquivos/publicacoes/2010/Aplicação de Redes Neurais Artificiais (RNA) na análise e classificação de áreas cafeeiras da região de Machado-MG.pdf',
+          'arquivos/publicacoes/2010/aplicacao_de_redes_neurais_artificiais-RNA_na_analise_e_classificacao_de_areas_cafeeiras da região de Machado-MG.pdf',
       'referencial':
           'ANDRADE, L.N.;VIEIRA, T.G.C.;ALVES, H.M.R.;SOUZA, V.C.O.;VOLPATO, M.M.L. Aplicação de Redes Neurais Artificiais (RNA) na análise e classificação de áreas cafeeiras da região de Machado-MG. In: CONGRESO LATINOAMERICANOYDEL CARIBEDE INGENIERÍAAGRÍCOLA, 9., CONGRESSO BRASILEIRODE ENGENHARIA AGRÍCOLA, 39., 2010, Vitória. Anais... Jaboticabal:SBEA,  2010, TC0281-3.',
     },
@@ -18,7 +18,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Aplicação de Redes Neurais Artificiais (RNA) na análise e classificação de áreas cafeeiras em imagens de satélite. In: CONGRESSO BRASILEIRODE PESQUISAS CAFEEIRAS, 36.',
       'path':
-          'arquivos/publicacoes/2010/Aplicação de Redes Neurais Artificiais (RNA) na análise e classificação de áreas cafeeiras em imagens de satélite.pdf',
+          'arquivos/publicacoes/2010/aplicacao_de_redes_neurais_artificiais-RNA_na_analise_e_classificacao_de_areas_cafeeiras_em_imagens_de_satelite.pdf',
       'referencial':
           'ANDRADE, L.N.; VIEIRA, T.G.C.;LACERDA, W.S.; DAVIS JÚNIOR, C.A.; ALVES, H.M.R.; VOLPATO, M.M.L.; SOUZA, V.C.O. Aplicação de Redes Neurais Artificiais (RNA) na análise e classificação de áreas cafeeiras em imagens de satélite. In: CONGRESSO BRASILEIRODE PESQUISAS CAFEEIRAS, 36., 2010, Guaraparí. Anais... Varginha:FundaçãoProcafé, 2010. p.195-196.',
     },
@@ -26,7 +26,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Identificação automática de áreas cafeeiras em imagens de satélite utilizando Redes Neurais Artificiais. In: CONGRESSO DE PÓS-GRADUAÇÃO DA UFLA, 19.',
       'path':
-          'arquivos/publicacoes/2010/Identificação automática de áreas cafeeiras em imagens de satélite utilizando Redes Neurais Artificiais.pdf',
+          'arquivos/publicacoes/2010/identificacao_automatica_de_areas_cafeeiras_em_imagens_de_satelite_utilizando_redes_neurais_artificiais.pdf',
       'referencial':
           'ANDRADE, L.N.; VIEIRA, T.G.C.; LACERDA, W.S.; DAVIS JÚNIOR, C.A.; VOLPATO, M.M.L.; ALVES, H.M.R. Identificação automática de áreas cafeeiras em imagens de satélite utilizando Redes Neurais Artificiais. In: CONGRESSO DE PÓS-GRADUAÇÃO DA UFLA, 19., 2010, Lavras. Anais...São Paulo:SBPC, 2010.',
     },
@@ -41,7 +41,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Spatial distribution of coffees from Minas Gerais state and their relation with quality. Coffee Science, Lavras.',
       'path':
-          'arquivos/publicacoes/2010/Spatial distribution of coffees from Minas Gerais state and their relation with quality. Coffee Science, Lavras.pdf',
+          'arquivos/publicacoes/2010/spatial_distribution_of_coffees_from_minas_gerais_state_and_their_relation_with_quality-Coffee_Science-Lavras.pdf',
       'referencial':
           'BARBOSA, J.N.; BOREM, F.M.;ALVES, H.M.R.;VOLPATO, M.M.L.;VIEIRA, T.G.C.; SOUZA, V.C.O. Spatial distribution of coffees from Minas Gerais state and their relation with quality. Coffee Science, Lavras,v. 5, p. 237-250, 2010.',
     },
@@ -49,7 +49,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Índice de vegetação espectral e sua relação com a estiagem agrícola em áreas cafeeiras no município de Três Pontas, MG. In: CONGRESSO DE INICIAÇÃO CIENTÍFICADA UFLA, 23.',
       'path':
-          'arquivos/publicacoes/2010/Índice de vegetação espectral e sua relação com a estiagem agrícola em áreas cafeeiras no município de Três Pontas, MG.pdf',
+          'arquivos/publicacoes/2010/indice_de_vegetacao_espectral_e_sua_relacao_com_a_estiagem_agricola_em_areas_cafeeiras_no_municipio_de_tres_pontas-Minas_Gerais.pdf',
       'referencial':
           'MESQUITA JÚNIOR, C.H.; VOLPATO, M.M.L.; VIEIRA, T.G.C.; ALVES, H.M.R.; SOUZA, V.C.O.; SANTOS, W.J.R. Índice de vegetação espectral e sua relação com a estiagem agrícola em áreas cafeeiras no município de Três Pontas, MG. In: CONGRESSO DE INICIAÇÃO CIENTÍFICADA UFLA, 23., 2010, Lavras. Anais...Lavras:PRP-UFLA, 2010.',
     },
@@ -57,7 +57,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Mapeamento de áreas cafeeiras (Coffeea Arabica L.) da Zona da Mata mineira usando sensoriamento remoto. Coffee Science, Lavras.',
       'path':
-          'arquivos/publicacoes/2010/Mapeamento de áreas cafeeiras (Coffeea Arabica L.) da Zona da Mata mineira usando sensoriamento remoto. Coffee Science,Lavras.pdf',
+          'arquivos/publicacoes/2010/mapeamento_de_areas_cafeeiras_da_zona_da_mata_mineira_usando_sensoriamento_remoto-Coffee_Science-Lavras.pdf',
       'referencial':
           'MACHADO, M.L.; ALVES, H.M.R.; VIEIRA, T.G.C.; FILHO, E.I.F.; LACERDA, M.P.C. Mapeamento de áreas cafeeiras (Coffeea Arabica L.) da Zona da Mata mineira usando sensoriamento remoto. Coffee Science,Lavras,v. 5, p. 113-122, 2010.',
     },
@@ -65,7 +65,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Redes Neurais Artificiais (RNA) para identificação de áreas cafeeiras em imagens de satélite: treinamento e definição de arquiteturas.In: CONGRESSO DE INICIAÇÃO CIENTÍFICADA UFLA, 23.',
       'path':
-          'arquivos/publicacoes/2010/Redes Neurais Artificiais (RNA) para identificação de áreas cafeeiras em imagens de satélite - treinamento e definição de arquiteturas.pdf',
+          'arquivos/publicacoes/2010/redes_neurais_artificiais-RNA-para_identificacao_de_areas_cafeeiras_em_imagens_de_satelite-treinamento_e_definicao_de_arquiteturas.pdf',
       'referencial':
           'PEREIRA, L.A.A.; ANDRADE, L.N.; VIEIRA, T.G.C.;LACERDA, W.S.; ALVES, H.M.R.; VOLPATO, M.M.L. Redes Neurais Artificiais (RNA) para identificação de áreas cafeeiras em imagens de satélite: treinamento e definição de arquiteturas.In: CONGRESSO DE INICIAÇÃO CIENTÍFICADA UFLA, 23., 2010, Lavras.Anais... Lavras:PRP-UFLA, 2010.',
     },
@@ -73,7 +73,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Evolução de áreas cafeeiras na paisagem do município de Três Pontas entre os anos de 1987 e 2007. In: CONGRESSO DE INICIAÇÃO CIENTÍFICADA UFLA, 23.',
       'path':
-          'arquivos/publicacoes/2010/Evolução de áreas cafeeiras na paisagem do município de Três Pontas entre os anos de 1987 e 2007.pdf',
+          'arquivos/publicacoes/2010/evolucao_de_areas_cafeeiras_na_paisagem_do_municipio_de_tres_pontas_entre_os_anos_de_1987-2007.pdf',
       'referencial':
           'SILVA, E.;VIEIRA, T.G.C.;ALVES, H.M.R.;VOLPATO, M.M.L.;SOUZA, V.C.O.; SANTOS, W.J.R. Evolução de áreas cafeeiras na paisagem do município de Três Pontas entre os anos de 1987 e 2007. In: CONGRESSO DE INICIAÇÃO CIENTÍFICADA UFLA, 23., 2010, Lavras. Anais...Lavras:PRP-UFLA, 2010.',
     },
@@ -81,7 +81,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Estudo espaço-temporal do uso da terra em áreas de Preservação Permanente na região de Três Pontas-MG. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 18.',
       'path':
-          'arquivos/publicacoes/2010/Estudo espaço-temporal do uso da terra em áreas de Preservação Permanente na região de Três Pontas-MG.pdf',
+          'arquivos/publicacoes/2010/estudo_espaco-temporal_do_uso_da_terra_em_areas_de_preservacao_permanente_na_regiao_de_tres_pontas-MG.pdf',
       'referencial':
           'SOUZA, V.C.O.; VIEIRA, T.G.C.; VOLPATO, M.M.L.; ALVES, H.M.R. Estudo espaço-temporal do uso da terra em áreas de Preservação Permanente na região de Três Pontas-MG. In: REUNIÃO BRASILEIRA DE MANEJO E CONSERVAÇÃO DO SOLO E DA ÁGUA, 18., 2010, Teresina. Anais...Viçosa:SBCS, 2010. CD-ROM.',
     },
@@ -89,7 +89,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Turismo do café: setor promissor para agricultura familiar do Sul de Minas Gerais. In: CONGRESSO DE PÓS-GRADUAÇÃO DA UFLA, 19.',
       'path':
-          'arquivos/publicacoes/2010/Turismo do café - setor promissor para agricultura familiar do Sul de Minas Gerais.pdf',
+          'arquivos/publicacoes/2010/turismo_do_cafe-setor_promissor_para_agricultura_familiar_do_sul_de_minas_gerais.pdf',
       'referencial':
           'SOUZA, K.R.;ALVES, H.M.R.;VOLPATO, M.M.L.; BARBOSA, J.N. ; SOUZA, C.G.;VIEIRA, T.G.C. Turismo do café: setor promissor para agricultura familiar do Sul de Minas Gerais. In: CONGRESSO DE PÓS-GRADUAÇÃO DA UFLA, 19., 2010, Lavras. Anais... São Paulo:SBPC, 2010.',
     },
@@ -97,7 +97,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Estudo espaço-temporal da cafeicultura na região de São Sebastião do Paraíso-MG, utilizando geotecnologias.In: REUNIÃO BRASILEIRA DE MANEJOE CONSERVAÇÃO DO SOLO E DA ÁGUA, 18.',
       'path':
-          'arquivos/publicacoes/2010/Estudo espaço-temporal da cafeicultura na região de São Sebastião do Paraíso-MG, utilizando geotecnologias.pdf',
+          'arquivos/publicacoes/2010/estudo_espaco-temporal_da_cafeicultura_na_regiao_de_sao_sebastiao_do_paraiso-MG_utilizando_geotecnologias.pdf',
       'referencial':
           'VIEIRA, T.G.C.;ALVES, H.M.R.; LACERDA, M.P.C.;VOLPATO, M.M.L.;SOUZA, V.C.O. Estudo espaço-temporal da cafeicultura na região de São Sebastião do Paraíso-MG, utilizando geotecnologias.In: REUNIÃO BRASILEIRA DE MANEJOE CONSERVAÇÃO DO SOLO E DA ÁGUA, 18., 2010, Teresina. Anais...Viçosa:SBCS, 2010. CD-ROM.',
     },
@@ -105,7 +105,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Estudo da evolução da cafeicultura na região de São Sebastião do Paraíso-MG, utilizando geotecnologias. In: AGROCAFÉ - SIMPÓSIO NACIONAL DO AGRONEGÓCIO CAFÉ, 11',
       'path':
-          'arquivos/publicacoes/2010/Estudo da evolução da cafeicultura na região de São Sebastião do Paraíso-MG, utilizando geotecnologias.pdf',
+          'arquivos/publicacoes/2010/estudo_da_evolucao_da_cafeicultura_na_regiao_de_sao_sebastiao_do_paraiso-MG_utilizando_geotecnologias.pdf',
       'referencial':
           'VIEIRA, T.G.C.; ALVES, H.M.R.; VOLPATO, M.M.L.; SANTOS, W.J.R.;SOUZA, V.C.O. Estudo da evolução da cafeicultura na região de São Sebastião do Paraíso-MG, utilizando geotecnologias. In: AGROCAFÉ - SIMPÓSIO NACIONAL DO AGRONEGÓCIO CAFÉ, 11., 2010, Salvador. Anais...Brasília:Embrapa Café, 2010.',
     },
@@ -120,7 +120,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Análise do comportamento da temperatura do ar em áreas cafeeiras arborizadas e a pleno sol em São Sebastião do Paraíso, MG. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS, 36.',
       'path':
-          'arquivos/publicacoes/2010/Análise do comportamento da temperatura do ar em áreas cafeeiras arborizadas e a pleno sol em São Sebastião do Paraíso, MG.pdf',
+          'arquivos/publicacoes/2010/analise_do_comportamento_da_temperatura_do_ar_em_areas_cafeeiras_arborizadas_e_a_pleno_sol_em_sao_sebastiao_do_paraiso-MG.pdf',
       'referencial':
           'VOLPATO, M.M.L.; CUNHA, R.L.; CARVALHO, V.L.; ALVES, H.M.R.; VIEIRA, T.G.C. Análise do comportamento da temperatura do ar em áreas cafeeiras arborizadas e a pleno sol em São Sebastião do Paraíso, MG. In: CONGRESSO BRASILEIRO DE PESQUISAS CAFEEIRAS, 36., 2010, Guarapari. Anais... Varginha: Fundação Procafé, 2010. p.348-349.',
     },
@@ -135,7 +135,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Monitoramento do Índice de Vegetação Espectral de áreas cafeeiras e sua relação com a precipitação no município de Três Pontas, Minas Gerais. In: CONGRESSO BRASILEIRODE PESQUISAS CAFEEIRAS, 36.',
       'path':
-          'arquivos/publicacoes/2010/Monitoramento do Índice de Vegetação Espectral de áreas cafeeiras e sua relação com a precipitação no município de Três Pontas, Minas Gerais.pdf',
+          'arquivos/publicacoes/2010/monitoramento_do_indice_de_vegetacao_epectral_de_areas_cafeeiras_e_sua_relacao_com_a_precipitacao_no_municipio_de_tres_pontas-Minas_Gerais.pdf',
       'referencial':
           'VOLPATO, M.M.L.; VIEIRA, T.G.C.; ALVES, H.M.R.; SANTOS, W.J.R.; MESQUITA JÚNIOR, C.H.;SOUZA, V.C.O. Monitoramento do Índice de Vegetação Espectral de áreas cafeeiras e sua relação com a precipitação no município de Três Pontas, Minas Gerais. In: CONGRESSO BRASILEIRODE PESQUISAS CAFEEIRAS, 36., 2010, Guarapari. Anais...Varginha:Fundação Procafé, 2010. p. 349-350.',
     },
@@ -143,7 +143,7 @@ class Artigos2010 extends StatelessWidget {
       'PDF':
           'Índice de vegetação espectral e sua relação com a estiagem agrícola em áreas cafeeiras no município de Três Pontas, Minas Gerais. In: CONGRESO LATINOAMERICANOYDEL CARIBEDE INGENIERÍAAGRÍCOLA, 9.',
       'path':
-          'arquivos/publicacoes/2010/Índice de vegetação espectral e sua relação com a estiagem agrícola em áreas cafeeiras no município de Três Pontas, Minas Gerais.pdf',
+          'arquivos/publicacoes/2010/indice_de_vegetacao_espectral_e_sua_relacao_com_a_estiagem_agricola_em_areas_cafeeiras_no_municipio_de_tres_pontas-Minas_Gerais.pdf',
       'referencial':
           'VOLPATO, M.M.L.;VIEIRA, T.G.C.;ALVES, H.M.R.; SANTOS, W.J.R.;SOUZA, V.C.O. Índice de vegetação espectral e sua relação com a estiagem agrícola em áreas cafeeiras no município de Três Pontas, Minas Gerais. In: CONGRESO LATINOAMERICANOYDEL CARIBEDE INGENIERÍAAGRÍCOLA, 9., CONGRESSO BRASILEIRODE ENGENHARIA AGRÍCOLA, 39., 2010, Vitória. Anais... Jaboticabal:SBEA, 2010, TC0281-1.',
     },
